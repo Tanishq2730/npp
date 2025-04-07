@@ -1,0 +1,7 @@
+.info {
+  background-color: var(--info-background-color);
+  padding: 0 4rem;
+  @media (max-width: 767px) {
+    padding: 0.5rem 0.7rem;
+  }
+}

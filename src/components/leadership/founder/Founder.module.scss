@@ -1,0 +1,141 @@
+.founder {
+  background-color: rgba(255, 252, 244, 1);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  // margin-top: 4rem;
+
+  .page-title {
+    padding-top: 5.2rem;
+    color: rgba(66, 66, 66, 1);
+
+    &-line-container1 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    &-line-container2 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    h1 {
+      text-wrap: nowrap;
+    }
+  }
+
+  .page-content {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+
+    img {
+      width: 37%;
+    }
+
+    .text-content {
+      height: auto;
+      width: 55%;
+      // margin: auto auto;
+      padding-left: 1.5%;
+      border-left: 1px solid rgba(255, 182, 60, 0.44);
+      color: rgba(255, 182, 60, 1);
+      flex-shrink: 0;
+
+      p {
+        color: rgba(66, 66, 66, 1);
+        width: 73%;
+      }
+    }
+  }
+
+  // Mobile and Tablet styles
+  @media (max-width: 821px) {
+    // height: auto;
+    padding: 1rem;
+    overflow: visible;
+    width: 100vw;
+    box-sizing: border-box;
+
+    .page-title {
+      padding-top: 2.2rem;
+      &-line-container1,
+      &-line-container2 {
+        padding: 0.2rem 0;
+      }
+
+      h1 {
+        color: #7f6e51;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 109%;
+        font-size: 32px;
+        letter-spacing: 0.451px;
+        text-transform: uppercase;
+        white-space: normal;
+        word-wrap: break-word;
+        text-align: left;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    .page-content {
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0;
+      // height: 100vh;
+
+      img {
+        order: 2;
+        width: 80.5%;
+        height: auto;
+      }
+
+      .text-content {
+        width: 100%;
+        padding: 1rem 0;
+        border-left: none;
+        border-top: 1px solid rgba(255, 182, 60, 0.44);
+        text-align: left;
+
+        h1 {
+          color: #ffb63c;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 109%;
+        }
+
+        h5 {
+          color: #ffb63c;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 123%;
+        }
+
+        p {
+          color: #744b29;
+          font-feature-settings:
+            "clig" off,
+            "liga" off;
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 123%;
+          letter-spacing: 0.33px;
+          width: 100%;
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
+}

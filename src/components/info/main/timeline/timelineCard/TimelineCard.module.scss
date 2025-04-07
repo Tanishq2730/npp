@@ -1,0 +1,146 @@
+.card {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 100%;
+  height: 450px; // Fixed height for consistency
+  padding: 20px 20px 25px 20px;
+}
+
+.yearBadge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #383838;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 1551px;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 40px;
+}
+
+.textContent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  max-height: 116px; // Limit height to 2 lines
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.light {
+  font-weight: 400;
+  color: #2e150a;
+}
+
+.bold {
+  font-weight: 800;
+  color: #2e150a;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #ffa500;
+  margin-bottom: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-size: 16px;
+  color: #2e150a;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; // Limit to 3 lines
+  -webkit-box-orient: vertical;
+  flex-grow: 1;
+}
+
+.buttonWrapper {
+  margin-top: 20px;
+}
+
+.imageContainer {
+  flex: 0 0 50%;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    height: 500px; // Fixed height for mobile
+    padding: 20px;
+  }
+
+  .imageContainer {
+    flex: 0 0 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    padding-left: 0;
+    height: 260px; // Fixed height for content on mobile
+    justify-content: flex-start;
+  }
+
+  .textContent {
+    height: 200px; // Fixed height for text content
+  }
+
+  .title {
+    font-size: 28px;
+    max-height: 68px; // Adjust for smaller font size
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    font-size: 14px;
+    -webkit-line-clamp: 4; // Allow one more line on mobile
+  }
+
+  .buttonWrapper {
+    margin-top: 10px;
+  }
+
+  .yearBadge {
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+  }
+}

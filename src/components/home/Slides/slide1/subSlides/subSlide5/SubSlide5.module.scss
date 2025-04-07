@@ -1,0 +1,73 @@
+.subSlide2 {
+  // background-image: url("/static/images/home/home1/subSlide3_BG.png");
+  background-image: url("/static/images/home/home1/slide5_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+
+  .content {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 80%;
+    width: 100%;
+
+    .image {
+      align-self: flex-end;
+      flex-grow: 1;
+      height: 100%;
+      background-image: url("/static/images/home/home1/leader5.png");
+      background-position: top left;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .text {
+      margin-left: 5%;
+      align-self: center;
+
+      h1 {
+        color: white;
+        line-height: 120%;
+        letter-spacing: 1.5px;
+
+        span:nth-child(1) {
+          color: rgba(255, 182, 60, 1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-aspect-ratio: 1.35) {
+  .subSlide2 {
+    .content {
+      flex-direction: column-reverse;
+      align-items: center;
+      height: 85%;
+      overflow-x: hidden;
+
+      .image {
+        width: 100%;
+        align-self: center;
+        flex-grow: 0;
+      }
+
+      .text {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-aspect-ratio: 0.55) {
+  .subSlide2 {
+    .content {
+      height: 92%;
+    }
+  }
+}

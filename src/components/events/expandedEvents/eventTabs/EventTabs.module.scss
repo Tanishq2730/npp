@@ -1,0 +1,40 @@
+.tabsContainer {
+  padding: 0 10px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  @media (max-width: 768px) {
+    padding: 0 0;
+  }
+}
+
+.tabsList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent;
+  color: #000;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 182, 60, 0.1);
+  }
+
+  &[data-active] {
+    background: #ffb63c;
+    border-bottom: 2px solid #ffb63c;
+    color: #fff;
+  }
+}
+
+.tabsRoot {
+  width: 100%;
+}

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../../src/styles/themes/dark.scss";
+@import "../../src/styles/themes/light.scss";
+@import "@/styles/fonts.scss";
+
+body {
+  background-color: var(--background-color) !important;
+  // overflow-x: hidden;
+}
+
+
+.innerImg {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
+
+@media (max-width: 768px) {
+  .Slide1_home1___Ukjp {
+    .name {
+      text-align: center !important;
+    }
+  }
+
+  .SubSlide1_text__OrE9k {
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .SubSlide1_leader__Ho_zZ {
+    img {
+      width: 75% !important;
+    }
+  }
+
+  .SubSlide3_image__nL9gM {
+    align-self: flex-end;
+    flex-grow: 1;
+    height: 100%;
+    background-image: url("/static/images/home/home1/leader2.png");
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scaleX(-1) !important;
+  }
+
+  .SubSlide4_image__HYNFe {
+    transform: scaleX(-1) !important;
+  }
+
+  .Slide2_slide2__dIsJD {
+    .subheading-3 {
+      font-size: 16px;
+    }
+  }
+
+  .Slide2_politicianImage__HmA4n {
+    height: 70vh !important;
+    width: 60vh;
+  }
+
+  .Slide2_textContent__eXo1C {
+    margin-top: 2em !important;
+  }
+
+  .Slide5_home5__1zLWu {
+    background-image: url(/static/images/home/home5/texture.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start !important;
+    padding: 1rem;
+  }
+  .Slide5_home5__1zLWu .Slide5_data__cnfQ5{
+    margin: 0 !important;
+  }
+  .Slide5_home5__1zLWu .Slide5_data__cnfQ5 .Slide5_npp-info-container__9vO5J{
+    background-color: #000000c7;
+  }
+  .Slide5_npp-info___1C7o{
+    color: #fff !important;
+  }
+}

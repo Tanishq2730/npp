@@ -1,0 +1,90 @@
+// Gallery.module.scss
+.gallery {
+  background-color: white;
+}
+
+.header {
+  margin-top: 5rem;
+  padding: 0 2rem;
+
+  @media (max-width: 768px) {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.headerText {
+  font-size: 30px;
+  white-space: nowrap;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.searchGroup {
+  flex-grow: 1;
+  justify-content: flex-end;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: stretch;
+  }
+}
+
+.searchInput {
+  max-width: 300px;
+
+  @media (max-width: 768px) {
+    max-width: none;
+    flex-grow: 1;
+  }
+
+  &::placeholder {
+    color: #aaa;
+  }
+}
+.searchRoot {
+  @media (max-width: 768px) {
+    flex-grow: 1;
+  }
+}
+
+.searchButton {
+  white-space: nowrap;
+}
+
+.display {
+  background-color: #f8f8f8;
+  padding: 1rem 12rem 3rem 12rem;
+  min-height: 91vh;
+  @media (max-width: 1024px) {
+    padding: 1rem 4rem 2rem 4rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}
+
+.searchButton,
+.loadMoreButton {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #e6b800;
+  color: white;
+  max-width: 200px;
+
+  &:hover {
+    background-color: darken(#e6b800, 10%);
+  }
+
+  @media (max-width: 768px) {
+    max-width: none;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

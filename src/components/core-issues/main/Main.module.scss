@@ -1,0 +1,130 @@
+.main {
+  background-image: var(
+    --main-background-image,
+    url("/static/images/core-issues/agriculture/bg.png")
+  );
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .issues-tab {
+    background-color: rgba(3, 3, 3, 0.4);
+    width: 83%;
+    backdrop-filter: blur(2px);
+    border-radius: 0 14px 14px 0;
+    padding: 1% 2%;
+    margin-bottom: 3%;
+
+    button {
+      border: 1px solid white;
+      border-radius: 63px;
+      padding: 0.5% 3%;
+      margin: 0 0 0.5% 0.5%;
+
+      &:hover {
+        color: black;
+        background-color: white;
+      }
+
+      &.active {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+
+  .overview {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 37%;
+    margin-left: 4%;
+    border-radius: 33.6px;
+    padding: 2% 2%;
+    backdrop-filter: blur(5px);
+    line-height: normal;
+  }
+
+  .scroll {
+    background-color: var(--background-color);
+    color: rgba(21, 21, 21, 1);
+    padding: 1% 2% 0.5% 1%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 32px;
+    display: flex;
+    justify-content: center;
+
+    div {
+      p {
+        text-wrap: nowrap;
+        display: inline-block;
+        width: fit-content;
+        font-weight: normal;
+        border-radius: 32px;
+        border: 1px solid rgba(21, 21, 21, 1);
+        padding: 5%;
+      }
+    }
+  }
+}
+
+@media screen and (max-aspect-ratio: 1) {
+  .main {
+    border-radius: 0 0 18px 18px;
+    padding-bottom: 0;
+    height: 100vh;
+
+    .issues-tab {
+      margin-top: 3rem;
+      width: 100%;
+      align-self: flex-end;
+      border-radius: 14px 0 0 14px;
+
+      .issues-list {
+        display: flex;
+        align-items: flex-end;
+        padding: 8%;
+        flex-wrap: wrap;
+
+        button {
+          text-wrap: nowrap;
+          margin-bottom: 2%;
+          width: 49.5%;
+          padding: 4%;
+        }
+      }
+      h2,
+      p {
+        display: none;
+      }
+    }
+
+    .overview {
+      width: 70%;
+      margin: 0 auto;
+      border-radius: 18px;
+
+      .overview-content {
+        margin: auto 0;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 1rem;
+      }
+    }
+
+    .scroll {
+      left: 50%;
+      transform: translateX(-50%);
+      border-top-right-radius: 32px;
+      padding: 2% 0 0 0;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.slide2 {
+  position: relative;
+  color: white;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+
+  .timelineContainer {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+
+    .politicianImage {
+      position: relative;
+      align-self: flex-end;
+      width: 30vw;
+      height: 85%;
+      flex-grow: 1;
+    }
+  }
+
+  .textContent {
+    position: relative;
+    z-index: 1;
+    max-width: 40%;
+    align-self: center;
+    margin-right: 5%;
+    margin-left: 1%;
+    line-height: normal;
+
+    // h1 {
+    //   margin-bottom: 0.5rem;
+    // }
+
+    h2 {
+      color: #e6b800;
+      // margin-bottom: 1rem;
+    }
+
+    // p {
+    //   margin-bottom: 1.5rem;
+    // }
+
+    .knowMoreButton {
+      background-color: transparent;
+      color: white;
+      border-radius: 2px;
+      padding: 0.5rem 1rem;
+      border: 2px solid white;
+      margin-top: 10px;
+      cursor: pointer;
+      width: fit-content;
+      font-size: 1rem;
+      transition:
+        background-color 0.3s,
+        font-weight 0.3s,
+        transform 0.3s;
+
+      &:hover {
+        background-color: #e6b800;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (max-aspect-ratio: 1.2) {
+  .slide2 {
+    flex-direction: column-reverse;
+
+    .timelineContainer {
+      flex-direction: row-reverse;
+
+      .politicianImage {
+        height: 50vh;
+        width: 50vw;
+      }
+    }
+
+    .textContent {
+      max-width: 80%;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 5% auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide2 {
+    .timelineContainer {
+      .politicianImage {
+        height: 40vh;
+        width: 60vw;
+      }
+    }
+
+    .textContent {
+      max-width: 90%;
+
+      // h1 {
+      //   font-size: 1.5rem;
+      // }
+
+      // h2 {
+      //   font-size: 1.2rem;
+      // }
+
+      // p {
+      //   font-size: 0.9rem;
+      // }
+
+      .knowMoreButton {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+      }
+    }
+  }
+}

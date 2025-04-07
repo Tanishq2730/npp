@@ -1,0 +1,155 @@
+.home3 {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+
+  .home3BG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home3Content {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 3vw 0 3vw 3vw;
+    z-index: 9;
+  }
+
+  .slides {
+    display: flex;
+    width: 16%;
+    height: 75vh; // Adjust this value as needed to fit your design
+
+    .swiperContainer {
+      width: 100%;
+      height: 90%;
+      padding: 10px; // Added padding to the Swiper container
+    }
+
+    .leaderSlides {
+      border-radius: 5%;
+      cursor: pointer;
+      width: 100%;
+      border: 2px solid transparent;
+      transition: border-color 0.3s;
+      &.activeSlide {
+        border-color: #d99b2b;
+      }
+    }
+  }
+
+  .text {
+    box-sizing: border-box;
+    z-index: 10;
+
+    p {
+      width: 60%;
+    }
+
+    .moreInfo {
+      display: flex;
+      justify-content: flex-start;
+      gap: 20rem;
+      align-items: center;
+      margin-top: 1vw;
+
+      .socials {
+        display: flex;
+        gap: 10%;
+      }
+
+      button {
+        border: 1px solid white;
+        padding: 0.2vw 0.5vw;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #d99b2b;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media (max-aspect-ratio: 1) {
+  .home3 {
+    flex-direction: column;
+  }
+  .home3BG {
+    position: static !important;
+    height: 65vh !important;
+  }
+
+  .home3Content {
+    align-self: flex-end;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: black;
+    flex-grow: 1;
+
+    .slides {
+      width: 100%;
+      height: auto; // Reset height for mobile view
+      margin-bottom: 5%;
+
+      .swiperContainer {
+        width: 100%;
+        height: auto;
+        padding: 10px 0; // Adjusted padding for mobile view
+      }
+
+      .leaderSlides {
+        width: 100%; // Adjusted for better mobile view
+        flex-shrink: 0;
+        border-radius: 5%;
+      }
+    }
+
+    .text {
+      text-align: left;
+      width: 100%;
+      margin-bottom: 5%;
+
+      .moreInfo {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .socials {
+          align-items: center;
+          position: absolute;
+          bottom: 22%;
+          right: 5%;
+          height: 1vh;
+        }
+
+        button {
+          padding: 1vw 2vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .home3 {
+    .slides {
+      .swiperContainer {
+        padding: 5px 0; // Further adjusted padding for very small screens
+      }
+    }
+  }
+}
+
+
+

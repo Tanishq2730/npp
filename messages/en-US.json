@@ -1,0 +1,1164 @@
+{
+  "dashboard": {
+    "hello": "Hi"
+  },
+  "header": {
+    "language": {
+      "eng": "English",
+      "khasi": "Khasi",
+      "garo": "Garo",
+      "hindi": "Hindi"
+    },
+    "join": {
+      "label": "JOIN NPP",
+      "link": "/en-US/join"
+    },
+    "donation": {
+      "label": "MAKE A DONATION",
+      "link": "/en-US/donate"
+    },
+    "nav": {
+      "home": {
+        "label": "HOME",
+        "path": "/en-US/home"
+      },
+      "party": {
+        "label": "THE PARTY",
+        "path": "/en-US",
+        "options": [
+          {
+            "header": "Party Information",
+            "items": [
+              {
+                "label": "About",
+                "path": "/en-US/info?person=conradSangma"
+              },
+              {
+                "label": "Philosophy",
+                "path": "/en-US/party/philosophy"
+              },
+              {
+                "label": "Leadership",
+                "path": "/en-US/party/leadership"
+              }
+            ]
+          }
+        ]
+      },
+      "issues": {
+        "label": "CORE ISSUES",
+        "path": "/en-US/core-issues",
+        "options": [
+          {
+            "header": "Issues",
+            "items": [
+              {
+                "label": "Agriculture",
+                "path": "/en-US/core-issues#agriculture"
+              },
+              {
+                "label": "Energy",
+                "path": "/en-US/core-issues#energy"
+              },
+              {
+                "label": "Education",
+                "path": "/en-US/core-issues#education"
+              },
+              {
+                "label": "Environment",
+                "path": "/en-US/core-issues#environment"
+              },
+              {
+                "label": "Healthcare",
+                "path": "/en-US/core-issues#healthcare"
+              },
+              {
+                "label": "Promoting Northeast",
+                "path": "/en-US/core-issues#promoting_northeast"
+              },
+              {
+                "label": "Women",
+                "path": "/en-US/core-issues#women"
+              },
+              {
+                "label": "Youth",
+                "path": "/en-US/core-issues#youth"
+              }
+            ]
+          }
+        ]
+      },
+      "media": {
+        "label": "MEDIA",
+        "path": "/en-US/events",
+        "options": [
+          {
+            "header": "Media Resources",
+            "items": [
+              {
+                "label": "Events",
+                "path": "/en-US/events"
+              },
+              {
+                "label": "Press Releases",
+                "path": "/en-US/press-releases"
+              },
+              {
+                "label": "Photo Gallery",
+                "path": "/en-US/photo-gallery"
+              },
+              {
+                "label": "Video Gallery",
+                "path": "/en-US/video-gallery"
+              }
+            ]
+          }
+        ]
+      },
+      "crimCand": {
+        "label": "CANDIDATES WITH CRIMINAL ANTECEDENTS",
+        "path": "/en-US/candidateInfo"
+      }
+    }
+  },
+  "footer": {
+    "form": {
+      "title": "Be Heard",
+      "namePlaceholder": "Your Name",
+      "mailPlaceholder": "Enter Your Email",
+      "send": "Send Message"
+    },
+    "about": {
+      "imgAlt": "National People's Party Logo",
+      "description": "The National People’s Party strongly supports the Constitution of India which has a Socialist, Secular, and Democratic framework. It is especially committed to the defence of the sovereignty, unity and integrity of India."
+    },
+    "nav": {
+      "home": {
+        "label": "HOME",
+        "path": "/en-US/home"
+      },
+      "party": {
+        "label": "THE PARTY",
+        "path": "/en-US/party",
+        "options": [
+          {
+            "header": "Party Information",
+            "items": [
+              {
+                "label": "About",
+                "path": "/en-US/info?person=conradSangma"
+              },
+              {
+                "label": "Philosophy",
+                "path": "/en-US/party/philosophy"
+              },
+              {
+                "label": "Leadership",
+                "path": "/en-US/party/leadership"
+              }
+            ]
+          }
+        ]
+      },
+      "issues": {
+        "label": "CORE ISSUES",
+        "path": "/en-US/core-issues",
+        "options": [
+          {
+            "header": "Issues",
+            "items": [
+              {
+                "label": "Agriculture",
+                "path": "/en-US/core-issues#agriculture"
+              },
+              {
+                "label": "Energy",
+                "path": "/en-US/core-issues#energy"
+              },
+              {
+                "label": "Education",
+                "path": "/en-US/core-issues#education"
+              },
+              {
+                "label": "Environment",
+                "path": "/en-US/core-issues#environment"
+              },
+              {
+                "label": "Healthcare",
+                "path": "/en-US/core-issues#healthcare"
+              },
+              {
+                "label": "Promoting Northeast",
+                "path": "/en-US/core-issues#promoting_northeast"
+              },
+              {
+                "label": "Women",
+                "path": "/en-US/core-issues#women"
+              },
+              {
+                "label": "Youth",
+                "path": "/en-US/core-issues#youth"
+              }
+            ]
+          }
+        ]
+      },
+      "media": {
+        "label": "MEDIA",
+        "path": "/en-US/events",
+        "options": [
+          {
+            "header": "Media Resources",
+            "items": [
+              {
+                "label": "Events",
+                "path": "/en-US/events"
+              }
+            ]
+          },
+          {
+            "header": "Photo Gallery",
+            "items": [
+              {
+                "label": "Photo Gallery",
+                "path": "/en-US/photo-gallery"
+              }
+            ]
+          },
+          {
+            "header": "Video Gallery",
+            "items": [
+              {
+                "label": "Video Gallery",
+                "path": "/en-US/video-gallery"
+              }
+            ]
+          },
+          {
+            "header": "Press Releases",
+            "items": [
+              {
+                "label": "Press Releases",
+                "path": "/en-US/press-releases"
+              }
+            ]
+          }
+        ]
+      },
+      "crimCand": {
+        "label": "CANDIDATES WITH CRIMINAL ANTECEDENTS",
+        "path": "/en-US/candidateInfo"
+      }
+    },
+    "buttons": {
+      "donate": {
+        "label": "MAKE A DONATION",
+        "path": "/en-US/donate"
+      },
+      "join": {
+        "label": "JOIN NPP",
+        "path": "/en-US/join"
+      }
+    },
+    "disclosure": {
+      "rights": "© 2024 All Rights Reserved",
+      "privacy": {
+        "label": "Privacy Policy",
+        "path": "/en-US/privacy"
+      },
+      "disclaimer": {
+        "label": "Disclaimer",
+        "path": "/en-US/disclaimer"
+      }
+    }
+  },
+  "home": {
+    "slide1": {
+      "subSlide1": {
+        "title": "ONE VOICE  ONE NORTHEAST",
+        "subtitle": "PROMOTING THE SPIRIT OF NATIONALISM"
+      },
+      "subSlide2": {
+        "title": "NATION FIRST,  PEOPLE  ALWAYS"
+      },
+      "subSlide3": {
+        "title": "INSPIRING  WITH PURPOSE"
+      },
+      "subSlide4": {
+        "title": "BUILDING  BETTER FUTURE"
+      },
+      "subSlide5": {
+        "title": "PROGRESS  IN ACTION"
+      }
+    },
+    "slide2": {
+      "default": {
+        "backgroundImage": "/static/images/home/home2/bg.png",
+        "contentText": {
+          "title": "OUR INSPIRATION",
+          "subtitle": "P. A. SANGMA",
+          "description": "P. A. SANGMA FOUNDED THE PARTY AFTER HIS EXIT FROM THE NATIONALIST CONGRESS PARTY (NCP) DUE TO DIFFERENCES OVER THE PRESIDENTIAL CANDIDATE SELECTION IN 2012."
+        }
+      },
+      "2013": {
+        "backgroundImage": "/static/images/home/home2/bg2013.png",
+        "contentText": {
+          "title": "NPP IN YEAR 2013",
+          "subtitle": "Achievements of 2013",
+          "description": "The National People's Party (NPP) was formed in 2013 to bring tribal empowerment and regional progress for Northeast India's communities."
+        }
+      },
+      "2014": {
+        "backgroundImage": "/static/images/home/home2/bg2014.png",
+        "contentText": {
+          "title": "NPP IN YEAR 2014",
+          "subtitle": "Achievements of 2014",
+          "description": "During the 2014 General Elections the NPP itself was a young-oriented political party dedicated to transforming educational standards and digital education while building competency skills to strengthen tribal and rural populations."
+        }
+      },
+      "2016": {
+        "backgroundImage": "/static/images/home/home2/bg2016.jpg",
+        "contentText": {
+          "title": "NPP IN YEAR 2016",
+          "subtitle": "Achievements of 2016",
+          "description": "The NPP streamlined its development in 2016 by adopting rural development strategies, tribal welfare policies and sustainable agriculture practices and the defense of cultural traditions which secured firm support from tribal populations."
+        }
+      },
+      "2018": {
+        "backgroundImage": "/static/images/home/home2/bg2018.png",
+        "contentText": {
+          "title": "NPP IN YEAR 2018",
+          "subtitle": "Achievements of 2018",
+          "description": "Under the NPP government leadership Meghalaya witnessed essential changes during 2018 that cemented their status as both people-oriented and transformative political entities."
+        }
+      },
+      "2019": {
+        "backgroundImage": "/static/images/home/home2/bg2019.png",
+        "contentText": {
+          "title": "NPP IN YEAR 2019",
+          "subtitle": "Achievements of 2019",
+          "description": "The NPP launched a national expansion in 2019 to promote sustainable practices and rural infrastructure alongside social justice and clean power while pursuing equitable development across India."
+        }
+      },
+      "2023": {
+        "backgroundImage": "/static/images/home/home2/bg2023.jpg",
+        "contentText": {
+          "title": "NPP IN YEAR 2023",
+          "subtitle": "Achievements of 2023",
+          "description": "In 2023 the NPP adapted its agenda to focus on climate action alongside skill development and employment generation in the Northeast while championing sustainable growth through green energy programs and vocational training and entrepreneurial programs."
+        }
+      },
+      "2024": {
+        "backgroundImage": "/static/images/home/home2/bg2024.png",
+        "contentText": {
+          "title": "NPP IN YEAR 2024",
+          "subtitle": "Achievements of 2024",
+          "description": "During 2024 the NPP began implementing national decentralization policies to give local governments more power which helped regional development through infrastructure improvement, vehicle production and employment generation while keeping balance as an essential principle."
+        }
+      },
+      "knowMore": "Know More"
+    },
+    "slide3": {
+      "title1": "CONRAD  SANGMA",
+      "subtitle1": "National President NPP & Hon Chief Minister of Meghalaya",
+      "title2": "Prestone Tynsong",
+      "subtitle2": "National Vice-president & Hon Deputy Chief Minister of Meghalaya",
+      "title3": "James Sangma",
+      "subtitle3": "National Spokesperson & National Secretary i/c Finance & Power Minister of Meghalaya",
+      "title4": "Thomas A Sangma",
+      "subtitle4": "National General Secretary",
+      "button": "Know More"
+    },
+    "slide4": [
+      {
+        "title": "AGRICULTURE",
+        "backgroundImgPath": "/static/images/home/home4/card1.png",
+        "route": "core-issues#agriculture",
+        "subtitle": ""
+      },
+      {
+        "title": "PROMOTING NORTHEAST",
+        "backgroundImgPath": "/static/images/home/home4/card2.png",
+        "route": "core-issues#promoting_northeast",
+        "subtitle": ""
+      },
+      {
+        "title": "EDUCATION",
+        "backgroundImgPath": "/static/images/home/home4/card3.png",
+        "route": "core-issues#education",
+        "subtitle": ""
+      }
+    ],
+    "slide5": {
+      "footprints": "OUR FOOTPRINTS",
+      "state": "Manipur",
+      "electionData": {
+        "NPP": {
+          "person": "Shri N. Biren Singh",
+          "post": "Chief Minister, Manipur",
+          "loksabha": "MP Loksabha",
+          "loksabhaCount": "1",
+          "rajyasabha": "MP Rajyasabha",
+          "rajyasabhaCount": "1",
+          "mla": "MLA",
+          "mlaCount": "1",
+          "mlc": "MLC",
+          "mlcCount": "1"
+        },
+        "NDA": {
+          "alliance": "NPP-led NDA governs 18 states",
+          "loksabha": "LOK SABHA",
+          "lokSeats": "240/543",
+          "rajyasabha": "RAJYA SABHA",
+          "rajyaSeats": "93/245"
+        }
+      }
+    },
+    "slide6": {
+      "heading": "JOIN THE  JOURNEY",
+      "subheading": "Support our mission, and be a part of the change!",
+      "para1": "The National People's Party (NPP) is dedicated to fostering a prosperous and unified India, with a special focus on the development and empowerment of the northeastern states.",
+      "para2": "Our mission is to create a brighter future for all, by addressing regional disparities and promoting sustainable growth. We invite you to join us in this transformative journey that aims to uplift every community and ensure inclusive development.",
+      "buttons": {
+        "member": "BECOME A MEMBER",
+        "volunteer": "JOIN AS VOLUNTEER",
+        "donate": "MAKE A DONATION"
+      },
+      "footerTagline": {
+        "imgAlt": "NPP Logo",
+        "united": "United, We Rise.",
+        "transform": "Together, We Transform."
+      }
+    },
+    "slide7": {
+      "socialPosts": {
+        "tweets": {
+          "heading": "Tweets",
+          "tweet1": {
+            "poster": "National People's Party (NPP)",
+            "handle": "@nppmeghalaya",
+            "pfp": {
+              "path": "/static/images/home/home6/logo.png",
+              "imgAlt": "NPP Logo"
+            },
+            "postText": "It's World Environment Day! Let&apos;s all do our bit to make the world a cleaner, more sustainable place. Recycle, reuse, and reduce waste. By working together, we can make sure our planet stays healthy and beautiful for generations to come.",
+            "tags": "💭 #NPPMeghalaya #environment #Cleanliness ",
+            "time": "8:45 AM",
+            "date": "Sep 1, 2022",
+            "platform": "Twitter for iPhone",
+            "interaction": {
+              "retweets": "3 Retweets",
+              "quotes": "1 Quote Tweet",
+              "likes": "15 Likes"
+            }
+          }
+        },
+        "streams": {
+          "heading": "Social Streams"
+        }
+      },
+      "upcoming": {
+        "heading": "Upcoming Events",
+        "noEvents": "No Upcoming Events"
+      }
+    }
+  },
+  "leadership": {
+    "founder": {
+      "pageTitle": {
+        "keyPeople": "NPP - KEY PEOPLE",
+        "leaders": "LEADERS SHAPING OUR NATION"
+      },
+      "founderName": "P. A. SANGMA",
+      "founderPost": "FOUNDER PRESIDENT (1947-2016)",
+      "founderDescription": "A man, who lived for others, Padma Vibhushan Late Purno Agitok Sangma had worn many caps during his four decade long political career as Cabinet Minister, Chief Minister and Speaker of the Lok Sabha. He always stood up for the minorities and raised concern for their welfare. Hailing from a small village in the Garo Hills in Meghalaya, Late Sangma ji had championed the cause of not only the constituency he represented in the Parliament but for the entire nation. He had continuously engaged in guiding young Parliamentarians on the need for a quality debate and motivated them to dedicate themselves for the cause of building a resurgent India.",
+      "imgAlt": "P. A. Sangma"
+    },
+    "cards": [
+      {
+        "name": "CONRAD SANGMA",
+        "post": "Hon'ble Chief Minister of Meghalaya & National President NPP",
+        "imgPath": "/static/images/leadership/card1.png",
+        "route": "/info?person=conradSangma"
+      },
+      {
+        "name": "PRESTONE TYNSONG",
+        "post": "National Vice-president & Hon Deputy Chief Minister of Meghalaya",
+        "imgPath": "/static/images/leadership/card3.png",
+        "route": "/info?person=prestoneTynsong"
+      },
+      {
+        "name": "JAMES K. SANGMA",
+        "post": "National Spokesperson & National Secretary i/c Finance & Power Minister of Meghalaya",
+        "imgPath": "/static/images/leadership/card4.png",
+        "route": "/info?person=jamesSangma"
+      },
+      {
+        "name": "PURNO AGITOK SANGMA",
+        "post": "National Vice President",
+        "imgPath": "/static/images/leadership/card5.png",
+        "route": "/info?person=purnoSangma"
+      },
+      {
+        "name": "AGATHA K. SANGMA",
+        "post": "General Secretary & Hon'ble M.P. (Lok Sabha)",
+        "imgPath": "/static/images/leadership/card6.png",
+        "route": "/info?person=purnoSangma"
+      }
+    ]
+  },
+  "infoPage": {
+    "people": {
+      "conradSangma": {
+        "introComponent": {
+          "name": "CONRAD SANGMA",
+          "post": "HON'BLE CHIEF MINISTER OF MEGHALAYA & NATIONAL PRESIDENT NPP  ",
+          "description": "Conrad Kongkal Sangma, born on 27 January 1978, has been the 12th Chief Minister of Meghalaya since 2018. He belongs to the National People's Party. Son of P. A. Sangma, a notable political figure, Conrad served as a member of Parliament for the Tura constituency from 2016 to 2018. He has been a member of the South Tura constituency since 2018 and previously represented the Selsella constituency between 2008 and 2013. He also held key ministerial positions in Meghalaya from 2008 to 2009.",
+          "imgAlt": "Conrad Sangma",
+          "desktopImageUrl": "/static/images/info/conrad_sangma.png",
+          "mobileImageUrl": "/static/images/info/conrad_sangma_mobile.png"
+        },
+        "galleryComponent": {
+          "title": "LEADING MEGHALAYA TOWARDS PROGRESS"
+        },
+        "aboutComponent": {
+          "title": "ABOUT CONRAD SANGMA",
+          "imgAlt": "Conrad Sangma",
+          "img": "/static/images/leadership/conrad_sangma/t1.jpg",
+          "description": "Conrad K. Sangma, born on January 27, 1978, in Tura, West Garo Hills, Meghalaya, is a prominent Indian politician and the current Chief Minister of Meghalaya. Coming from a political family, he has made significant contributions to the state's governance and development.",
+          "join": "JOIN NPP",
+          "additionalParagraphs": [
+            "Conrad K. Sangma was born on the 27th of January 1978 in Tura, West Garo Hills, Meghalaya. His father Purno Sangma worked as the Chief Minister of Meghalaya and Speaker of the Lok Sabha and his mother Soradini was a housewife. Conrad has two siblings involved in politics; an elder brother James and a sister Agatha who are both in NPP. His other sister, Christy has taken an altogether non-controversial career path.",
+            "He was born in Delhi, and he had his education at St. Columba's School. He has a Bachelor of Science in business administration with a concentration in entrepreneurial management from Wharton School at the University of Pennsylvania and an MBA in finance from Imperial College London.",
+            "In 2009, Conrad got married to Dr. Mehtab Chandee with whom he was blessed with two kids; an elder child Amara who was born in 2011, and the youngest child Katelyn who was born in 2017. Apart from politics, Conrad is into social service in the sense that he is the President of the PA Sangma Foundation, an organization that wants to wipe out illiteracy and pollution. The foundation also runs four colleges in rural Meghalaya, a region that still has a raw taste of architectural mastery. Also, he is the President of the Meghalaya Cricket Association and Sports Academy.",
+            "Conrad entered the political arena in the late 1990s assisting his father P. A. Sangma, who was contesting on the NCP ticket. He first vied for a seat in 2004 in the Garo Hills Autonomous District Council and he lost by a small margin. He and his brother James were both elected to the State Assembly in 2008 as members of the NCP. He also served as the Finance, Power, Tourism, General Administration, and IT minister of the state and unveiled his first state budget in his first 10 days in the minister post. In Meghalaya Legislative Assembly he was the Leader of the Opposition from 2009 to 2013. However, he was defeated in the state assembly elections held in 2013 and lost his seat.",
+            "The National People's Party was formed in 2016 and Conrad Sangma became the National President of the same after the death of his father in the same year. In May he contested for a by-election for the Tura seat in the Lok Sabha and was victorious with a margin of 1.92 lakh votes.",
+            "The NPP has also allied with the national level BJP, which contested in the 2018 Meghalaya legislative assembly election and emerged second party by winning 19 seats in the 60-member house but was defeated by the Indian National Congress. As a result of this, since 30 seats were required to form government, the NPP struck an electoral pact with other regional parties, so that their total number was 34. Conrad Sangma then proceeded to meet the Governor of Meghalaya Ganga Prasad to furnish him with a letter of support from these 34 members with 19 from NPP, six from the United Democratic Party, four from the People's Democratic Front, two from Hill State People's Democratic Party and one Bharatiya Janata Party member besides one independent. He was then announced as the Chief Minister-elect and assumed office on 6 March; he succeeded Mukul Sangma (no relation)."
+          ]
+        },
+        "timelineComponent": {
+          "headerTitle": "CAREER JOURNEY",
+          "headerDescription": "Conrad Sangma's political career has been marked by significant achievements and rapid ascension to key leadership roles in Meghalaya and national politics.",
+          "events": [
+            {
+              "year": "2023 – Present",
+              "titleLight": "13th Chief Minister",
+              "titleBold": "of Meghalaya",
+              "subtitle": "Leadership Continuation",
+              "description": "Conrad K Sangma became the 13th Chief Minister of Meghalaya after being elected from the South Tura constituency. He oversees crucial departments including Finance, Forests & Environment, Home (Political), Information Technology and Communication, Mining & Geology, Personnel, Planning, Finance Investment Promotion & Sustainable Development, Programme Implementation & Evaluation.",
+              "buttonText": "Learn More",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t1.jpg"
+            },
+            {
+              "year": "2018",
+              "titleLight": "12th Chief Minister",
+              "titleBold": "of Meghalaya",
+              "subtitle": "State Leadership",
+              "description": "Conrad Sangma became the 12th Chief Minister of Meghalaya following the 2018 assembly election, where he contested from the Tura constituency.",
+              "buttonText": "View Details",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t2.jpg"
+            },
+            {
+              "year": "2016",
+              "titleLight": "Elected to",
+              "titleBold": "Lok Sabha",
+              "subtitle": "National Politics",
+              "description": "Elected to the 16th Lok Sabha by-election in the Tura constituency with a margin of 1.92 lakh votes. Also appointed as a member of the standing committee on energy.",
+              "buttonText": "Explore Role",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t3.jpg"
+            },
+            {
+              "year": "2009",
+              "titleLight": "Leader of",
+              "titleBold": "Opposition",
+              "subtitle": "State Politics",
+              "description": "Served as the Leader of the Opposition in the Meghalaya Legislative Assembly until 2013.",
+              "buttonText": "Political Journey",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t4.jpg"
+            },
+            {
+              "year": "2008",
+              "titleLight": "State Cabinet",
+              "titleBold": "Entry",
+              "subtitle": "Ministerial Roles",
+              "description": "Entered the state cabinet, handling Finance, Power, Tourism, General Administration, and IT portfolios. Won the Selsella constituency, defeating Clement Marak.",
+              "buttonText": "Cabinet Roles",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t5.jpg"
+            },
+            {
+              "year": "2003",
+              "titleLight": "First Election",
+              "titleBold": "Contest",
+              "subtitle": "Political Debut",
+              "description": "Contested his first election from the Selsella constituency, narrowly losing to Clement Marak by 182 votes.",
+              "buttonText": "Early Career",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t6.jpg"
+            },
+            {
+              "year": "1990",
+              "titleLight": "Political Career",
+              "titleBold": "Begins",
+              "subtitle": "Campaign Management",
+              "description": "Started his political journey as a campaign manager for the Nationalist Congress Party (NCP) during his father P. A. Sangma's election campaign.",
+              "buttonText": "First Steps",
+              "imageSrc": "/static/images/leadership/conrad_sangma/t7.jpg"
+            }
+          ]
+        },
+        "leadersConnectComponent": {
+          "title": "LEADERS CONNECT",
+          "video": "https://www.youtube.com/embed/FSRkHMI5bfE"
+        },
+        "pressReleasesComponent": {
+          "title": "PRESS RELEASES",
+          "cards": [
+            {
+              "headline": "Mamata Receives Warning: 'We Can Handle Ourselves'; Predicts TMC Will Win Only 2-3 Seats",
+              "details": "A message was sent to Mamata Banerjee, asserting that they are capable of taking care of themselves. The prediction was made that the Trinamool Congress (TMC) would only secure 2-3 seats in the upcoming elections.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/message-for-mamata-we-know-how-to-take-care-of-ourselves-predicts-tmc-will-get-only-2-3-seats/"
+            },
+            {
+              "headline": "People's Document: NPP launches their Manifesto – Vision 2023-2028",
+              "details": "The National People's Party (NPP) has launched its manifesto, titled \"Vision 2023-2028 – A People's Document.\" This manifesto outlines the party's plans and goals for the next five years, focusing on the development and well-being of the people.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/npp-launches-their-manifesto-peoples-document-vision-2023-2028/"
+            },
+            {
+              "headline": "NPP Resolves to Combat Discrimination Against Northeast Citizens",
+              "details": "The National People's Party (NPP) has passed a resolution to actively address and combat the discrimination faced by citizens from the Northeastern region of India. The party has committed to taking strong measures to protect the rights of Northeastern citizens and to promote equality and justice for all, ensuring that their concerns are heard and addressed at both the state and national levels.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2020/07/11/npp-adopts-resolution-to-fight-discrimination-of-ne-citizens/"
+            }
+          ]
+        }
+      },
+      "jamesSangma": {
+        "introComponent": {
+          "name": "JAMES PANGSANG KONGKAL SANGMA",
+          "post": "NATIONAL GENERAL SECRETARY OF MEGHALAYA",
+          "description": "James Sangma has a distinguished political background, serving as a state cabinet minister of Meghalaya and a member of the legislative assembly (MLA). He has managed crucial departments in the Meghalaya Government, including Home, District Council Affairs, Food Civil Supplies & Consumer Affairs, and Law & Power Departments. From 2008 to 2023, he represented the Dadenggre constituency as a candidate.",
+          "imgAlt": "James Pangsang Kongkal Sangma",
+          "desktopImageUrl": "/static/images/leadership/james_sangma/crop.png",
+          "mobileImageUrl": ""
+        },
+        "galleryComponent": {
+          "title": "SERVING MEGHALAYA WITH DEDICATION"
+        },
+        "aboutComponent": {
+          "title": "ABOUT JAMES K. SANGMA",
+          "imgAlt": "James Pangsang Kongkal Sangma",
+          "img": "/static/images/leadership/james_sangma/t1.png",
+          "description": "James Pangsang Kongkal Sangma, a prominent leader in Meghalaya's political landscape, has been serving the state through various roles since 2008. His commitment to public service and development has been evident throughout his political career.",
+          "join": "JOIN NPP",
+          "additionalParagraphs": [
+            "James Pangsang Kongkal Sangma was a leader of the Meghalaya unit of an Indian political party. He was first elected for the post of the State Assembly in the year 2008 for the Rongchugiri Constituency falling under West Garo Hills District. He was elected as M.L.A. from Dadenggre Constituency in the year 2013 and again elected in the same constituency in the year 2018.",
+            "James had his early schooling at St Edmund's School Shillong He further pursued his Bachelor's degree from Ramjas College Delhi University in 1999. He then went to Brunel University in the United Kingdom to obtain his Master's degree in Mass Communication in the year 2000.",
+            "He lost his father Purno A Sangma, a prominent political leader who was chief minister of Meghalaya and who also became a speaker of Lok Sabha. Purno A Sangma was one of the influential political leaders from India who served the Tura Constituency and fought for the indigenous population of the North Eastern region of India. James possesses some brothers and Sisters Among them Conrad K Sangma presently holding the post of chief minister of Meghalaya and Agatha Sangma holding the membership of 17th Lok Sabha from the Tura Constituency.",
+            "James Sangma has held membership with the National People's Party and at present, he holds the position of the National Spokesperson, National General Secretary-Finance. The NPP started in January 2013 with a still the current leader of the NPP the late Purno A Sangma. It is the only party from the Northeast that has been registered as the \"National People's Party\" thus addressing the regional agenda of the community at the national forum. To James, the indigenous people of the Northeast need to get a platform and be heard at the national level. He is sure that, unlike the uncongenial external parties, the NPP as a homegrown national party has a primordial interest in the welfare, the culture, the language, and the identity of the Northeast."
+          ]
+        },
+        "timelineComponent": {
+          "headerTitle": "CAREER JOURNEY",
+          "headerDescription": "James Sangma's political career has been marked by significant achievements and dedicated service to Meghalaya.",
+          "events": [
+            {
+              "year": "2008",
+              "titleLight": "First",
+              "titleBold": "Election",
+              "subtitle": "State Assembly Entry",
+              "description": "James Sangma was first elected to the State Assembly in 2008 from the Rongchugiri (ST) Constituency, West Garo Hills District, as a member of the NCP. He served as the Parliamentary Secretary in charge of the Home, Police, and Education.",
+              "buttonText": "Early Career",
+              "imageSrc": "/static/images/leadership/james_sangma/t1.png"
+            },
+            {
+              "year": "2013",
+              "titleLight": "Dadenggre",
+              "titleBold": "Constituency",
+              "subtitle": "Opposition Chief Whip",
+              "description": "In 2013, James Sangma won the election from the Dadenggre (ST) Constituency as a member of the National People's Party (NPP). He served as the Opposition Chief Whip in the Meghalaya Legislative Assembly from 2013 to 2017.",
+              "buttonText": "Political Journey",
+              "imageSrc": "/static/images/leadership/james_sangma/t2.png"
+            },
+            {
+              "year": "2018",
+              "titleLight": "Re-Elected and",
+              "titleBold": "Cabinet Minister",
+              "subtitle": "Continued Service",
+              "description": "James Sangma was re-elected in 2018 from the Dadenggre (ST) Constituency and served as a cabinet minister in the Government of Meghalaya. He managed key portfolios such as Home, Food, Civil Supplies & Consumer Affairs, Power, Law, Taxation, and DIPR.",
+              "buttonText": "Explore Role",
+              "imageSrc": "/static/images/leadership/james_sangma/t3.png"
+            },
+            {
+              "year": "2020",
+              "titleLight": "Forest &",
+              "titleBold": "Environment",
+              "subtitle": "Additional Portfolio",
+              "description": "In 2020, James Sangma was given additional responsibilities for the Forest & Environment portfolio, alongside his duties in Power, Law, Taxation, and DIPR.",
+              "buttonText": "View Details",
+              "imageSrc": "/static/images/leadership/james_sangma/t4.png"
+            },
+            {
+              "year": "2021",
+              "titleLight": "Health and",
+              "titleBold": "Environment",
+              "subtitle": "Expanded Responsibilities",
+              "description": "In 2021, James Sangma took on the responsibilities of the Health and Family Welfare Department, along with Forests & Environment, Food, Civil Supplies & Consumer Affairs, DIPR, Law, Taxation, Registration, and Stamps.",
+              "buttonText": "Learn More",
+              "imageSrc": "/static/images/leadership/james_sangma/t5.png"
+            }
+          ]
+        },
+        "leadersConnectComponent": {
+          "title": "LEADERS CONNECT",
+          "video": ""
+        },
+        "pressReleasesComponent": {
+          "title": "PRESS RELEASES",
+          "cards": [
+            {
+              "headline": "Mamata Receives Warning: 'We Can Handle Ourselves'; Predicts TMC Will Win Only 2-3 Seats",
+              "details": "A message was sent to Mamata Banerjee, asserting that they are capable of taking care of themselves. The prediction was made that the Trinamool Congress (TMC) would only secure 2-3 seats in the upcoming elections.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/message-for-mamata-we-know-how-to-take-care-of-ourselves-predicts-tmc-will-get-only-2-3-seats/"
+            },
+            {
+              "headline": "People's Document: NPP launches their Manifesto – Vision 2023-2028",
+              "details": "The National People's Party (NPP) has launched its manifesto, titled \"Vision 2023-2028 – A People's Document.\" This manifesto outlines the party's plans and goals for the next five years, focusing on the development and well-being of the people.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/npp-launches-their-manifesto-peoples-document-vision-2023-2028/"
+            },
+            {
+              "headline": "NPP Resolves to Combat Discrimination Against Northeast Citizens",
+              "details": "The National People's Party (NPP) has passed a resolution to actively address and combat the discrimination faced by citizens from the Northeastern region of India. The party has committed to taking strong measures to protect the rights of Northeastern citizens and to promote equality and justice for all, ensuring that their concerns are heard and addressed at both the state and national levels.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2020/07/11/npp-adopts-resolution-to-fight-discrimination-of-ne-citizens/"
+            }
+          ]
+        }
+      },
+      "thomasASangma": {
+        "introComponent": {
+          "name": "Thomas A Sangma",
+          "post": "FOUNDER PRESIDENT (1947-2016)",
+          "description": "Padma Vibhushan, the Late Purno Agitok Sangma, was dedicated to serving others. Throughout his four-decade political career, he held various roles, including Cabinet Minister, Chief Minister, and Speaker of the Lok Sabha. He was a strong advocate for minorities and their welfare. Coming from a small village in the Garo Hills of Meghalaya, Sangma ji worked for his parliamentary constituency and the entire nation. He consistently encouraged young Parliamentarians to focus on quality debates and inspired them to commit to building a stronger India.",
+          "imgAlt": "Purno Agitok Sangma",
+          "desktopImageUrl": "/static/images/leadership/thomas_sangma/crop.png",
+          "mobileImageUrl": ""
+        },
+        "galleryComponent": {
+          "title": "LEGACY OF LEADERSHIP"
+        },
+        "aboutComponent": {
+          "title": "ABOUT PURNO AGITOK SANGMA",
+          "imgAlt": "Purno Agitok Sangma",
+          "img": "/static/images/leadership/thomas_sangma/t3.png",
+          "description": "Purno Agitok Sangma, an eminent personality of Indian politics, was born on 1st September 1947 in Chapahati, a tiny village of Garo Hills in Meghalaya. His journey from a humble background to becoming a stalwart in Indian politics is a testament to his dedication and leadership.",
+          "join": "JOIN NPP",
+          "additionalParagraphs": [
+            "Purno Agitok Sangma, an eminent personality of Indian politics, was born on 1st September 1947 in Chapahati, a tiny village of Garo Hills in Meghalaya. Sangma's early life was coloured in a simple and traditional setup which, given the cultural and geographical flavour of Northeastern India, must indeed have been rooted in a humble background. He started his schooling in Meghalaya and passed out his high school in Shillong. He earned his Bachelor of Arts from St. Anthony's College, Shillong. Continuing her interest in law and politics, she went on to do her Master of Arts in International Relations from Dibrugarh University, Assam. His education was thus the stepping stone of his public service.",
+            "Purno A Sangma started his political journey in the early seventies and became a member of the Meghalaya Legislative Assembly in 1973. He began his political career with very noble causes of social justice and the development of the country's Northeastern region. In 1977 he switched to national politics and was duly elected to the Lok Sabha, the Indian lower house of Parliament from Tura. This was the beginning of an extraordinary political career in the lower house that was to last for close to thirty-seven years.",
+            "In his political career, Sangma has been elected to several important posts in the government of India. He was the Minister of State for Commerce and Industry, Labour and Coal under Prime Minister Rajiv Gandhi. The advocacy of labour organisations, industrialisation of the economy, and the welfare of the employees characterised the performance in these capacities. In 1991, he got the portfolio of Minister of Information and Broadcasting through which he was instrumental in opening up the Indian media industry.",
+            "In Could 2012, Purno A. Sangma was the founding president of the National People's Party (NPP) party having a regional focus in the northeastern part of the country. The NPP was launched to identify with the oppressed and less privileged people in the region's society. Zopko had finally founded the NPP and through his leadership as the first founder president of the party with emphasis on regionalism or decentralisation, social justice, or the common man's issues.",
+            "In his leadership, the NPP was soon established in Meghalaya and other states in the Northeast region as one of the major political parties. The strengths such as Sangma's closeness to the people and his knowledge of the South Asian issues helped the party. The performance improvement of the NPP was a testimony to Sangma's presence, agenda, and concern for the welfare of the people of the Northeast region of India.",
+            "He served in the parliament for more than three decades and passed away on March 4, 2016, due to cardiac arrest at the age of 68. He was succeeded with posthumously Padma Vibhushan, the second highest civilian award in India for his services in the political and social field."
+          ]
+        },
+        "timelineComponent": {
+          "headerTitle": "CAREER JOURNEY",
+          "headerDescription": "Purno Agitok Sangma's political career spanned over four decades, marked by significant achievements and dedicated service to India.",
+          "events": [
+            {
+              "year": "2003",
+              "titleLight": "Member of",
+              "titleBold": "Home Affairs Committee",
+              "subtitle": "Parliamentary Role",
+              "description": "From 2003 to 2004, he served as a member of the Committee on Home Affairs.",
+              "buttonText": "Learn More",
+              "imageSrc": "/static/images/leadership/thomas_sangma/t1.png"
+            },
+            {
+              "year": "2004",
+              "titleLight": "Re-Elected to",
+              "titleBold": "14th Lok Sabha",
+              "subtitle": "Continued Service",
+              "description": "He was re-elected to the 14th Lok Sabha for the eighth time, defeating Mukul M. Sangma of the INC by 101,176 votes. He resigned from the Lok Sabha on October 10, 2005, as a member of the All India Trinamool Congress. During this term, he was a member of the Committee on External Affairs.",
+              "buttonText": "View Details",
+              "imageSrc": "/static/images/leadership/thomas_sangma/t2.png"
+            },
+            {
+              "year": "2005",
+              "titleLight": "Joined",
+              "titleBold": "Nationalist Congress Party",
+              "subtitle": "Political Affiliation",
+              "description": "In December 2005, he became a member of the Nationalist Congress Party.",
+              "buttonText": "Party Details",
+              "imageSrc": "/static/images/leadership/thomas_sangma/t3.png"
+            },
+            {
+              "year": "2006",
+              "titleLight": "Re-Elected and",
+              "titleBold": "NCP General Secretary",
+              "subtitle": "Party Leadership",
+              "description": "He was re-elected to the Lok Sabha on February 23, 2006, as a candidate from the Nationalist Congress Party (NCP). From September 2006 to March 4, 2016, he held the position of General Secretary of the NCP.",
+              "buttonText": "Explore Role",
+              "imageSrc": "/static/images/leadership/thomas_sangma/t4.png"
+            },
+            {
+              "year": "2008",
+              "titleLight": "Meghalaya",
+              "titleBold": "Assembly Service",
+              "subtitle": "State Politics",
+              "description": "On March 20, 2008, he resigned from the Lok Sabha and served as a member of the Meghalaya Legislative Assembly until 2012. He was also the Chairman of the Meghalaya State Planning Board and ran as a candidate for the presidency in 2012.",
+              "buttonText": "State Service",
+              "imageSrc": "/static/images/leadership/thomas_sangma/t5.png"
+            },
+            {
+              "year": "2013",
+              "titleLight": "Founder of",
+              "titleBold": "National People's Party",
+              "subtitle": "Party Formation",
+              "description": "In January 2013, he founded the National People's Party.",
+              "buttonText": "Party History",
+              "imageSrc": "/static/images/leadership/thomas_sangma/t6.png"
+            }
+          ]
+        },
+        "leadersConnectComponent": {
+          "title": "LEADERS CONNECT",
+          "video": "https://www.youtube.com/watch?v=GTBkj1o_nPM&embeds_referring_euri=https%3A%2F%2Fnppindia.in%2F&source_ve_path=OTY3MTQ"
+        },
+        "pressReleasesComponent": {
+          "title": "PRESS RELEASES",
+          "cards": [
+            {
+              "headline": "Mamata Receives Warning: 'We Can Handle Ourselves'; Predicts TMC Will Win Only 2-3 Seats",
+              "details": "A message was sent to Mamata Banerjee, asserting that they are capable of taking care of themselves. The prediction was made that the Trinamool Congress (TMC) would only secure 2-3 seats in the upcoming elections.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/message-for-mamata-we-know-how-to-take-care-of-ourselves-predicts-tmc-will-get-only-2-3-seats/"
+            },
+            {
+              "headline": "People's Document: NPP launches their Manifesto – Vision 2023-2028",
+              "details": "The National People's Party (NPP) has launched its manifesto, titled \"Vision 2023-2028 – A People's Document.\" This manifesto outlines the party's plans and goals for the next five years, focusing on the development and well-being of the people.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/npp-launches-their-manifesto-peoples-document-vision-2023-2028/"
+            },
+            {
+              "headline": "NPP Resolves to Combat Discrimination Against Northeast Citizens",
+              "details": "The National People's Party (NPP) has passed a resolution to actively address and combat the discrimination faced by citizens from the Northeastern region of India. The party has committed to taking strong measures to protect the rights of Northeastern citizens and to promote equality and justice for all, ensuring that their concerns are heard and addressed at both the state and national levels.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2020/07/11/npp-adopts-resolution-to-fight-discrimination-of-ne-citizens/"
+            }
+          ]
+        }
+      },
+      "prestoneTynsong": {
+        "introComponent": {
+          "name": "PRESTONE TYNSONG",
+          "post": "NATIONAL VICE-PRESIDENT & HON DEPUTY CHIEF MINISTER OF MEGHALAYA",
+          "description": "Prestone Tynsong is one of the prominent politicians from India who is discharging his duty as the 3rd Deputy Chief Minister for the Meghalaya region. From 2018 he has also served as the Minister for the Public Works Department Roads, Animal Husbandry, Veterinary & Animal Science, Housing, Labour & Parliamentary Affairs in Meghalaya. Tynsong has been associated with political parties including the National People's Party since 2017 and before joining the NPP was with INC. It has been noted that he has been an MLA OF Pynursla constituency in the Meghalaya Legislative Assembly since 2013.",
+          "imgAlt": "Prestone Tynsong",
+          "desktopImageUrl": "/static/images/leadership/prestone _tynsong/crop.png",
+          "mobileImageUrl": ""
+        },
+        "galleryComponent": {
+          "title": "LEADING MEGHALAYA TOWARDS PROGRESS"
+        },
+        "aboutComponent": {
+          "title": "ABOUT PRESTONE TYNSONG",
+          "imgAlt": "Prestone Tynsong",
+          "img": "/static/images/leadership/prestone _tynsong/t1.png",
+          "description": "Prestone Tynsong is a political figure from India who assumes the position of Deputy Chief Minister of Meghalaya now. His journey in politics has been marked by significant achievements and dedicated service to the state of Meghalaya.",
+          "join": "JOIN NPP",
+          "additionalParagraphs": [
+            "Prestone Tynsong is a political figure from India who assumes the position of Deputy Chief Minister of Meghalaya now. He assumed office in March 2023 and occupied the 4th position of the Deputy Chief Minister of the state affiliated with the National People's Party (NPP). He holds the position of Deputy Chief Minister with Snaiwbhalang Dhar in the Conrad Sangma-led government. Besides, Tynsong supervises more departments in the Meghalaya government such as District Council Affairs, Home, Parliamentary, and Public Works Departments identified for Roads and Building.",
+            "Tynsong entered a political contest by getting elected as a member of the Lyngkyrdem Assembly Constituency in the years 2003 and 2008 contesting for the INC party. He was elected to the Pynthor Suprupi Constituency in 2008 and later switched to the Pynursla Assembly Constituency in 2013. He was earlier a member of the INC however he switched to the NPP in the year 2017. He was then appointed as the Deputy Chief Minister of Meghalaya in the government headed by Conrad Sangma in the year 2018."
+          ]
+        },
+        "timelineComponent": {
+          "headerTitle": "CAREER JOURNEY",
+          "headerDescription": "Prestone Tynsong's political career has been marked by significant achievements and dedicated service to Meghalaya.",
+          "events": [
+            {
+              "year": "2000",
+              "titleLight": "Began Political",
+              "titleBold": "Career",
+              "subtitle": "Congress Party",
+              "description": "In the early 2000s, Prestone Tynsong started his political career by joining the Congress Party.",
+              "buttonText": "Early Career",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t1.png"
+            },
+            {
+              "year": "2003",
+              "titleLight": "First Assembly",
+              "titleBold": "Election Win",
+              "subtitle": "Lyngkyrdem Constituency",
+              "description": "In 2003, Prestone Tynsong won his first assembly election, contesting on a Congress ticket from the Lyngkyrdem constituency. He defeated Syrpai Khonglah of the MDP party.",
+              "buttonText": "First Win",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t2.png"
+            },
+            {
+              "year": "2008",
+              "titleLight": "Re-Elected to",
+              "titleBold": "Assembly",
+              "subtitle": "Lyngkyrdem Constituency",
+              "description": "In 2008, Prestone Tynsong was re-elected to the Meghalaya Legislative Assembly from the Lyngkyrdem constituency. He defeated Dominic Roblin Nongkynrih of the KHNAM party.",
+              "buttonText": "Re-election",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t3.png"
+            },
+            {
+              "year": "2013",
+              "titleLight": "Won Pynursla",
+              "titleBold": "Seat",
+              "subtitle": "Assembly Election",
+              "description": "In 2013, Prestone Tynsong successfully won the assembly election from the Pynursla constituency, defeating Banalari Khongwar of the United Democratic Party (UDP).",
+              "buttonText": "New Constituency",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t4.png"
+            },
+            {
+              "year": "2017",
+              "titleLight": "Joined National",
+              "titleBold": "People's Party",
+              "subtitle": "Political Shift",
+              "description": "In 2017, Prestone Tynsong left the Indian National Congress and joined the National People's Party (NPP).",
+              "buttonText": "Party Change",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t5.png"
+            },
+            {
+              "year": "2018",
+              "titleLight": "Contested Pynursla",
+              "titleBold": "Seat on NPP Ticket",
+              "subtitle": "Electoral Success",
+              "description": "Prestone Tynsong contested in the assembly election in 2018 from the Pynursla constituency in Meghalaya on a National People's Party (NPP) ticket. He was also able to overcome Nehru Suting of the United Democratic Party (UDP).",
+              "buttonText": "NPP Victory",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t6.png"
+            },
+            {
+              "year": "2023 - Present",
+              "titleLight": "Deputy Chief Minister",
+              "titleBold": "Second Term",
+              "subtitle": "Continued Leadership",
+              "description": "Prestone Tynsong was sworn in as the second Deputy Chief Minister of the state for the consecutive second term on March 7, 2023. He said he is sharing this position with Snaiwbhalang Dhar. Besides being Deputy CM, he is also the Minister for District Council Affairs, Home (Police), Parliamentary Affairs, & Public Works (Roads and Buildings) in Meghalaya.",
+              "buttonText": "Current Role",
+              "imageSrc": "/static/images/leadership/prestone _tynsong/t2.png"
+            }
+          ]
+        },
+        "leadersConnectComponent": {
+          "title": "LEADERS CONNECT",
+          "video": "https://www.youtube.com/watch?v=szdSAiR9BZs"
+        },
+        "pressReleasesComponent": {
+          "title": "PRESS RELEASES",
+          "cards": [
+            {
+              "headline": "Mamata Receives Warning: 'We Can Handle Ourselves'; Predicts TMC Will Win Only 2-3 Seats",
+              "details": "A message was sent to Mamata Banerjee, asserting that they are capable of taking care of themselves. The prediction was made that the Trinamool Congress (TMC) would only secure 2-3 seats in the upcoming elections.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/message-for-mamata-we-know-how-to-take-care-of-ourselves-predicts-tmc-will-get-only-2-3-seats/"
+            },
+            {
+              "headline": "People's Document: NPP launches their Manifesto – Vision 2023-2028",
+              "details": "The National People's Party (NPP) has launched its manifesto, titled \"Vision 2023-2028 – A People's Document.\" This manifesto outlines the party's plans and goals for the next five years, focusing on the development and well-being of the people.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2023/02/03/npp-launches-their-manifesto-peoples-document-vision-2023-2028/"
+            },
+            {
+              "headline": "NPP Resolves to Combat Discrimination Against Northeast Citizens",
+              "details": "The National People's Party (NPP) has passed a resolution to actively address and combat the discrimination faced by citizens from the Northeastern region of India. The party has committed to taking strong measures to protect the rights of Northeastern citizens and to promote equality and justice for all, ensuring that their concerns are heard and addressed at both the state and national levels.",
+              "imgPath": "",
+              "articleLink": "https://nppindia.in/2020/07/11/npp-adopts-resolution-to-fight-discrimination-of-ne-citizens/"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "core_issues": {
+    "title": "Core Issues",
+    "tabs": {
+      "agriculture": "Agriculture & Logistics",
+      "energy": "Energy Efficiency",
+      "education": "Education",
+      "environment": "Environment",
+      "healthcare": "Healthcare",
+      "promoting_northeast": "Promoting Northeast",
+      "women": "Women Centric issues",
+      "youth": "Youth Focus"
+    },
+    "scroll": "Scroll for More Info",
+    "overview": "Overview",
+    "agriculture": {
+      "images": {
+        "main": "/static/images/core-issues/agriculture/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/agriculture/slides/1.png",
+          "2": "/static/images/core-issues/agriculture/slides/2.png",
+          "3": "/static/images/core-issues/agriculture/slides/3.png",
+          "4": "/static/images/core-issues/agriculture/slides/4.png",
+          "5": "/static/images/core-issues/agriculture/slides/5.png"
+        }
+      },
+      "description": "The NPP is focused on strengthening the agricultural sector and improving logistics to enhance the livelihoods of the farmers and boost the economy.",
+      "overviewText": "Agriculture is a vital sector in any country as it is the primary food source for human beings. Research has indicated that approximately 36% of the population in the North East is currently living below the poverty line and most of them spend most of their time worrying about how to feed themselves adequately. Most large states in the region do not even meet the basic stock for important food commodities necessary for a healthy life hence the high incidences of malnutrition.",
+      "details": {
+        "title": "Agriculture and Logistics",
+        "text": "Regionally, and globally, sustainable agricultural practices are finding a new role in people’s food security. In this regard, the National People’s Party should take appropriate measures towards promoting local strain agriculture that conserves the environment. The party also wants to introduce new concepts and scientific approaches to increase the yields in agriculture. Although there have been research developments in the agricultural field, additional work is required to ensure producers especially farmers in different fields like agricultural, horticultural, and other related fields get a market for their produce.\nIn most North Eastern states, the agricultural products are naturally organic and sold directly in local markets. There is a need to inspire farmers to innovate and add value to their products, which will help them earn better returns. Additionally, branding and promoting these farm products can tell their unique stories at regional, national, and global levels. The National People’s Party is committed to making agriculture a key driver of development, ensuring economic stability, and securing food for all. The main areas of focus will be agriculture and the environment, animal husbandry and fisheries, food technology and balancing output, and establishing market links to promote economic stability."
+      }
+    },
+    "energy": {
+      "images": {
+        "main": "/static/images/core-issues/energy/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/energy/slides/1.png",
+          "2": "/static/images/core-issues/energy/slides/2.png",
+          "3": "/static/images/core-issues/energy/slides/3.png",
+          "4": "/static/images/core-issues/energy/slides/4.png",
+          "5": "/static/images/core-issues/energy/slides/5.png"
+        }
+      },
+      "description": "The NPP is focused on promoting energy efficiency to reduce environmental impact, lower costs, and ensure sustainable development for future generations.",
+      "overviewText": "Energy conservation can be defined as the ability to perform a task with less energy as compared to its usual methods of accomplishing the tasks. There are numerous benefits of utilizing energy efficient technologies including a reduction in greenhouse emissions, decreased dependency on energy importation and ultimately saving of resources both for the consumer and the economy as a whole.",
+      "details": {
+        "title": "Energy Efficiency",
+        "text": "Renewable energy technologies also contribute towards these objectives, nevertheless, energy intensity reduction is usually the easiest and cheapest strategy to reduce the dependence on fossil energy sources. Pretty much every aspect of the economy, buildings, transportation, industry, and energy production to name but a few offer enormous potential for greater efficiency.\nFor instance, mobile upgrades such as replacing energy-leaching gadgets and appliances, increasing the insulation of structures, and replacing traditional bulbs with LED ones are possible solutions. In transportation, the strategy may mean increasing the fuel consumption rate or popularizing electric cars’ use to minimize energy usage. For instance, in industries, using more efficient machinery and processes will make the energy consumption go down significantly while at the same time increasing production.\nIn the long run, therefore, reducing energy intensity not only contributes positively to the environment but also to the economy. This in turn presents the world with an opportunity to cut down on its use of energy from non-renewable sources hence attaining a better way of life. It's a win-win situation, so we conserve the earth’s environment for future generations while at the same time cutting on expenses."
+      }
+    },
+    "education": {
+      "images": {
+        "main": "/static/images/core-issues/edu/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/edu/slides/1.png",
+          "2": "/static/images/core-issues/edu/slides/2.png",
+          "3": "/static/images/core-issues/edu/slides/3.png",
+          "4": "/static/images/core-issues/edu/slides/4.png",
+          "5": "/static/images/core-issues/edu/slides/5.png"
+        }
+      },
+      "description": "The NPP is dedicated to improving the quality of education by making it more accessible and equitable, with a focus on enhancing infrastructure and resources in rural and underserved areas.",
+      "overviewText": "Regarding education, NPP has focused on marginalized groups and hence provides equal opportunities for Indigenous people and any other group of people. The party acknowledges the factor of integrated development by expanding its educational policies from compulsory and secondary education to collegiate, tertiary, and post tertiary learning including professional and trade training.",
+      "details": {
+        "title": "Inclusive Education Agenda",
+        "text": "Education for Indigenous people must also be enhanced to support the process of nation-building. Education is a tool that prepares the citizens to be productive in society and thus the growth of the country. Said the NPP that education will be useful in shaping the fate, welfare, prosperity success, and security of these democratic communities in the future.\nEducation in general is one of the major problems to be addressed by NPP, as it is a way to provide people with the necessary tools to build their lives. Education will empower people to change their lives and at large enhance the growth of society as a whole. It also continues to aim and work for the future where no community is left behind in the overall development."
+      }
+    },
+    "environment": {
+      "images": {
+        "main": "/static/images/core-issues/environment/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/environment/slides/1.png",
+          "2": "/static/images/core-issues/environment/slides/2.png",
+          "3": "/static/images/core-issues/environment/slides/3.png",
+          "4": "/static/images/core-issues/environment/slides/4.png",
+          "5": "/static/images/core-issues/environment/slides/5.png"
+        }
+      },
+      "description": "The NPP is committed to protecting the environment through sustainable practices and policies that address the challenges of climate change, deforestation, and pollution.",
+      "overviewText": "Global warming is a global threat that poses significant risks to our social, economic, and security systems. As such, we are willing to combat climate change since the consequences are not only felt by us but also by future generations of human beings. We aim to improve the generation of clean energy besides offering other forms of income, especially for people who depend on agriculturally unsustainable practices like human cultivation that pose a threat to the environment. More specifically, our efforts will be to reverse the impacts of climate change, conserve natural resources, and keep our environment, air, water, and soil clean for generations to come.",
+      "details": {
+        "title": "NPP's Environmental Commitment",
+        "text": "For instance, the National People’s Party (NPP) is in the process of addressing some of the major environmental problems through the promotion of renewable energy and preserving the environment. We believe that protecting the environment is crucial for building a sustainable future for India. As a signatory to the Paris Agreement, India has a responsibility to lead by example and take action to combat climate change.\nWe must take proper care of our planet so that there will be a better future for the next generations. We require propelling discourse among our people so they are also in a position to be informed of how they can make a difference by minimizing their use of carbon. It doesn’t matter how big or small the change is, it all counts in the battle against climate change through choices such as using renewable energy, saving water, and minimizing the amount of wastage. Together for change, there are possibilities of making the environment better for all people and making the changes sustainable."
+      }
+    },
+    "healthcare": {
+      "images": {
+        "main": "/static/images/core-issues/healthcare/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/healthcare/slides/1.png",
+          "2": "/static/images/core-issues/healthcare/slides/2.png",
+          "3": "/static/images/core-issues/healthcare/slides/3.png",
+          "4": "/static/images/core-issues/healthcare/slides/4.png",
+          "5": "/static/images/core-issues/healthcare/slides/5.png"
+        }
+      },
+      "description": "The NPP is focused on improving the healthcare system by making it more accessible, affordable, and efficient, especially in rural and underserved areas.",
+      "overviewText": "Modern India’s health care system is not very favorable, especially for the Indian BPL and lower castes or tribespeople. Due to the lack of proper health care or health facilities in rural and remote hilly areas, many people die of lifestyle diseases that can be treated if proper medical care is available when needed. For this reason, as a party, we are very sensitive to this problem and realize the level of infection that affects all of us. The foundation will essentially be in this area as we seek to implement the necessary changes to meet the needs of people especially those with limited or no access to quality medical attention, an expensive affair in most cases.",
+      "details": {
+        "title": "Ensuring Health for All",
+        "text": "Private health care in India is very expensive as it is inaccessible most of the time to the common citizens of this country. That is why we want to enhance the capacities of government healthcare institutions to prepare them for future healthcare issues. This means that it is possible to ensure that public health gets a facelift hence enabling everybody especially the needy to attain their medical needs at an affordable cost.\nThe promise is to accord health care a strategic sector by delivering medical security and improving the welfare of the average citizen through the provision of enhanced healthcare facilities since health is a fundamental need, and the care system requires vigorous reforms to improve the lot of the patients, doctors and the nation as a whole. Enhancing the healthcare outcome will have the net effect of enhancing the health of the nation hence a healthier nation is a prosperous nation."
+      }
+    },
+    "promoting_northeast": {
+      "images": {
+        "main": "/static/images/core-issues/promoting-northeast/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/promoting-northeast/slides/1.png",
+          "2": "/static/images/core-issues/promoting-northeast/slides/2.png",
+          "3": "/static/images/core-issues/promoting-northeast/slides/3.png",
+          "4": "/static/images/core-issues/promoting-northeast/slides/4.png",
+          "5": "/static/images/core-issues/promoting-northeast/slides/5.png"
+        }
+      },
+      "description": "The NPP is committed to promoting the unique culture, economy, and development of the North Eastern region, ensuring that it receives the attention and resources it deserves.",
+      "overviewText": "North East India is a Multicultural and Multilingual region as all the states have their history and culture. This region is known for the dominating indigenous populations along with their religions and beliefs. North East India is one of the most beautiful regions of the country that is full of diverse wildlife, bird species, flora, and fauna, the region is populated with more than 166 tribes having different languages. Since it is a frontier region it has a long international border of more than 2000 km with neighboring countries such as Bhutan, China, Myanmar, and Bangladesh. However, the region has not been in the news for the positive things like growth, developments, and or changes but rather the bad things such as insurgency, migration, corruption, and ethnic clashes.",
+      "details": {
+        "title": "Promoting North East",
+        "text": "Despite the cultural and many similarities with the South East Asian neighbors the region of the North East has not fully unlocked all its potential for development. even today the region remains somewhat backward with the rest of the country and there is a long distance to travel still. Inequality is a very serious problem, and sensitive areas such as education, health care, tourism, agriculture, animal breeding, power, oil, and other related industries require serious attention.\nThe northeast is characterized by very poor socio-economic scores showing that the area has not developed and is degrading. The North East region has remained highly inconsequential economically even after 75 years of independence of India and it has never been able to realize the potential growth it deserves. Efforts and investment are required to address the challenges and place concentration on the regions so that they can achieve the desired potential as any other area of India. By so doing, one will be able to solve these problems and lay the foundation for the North East’s development towards becoming a prosperous region that will be able to make more positive contributions to the growth of the nation."
+      }
+    },
+    "women": {
+      "images": {
+        "main": "/static/images/core-issues/women/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/women/slides/1.png",
+          "2": "/static/images/core-issues/women/slides/2.png",
+          "3": "/static/images/core-issues/women/slides/3.png",
+          "4": "/static/images/core-issues/women/slides/4.png",
+          "5": "/static/images/core-issues/women/slides/5.png"
+        }
+      },
+      "description": "The NPP is focused on empowering women through initiatives that ensure their safety, education, and economic independence, addressing the challenges they face in society.",
+      "overviewText": "Gender equity has always been one of the primary goals of our party ideology. As for the policy on employment, we remain strong advocates of the ‘’all work equal pay’’ as the best way of empowering people through employment. NPP strives for gender justice, including women’s rights and gender non-binary; NPP. Issues of gender equality and women’s human rights are our concerns, especially the need to access health care services, education, decent employment, political leadership, and other decision-making capacities.",
+      "details": {
+        "title": "Women-Centric Initiatives",
+        "text": "NPP fully encourages people to get legal assistance within the shortest time possible and NPP offers psychosocial support for anyone affected by sexual and gender-based violence. That is why women and gender minorities require humanity’s focus to ensure influence in shaping a more democratic and just society. Empowering individuals through employment and enhancing their skills, particularly by utilizing their traditional knowledge, is a key part of our vision.\nAs a party, we know that women are noble assets in the formation of the future of the country. That is why we will aim to portray gender justice in as many aspects as possible allowing women and gender minorities equal opportunities and a say in all areas of life. In embracing these values it becomes possible to create a society that can support each person and contribute to the growth of the nation."
+      }
+    },
+    "youth": {
+      "images": {
+        "main": "/static/images/core-issues/youth/bg.png",
+        "slides": {
+          "1": "/static/images/core-issues/youth/slides/1.png",
+          "2": "/static/images/core-issues/youth/slides/2.png",
+          "3": "/static/images/core-issues/youth/slides/3.png",
+          "4": "/static/images/core-issues/youth/slides/4.png",
+          "5": "/static/images/core-issues/youth/slides/5.png"
+        }
+      },
+      "description": "The NPP is dedicated to empowering the youth by providing them with opportunities in education, employment, and entrepreneurship, recognizing them as the key drivers of the nation's future.",
+      "overviewText": "Many educated youths in the North Eastern States of India are experiencing insecurity owing to the absence of employment in the region. Still, due to several reasons, they lose their job and are compelled to go to other regions of the country in search of better working opportunities. The miseries of unemployment are on the increase and hence deserve the attention they need. As young people grow up and find themselves in challenging circumstances they usually feel abandoned and lonely.",
+      "details": {
+        "title": "Youth Focus",
+        "text": "Currently, there are only one or two private organizations or any kind of business houses that could offer employment in the entire North East and the limited scope of employment in the government sectors has only made the situation worse. This calls for a serious investment in sectors like tourism and hotels, agriculture, and the rest that can take our youths and give them the means to earn a living. This has made many youths feel useless given the fact that they do not have an opportunity to make something out of themselves.\nNPP has also acknowledged this issue as important noting that it is indeed a key concern to empower the youth. It calls for the establishment of more business and income-generating opportunities by associating the youths with the wonderful natural resources of the region. Even though universities and other institutions have established the trend of awarding degrees to many of the intending students, many of those who graduate especially in the area of agriculture, horticulture, and veterinary sciences are still after government employment opportunities. In this case, they fail to recognize the opportunity of private companies in their areas of interest.\nNPP aims at mobilizing educated youths and professionals to harness the many opportunities that are available in the region. The party feels that youth need to be transformed in a way to embrace other kinds of opportunities apart from government employment the ability to be employers and employees and to be able to come up with business ventures among other productive activities that make them employable."
+      }
+    }
+  },
+  "eventsPage": {
+    "events": {
+      "recentEventsComponent": {
+        "title": "RECENT EVENTS",
+        "subTitle": "Highlights and Updates from NPP's Latest Activities and Initiatives",
+        "card1": {
+          "date": "08-08-2023",
+          "headline": "Foundation for P.A Sagma Integrated Sports Complex Tura",
+          "details": "We have built an ecommerce system dedicated to exclusive cuisine"
+        },
+        "card2": {
+          "date": "08-08-2023",
+          "headline": "Foundation for P.A Sagma Integrated Sports Complex Tura",
+          "details": "We have built an ecommerce system dedicated to exclusive cuisine"
+        },
+        "card3": {
+          "date": "08-08-2023",
+          "headline": "Foundation for P.A Sagma Integrated Sports Complex Tura",
+          "details": "We have built an ecommerce system dedicated to exclusive cuisine"
+        },
+        "card4": {
+          "date": "08-08-2023",
+          "headline": "Foundation for P.A Sagma Integrated Sports Complex Tura",
+          "details": "We have built an ecommerce system dedicated to exclusive cuisine"
+        }
+      }
+    }
+  }
+}
