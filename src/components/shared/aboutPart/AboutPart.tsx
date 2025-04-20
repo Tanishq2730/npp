@@ -26,9 +26,9 @@ const AboutPart: React.FC<SharedAboutProps> = ({
   description,
   buttonText,
   date,
-  showReadMore = false,
-  isExpanded = false,
-  onReadMoreClick,
+  // showReadMore = false,
+  // isExpanded = false,
+  // onReadMoreClick,
   socialLinks,
   url,
 }) => {
