@@ -1,0 +1,146 @@
+.socialShareLinksContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.socialLink,
+.shareButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.socialLink {
+  &[data-icon="facebook"] {
+    background-color: #1877f2;
+    &:hover {
+      background-color: darken(#1877f2, 10%);
+    }
+  }
+
+  &[data-icon="twitter"] {
+    background-color: #1da1f2;
+    &:hover {
+      background-color: darken(#1da1f2, 10%);
+    }
+  }
+
+  &[data-icon="youtube"] {
+    background-color: #ff0000;
+    &:hover {
+      background-color: darken(#ff0000, 10%);
+    }
+  }
+
+  &[data-icon="instagram"] {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    &:hover {
+      background: radial-gradient(
+        circle at 30% 107%,
+        darken(#fdf497, 5%) 0%,
+        darken(#fdf497, 5%) 5%,
+        darken(#fd5949, 5%) 45%,
+        darken(#d6249f, 5%) 60%,
+        darken(#285aeb, 5%) 90%
+      );
+    }
+  }
+}
+
+.shareButton {
+  background-color: #e4b001;
+  &:hover {
+    background-color: darken(#e4b001, 10%);
+  }
+}
+
+.modalTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.shareGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.roundButton {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: none;
+
+  &:hover {
+    // transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &[data-icon="instagram"] {
+    // background: radial-gradient(
+    //   circle at 30% 107%,
+    //   #fdf497 0%,
+    //   #fdf497 5%,
+    //   #fd5949 45%,
+    //   #d6249f 60%,
+    //   #285aeb 90%
+    // );
+    &:hover {
+      background: radial-gradient(
+        circle at 30% 107%,
+        darken(#fdf497, 5%) 0%,
+        darken(#fdf497, 5%) 5%,
+        darken(#fd5949, 5%) 45%,
+        darken(#d6249f, 5%) 60%,
+        darken(#285aeb, 5%) 90%
+      );
+    }
+  }
+
+  &[data-icon="link"] {
+    // background-color: #757575;
+    &:hover {
+      background-color: darken(#757575, 10%);
+    }
+  }
+}
+
+.copySuccess {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

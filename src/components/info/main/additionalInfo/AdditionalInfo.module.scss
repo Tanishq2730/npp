@@ -1,0 +1,56 @@
+.additionalInfo {
+  .desktopSwiper {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  .mobileSwiper {
+    display: block;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .slideContent {
+    display: flex;
+    gap: 2rem;
+    height: 100%;
+  }
+
+  .paragraph {
+    flex: 1;
+    max-height: 1200px;
+    // overflow-y: auto;
+    text-align: left;
+
+    p {
+      color: #424242;
+      //   font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 126%; /* 19.08px */
+    }
+  }
+
+  :global {
+    .swiper-pagination-bullet {
+      background-color: #ffd700; // Yellow color
+      opacity: 0.5;
+      width: 10px;
+      height: 10px;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #ffd700; // Yellow color
+      opacity: 1;
+    }
+
+    .swiper-slide {
+      height: auto;
+    }
+  }
+}

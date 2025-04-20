@@ -1,0 +1,115 @@
+.bannerContainer {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.backgroundImage {
+  z-index: 2;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  z-index: 5;
+}
+
+.textContent {
+  border: 1px solid rgba(13, 12, 12, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(17.100000381469727px);
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 2rem;
+  height: 100%;
+  margin: 0 0 0 auto;
+  gap: 1rem;
+}
+
+.title {
+  display: flex;
+  width: 604px;
+  height: 212px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #ffb63c;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px;
+}
+
+.description {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.mobileImageContainer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bannerContainer {
+    min-height: unset;
+    background: #f3f1e9;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .backgroundImage {
+    display: none;
+  }
+
+  .contentContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .textContent {
+    max-width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+    height: auto;
+    backdrop-filter: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .title {
+    width: 100%;
+    height: auto;
+    color: #ffb63c;
+    text-align: center;
+    font-size: 29.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 111.864% */
+  }
+
+  .mobileImageContainer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    color: #393939;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 208.333% */
+  }
+}

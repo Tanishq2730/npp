@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+// Base font settings
+$base-font-family: "Poppins", sans-serif;
+$base-font-size: 16px;
+$base-line-height: 1.5;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+// Responsive breakpoints
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+
+// Mixins for responsive font sizes
+@mixin responsive-font-size($desktop-size, $tablet-size, $mobile-size) {
+  font-size: $desktop-size;
+  @media (max-width: $desktop-breakpoint) {
+    font-size: $tablet-size;
+  }
+  @media (max-width: $mobile-breakpoint) {
+    font-size: $mobile-size;
+  }
+}
+
+// Base styles
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: $font-weight-regular;
+}
+
+// Headings
+heading-1 {
+  @include responsive-font-size(80px, 58px, 36px);
+  font-weight: $font-weight-extra-bold;
+}
+
+h1 {
+  @include responsive-font-size(64px, 48px, 36px);
+  font-weight: $font-weight-extra-bold;
+}
+
+h2 {
+  @include responsive-font-size(46px, 36px, 26px);
+  font-weight: $font-weight-bold;
+}
+
+h3 {
+  @include responsive-font-size(36px, 28px, 22px);
+  font-weight: $font-weight-semibold;
+}
+
+h4 {
+  @include responsive-font-size(26px, 22px, 20px);
+  font-weight: $font-weight-semibold;
+}
+
+h5 {
+  @include responsive-font-size(24px, 20px, 16px);
+  font-weight: $font-weight-semibold;
+}
+
+// Subheadings
+.subheading-1 {
+  @include responsive-font-size(22px, 20px, 18px);
+  font-weight: $font-weight-semibold;
+}
+
+.subheading-2 {
+  @include responsive-font-size(22px, 17px, 12px);
+  font-weight: $font-weight-regular;
+}
+
+.subheading-3 {
+  @include responsive-font-size(
+    16.92px,
+    10.625px,
+    8.33px
+  ); // Font Size in the figma design for the headline of the shared component - 'pressReleaseCard'
+  // font-weight: $font-weight-bold;
+}
+
+.subheading-4 {
+  @include responsive-font-size(20px, 18px, 14px);
+  font-weight: $font-weight-semibold;
+}
+
+.subheading-5 {
+  @include responsive-font-size(18px, 17px, 16px);
+  font-weight: $font-weight-semibold;
+}
+
+.subheading-6 {
+  @include responsive-font-size(16px, 15px, 14px);
+  font-weight: $font-weight-semibold;
+}
+
+.subheading-7 {
+  @include responsive-font-size(12px, 11px, 10px);
+  font-weight: $font-weight-semibold;
+}
+
+// Body text
+p,
+.body-1 {
+  @include responsive-font-size(16px, 15px, 14px);
+  font-weight: $font-weight-regular;
+}
+
+.body-2 {
+  @include responsive-font-size(18px, 14px, 10px);
+  font-weight: $font-weight-semibold;
+}
+
+.body-3 {
+  @include responsive-font-size(16px, 13px, 10px);
+  font-weight: $font-weight-regular;
+}
+
+.body-4 {
+  @include responsive-font-size(14px, 13px, 12px);
+  font-weight: $font-weight-regular;
+}
+
+.body-5 {
+  @include responsive-font-size(12px, 11px, 10px);
+  font-weight: $font-weight-regular;
+}
+
+.body-6 {
+  @include responsive-font-size(10px, 9px, 8px);
+  font-weight: $font-weight-regular;
+}
+
+.body-7 {
+  @include responsive-font-size(8px, 7px, 6px);
+  font-weight: $font-weight-regular;
+}
+
+// Name styles
+.name {
+  @include responsive-font-size(75px, 50px, 30px);
+  font-weight: $font-weight-bold;
+}

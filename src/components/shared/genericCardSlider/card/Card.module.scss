@@ -1,0 +1,88 @@
+.card {
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 5% 3%;
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  transition: transform 0.3s ease;
+  height: 100%;
+  width: 100%;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.content {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.word {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.cardTitle {
+  // font-size: 64px;
+  // margin: 0;
+  line-height: 109%; /* 69.76px */
+  letter-spacing: 1px;
+}
+
+.cardSubtitle {
+  max-width: 331px;
+  margin: 0;
+  line-height: 109%; /* 19.62px */
+  letter-spacing: 1px;
+}
+
+.button {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 3px !important;
+  transition: all 0.3s ease !important;
+
+  &:hover {
+    background-color: #e6b800 !important;
+    color: black !important;
+    font-weight: bold !important;
+  }
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+}
+
+@media (max-width: 768px) {
+  .card {
+    min-height: 250px;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+
+  .cardSubtitle {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,89 @@
+.article {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  line-height: normal;
+  border: 1px solid black;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+  height: auto;
+
+  &.active {
+    background-color: #161616;
+
+    .text {
+      .title {
+        color: white;
+      }
+
+      .title {
+        font-weight: 700;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .text {
+    padding: 3%;
+    height: 120px;
+
+    .date {
+      color: #666;
+    }
+
+    .title {
+      margin: 1.5% 0;
+      color: rgba(38, 38, 38, 1);
+      font-weight: 500;
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .description {
+      color: rgba(105, 104, 104, 1);
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  &:hover {
+    background-color: #161616;
+
+    .title {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .article {
+    height: 51vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .article {
+    height: 72vh !important;
+    .date,
+    .title {
+      margin-bottom: 5% !important;
+    }
+
+    .description {
+      -webkit-line-clamp: 1 !important;
+    }
+  }
+}

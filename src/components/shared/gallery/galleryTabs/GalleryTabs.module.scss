@@ -1,0 +1,38 @@
+// GalleryTabs.module.scss
+.scrollArea {
+  margin-bottom: 1rem;
+}
+
+.tabsRoot {
+  overflow: visible;
+  margin-bottom: 1rem;
+}
+
+.tabsList {
+  flex-wrap: nowrap;
+  border-bottom: none;
+}
+
+.tab {
+  white-space: nowrap;
+  font-weight: 600;
+  color: #666;
+  padding: 0.5rem 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    font-size: 24px;
+  }
+
+  @media (min-width: 1025px) {
+    font-size: 26px;
+  }
+
+  &[data-active] {
+    color: #e6b800;
+    border-color: #e6b800;
+  }
+}

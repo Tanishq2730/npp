@@ -1,0 +1,128 @@
+.intro {
+  background-image: url("/static/images/info/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  .overlay {
+    height: 100%;
+    // background-color: rgba($color: #000000, $alpha: 0.2);
+    // backdrop-filter: blur(2px);
+    display: flex;
+    align-items: flex-end;
+
+    .content {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      .text {
+        color: #ffffff;
+        width: 50%;
+        padding-right: 2%;
+        margin: auto 0;
+
+        h2 {
+          color: #ffd700;
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+
+        h3 {
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          color: #fffcf4;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 133%; /* 26.6px */
+          letter-spacing: 0.5px;
+        }
+      }
+
+      .desktop-image {
+        width: 40%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .mobile-image {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    .overlay {
+      .content {
+        .text {
+          width: 60%;
+        }
+        .desktop-image {
+          width: 35%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    height: auto;
+    background-image: none;
+
+    .overlay {
+      background-color: var(--info-background-color);
+      align-items: flex-start;
+      padding: 0;
+
+      .content {
+        flex-direction: column;
+        padding: 0;
+
+        .text {
+          width: 90%;
+          margin: 1rem auto;
+          padding-right: 0;
+          order: 2;
+
+          h2 {
+            font-size: 2rem;
+            color: #ffd700;
+          }
+
+          h3 {
+            font-size: 1rem;
+            color: #000000;
+          }
+
+          p {
+            font-size: 0.8rem;
+            color: #000000;
+          }
+        }
+
+        .desktop-image {
+          display: none;
+        }
+
+        .mobile-image {
+          display: block;
+          width: 100%;
+          height: auto;
+          order: 1;
+        }
+      }
+    }
+  }
+}

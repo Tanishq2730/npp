@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nextButton {
+  margin-top: 1rem;
+  background-color: #f0a500;
+  &:hover {
+    background-color: darken(#f0a500, 10%);
+  }
+}

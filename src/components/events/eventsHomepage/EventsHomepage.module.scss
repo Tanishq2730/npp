@@ -1,0 +1,18 @@
+.events {
+  background-color: var(--info-background-color);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  @media (max-width: 768px) {
+    gap: 3vh;
+  }
+  .card {
+    padding: 0rem 3rem;
+    @media (max-width: 768px) {
+      padding: 0rem 1rem;
+    }
+  }
+  padding-bottom: 2rem;
+}

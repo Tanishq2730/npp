@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  gap: 5%;
+
+  img {
+    border-radius: 21.59px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .about-content {
+    color: var(--info-text-color);
+    width: 45%;
+
+    h2 {
+      color: var(--info-title-text-color-1);
+    }
+
+    button {
+      border: 1px solid var(--info-text-color);
+      border-radius: 8px;
+      padding: 0.8rem 1.7rem;
+      font-weight: 500;
+      line-height: 18px;
+      letter-spacing: 0.41304346919059753px;
+
+      margin-top: 10%;
+    }
+  }
+}
+
+@media (max-aspect-ratio: 1.35) {
+  .about {
+    display: none;
+    padding: -10vh;
+  }
+}

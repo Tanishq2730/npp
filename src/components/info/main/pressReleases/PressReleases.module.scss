@@ -1,0 +1,22 @@
+.press-releases {
+  h2 {
+    color: var(--info-title-text-color-2);
+  }
+  .press-release-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    > * {
+      // width: 671px;
+      justify-self: center; /* Center the card horizontally in its grid cell */
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      > * {
+        width: 100%;
+      }
+    }
+  }
+}

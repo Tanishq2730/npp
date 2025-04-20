@@ -1,0 +1,79 @@
+.expandedEventsInfo {
+  background-color: var(--info-background-color);
+  padding-top: 5rem; /* Adjust this value based on the height of your navbar */
+  padding-left: 1rem; /* Add left padding */
+  padding-right: 1rem; /* Optional: add right padding */
+  padding-bottom: 2rem;
+  @media (max-width: 768px) {
+    padding: 4rem 1rem 2rem 1rem;
+  }
+}
+.content {
+  padding: 0 8rem;
+  margin-bottom: 2rem;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.about {
+  display: flex;
+  gap: 5%;
+  padding-top: 2rem; /* Space from the top of the screen */
+  padding-left: 1rem; /* Space from the left side */
+
+  /* Ensure it is responsive */
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 100%;
+    max-width: 600px; /* Maximum width for larger screens */
+    height: auto;
+    object-fit: cover;
+    border-radius: 21.59px; /* Uncomment if needed */
+  }
+
+  .about-content {
+    color: var(--info-text-color);
+    text-align: center; /* Center-align content for smaller screens */
+    width: 100%;
+    max-width: 600px; /* Maximum width for larger screens */
+
+    h2 {
+      color: var(--info-title-text-color-1);
+      margin-bottom: 1rem; /* Space below the title */
+    }
+
+    button {
+      border: 1px solid var(--info-text-color);
+      border-radius: 8px;
+      padding: 0.8rem 1.7rem;
+      font-weight: 500;
+      line-height: 18px;
+      letter-spacing: 0.413px;
+      margin-top: 1rem; /* Space above the button */
+    }
+    &:hover {
+      background-color: var(--info-text-color);
+      color: #fff;
+    }
+  }
+}
+
+@media (max-aspect-ratio: 1.35) {
+  .about {
+    display: block; /* Ensure it is displayed in portrait mode */
+    padding: 1rem; /* Adjust padding for smaller screens */
+    gap: 1rem;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .about-content {
+    width: 100%;
+    max-width: none; /* Remove maximum width for smaller screens */
+  }
+}

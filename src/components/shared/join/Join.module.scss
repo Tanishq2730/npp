@@ -1,0 +1,76 @@
+.container {
+  position: relative;
+  width: 100%;
+  // min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 500px; // Increased from 500px to 600px
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+
+.stepper {
+  :global(.mantine-Stepper-steps) {
+    justify-content: space-between;
+  }
+
+  :global(.mantine-Stepper-step) {
+    flex: 0 1 auto;
+  }
+
+  :global(.mantine-Stepper-stepBody) {
+    // Adjust these values as needed to fit your design
+    max-width: 120px;
+    text-align: center;
+  }
+
+  :global(.mantine-Stepper-stepLabel) {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  :global(.mantine-Stepper-stepDescription) {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .backgroundImage {
+    display: none;
+  }
+
+  .container {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .formContainer {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 !important;
+  }
+  .stepper {
+    :global(.mantine-Stepper-stepBody) {
+      max-width: 50px;
+    }
+  }
+}

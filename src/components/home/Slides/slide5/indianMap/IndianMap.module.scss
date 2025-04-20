@@ -1,0 +1,53 @@
+.mapContainer {
+  position: relative;
+}
+
+.regionName {
+  font-size: 24px; /* Larger font size for desktop */
+  font-weight: bold;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  .regionName {
+    font-size: 20px;
+  }
+
+  .tooltip {
+    font-size: 12px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .regionName {
+    font-size: 16px;
+  }
+
+  .tooltip {
+    font-size: 10px;
+  }
+
+  /* Hide the line and text on mobile */
+  .mapContainer svg g {
+    display: none;
+  }
+}
+
+/* Ensure the SVG scales properly on smaller screens */
+@media (max-width: 768px) {
+  .mapContainer svg {
+    height: auto;
+    max-width: 100%;
+  }
+}

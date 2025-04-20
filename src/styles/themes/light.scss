@@ -1,0 +1,24 @@
+@import "./common.scss";
+
+html.light {
+  --background-color: rgb(255, 253, 250);
+
+  /* HOME PAGE */
+  --home-background-color: rgb(237, 228, 218);
+
+  /* INFO PAGE */
+  --info-title-text-color-1: rgba(238, 169, 56, 1);
+  --info-title-text-color-2: rgba(127, 110, 81, 1);
+  --info-title-text-color-3: #2e150a;
+  --info-text-color: rgba(66, 66, 66, 1);
+  --info-background-color: rgb(243, 240, 233);
+  --info-date-color: #744b29;
+  // INFO PAGE - INTRO COMPONENT
+  --info-intro-textBox-heading: rgba(255, 197, 0, 1);
+  --info-intro-textBox-description: rgba(255, 252, 244, 1);
+  --info-intro-textBox-background: rgba(0, 0, 0, 0.7);
+
+  // INFO PAGE - PRESS RELEASES COMPONENT
+  --info-pressReleaseCard-background: rgba(255, 252, 244, 1);
+  --info-pressReleaseCard-readMore-background: rgba(21, 21, 21, 1);
+}

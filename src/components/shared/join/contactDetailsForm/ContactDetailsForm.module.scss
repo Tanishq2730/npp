@@ -1,0 +1,68 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.congratsText {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.segmentedControl {
+  background-color: #f0f0f0;
+
+  :global(.mantine-SegmentedControl-indicator) {
+    background-color: #f0a500;
+  }
+}
+
+.yesNoControl {
+  width: 120px;
+
+  :global(.mantine-SegmentedControl-indicator) {
+    background-color: #f0a500;
+  }
+
+  :global(.mantine-SegmentedControl-label) {
+    padding: 2px 8px;
+  }
+}
+
+.questionGroup {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateOfBirth {
+  flex: 1;
+
+  :global(.mantine-Group-root) {
+    gap: 5px;
+  }
+
+  :global(.mantine-Select-input) {
+    width: 80px;
+  }
+}
+
+.submitButton {
+  background-color: #f0a500;
+  &:hover {
+    background-color: darken(#f0a500, 10%);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .questionGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dateOfBirth {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

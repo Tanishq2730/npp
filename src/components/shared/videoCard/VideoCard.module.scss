@@ -1,0 +1,44 @@
+// VideoCard.module.scss
+.videoCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.videoSection {
+  position: relative;
+  height: 180px;
+}
+
+.videoImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.playButton {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 36px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

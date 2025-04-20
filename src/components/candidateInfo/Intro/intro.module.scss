@@ -1,0 +1,95 @@
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    padding: 50px 20px;
+  }
+
+  // Pseudo-element for blurred background
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/static/images/candidate-info/candidate.png") center /
+      cover no-repeat;
+    filter: blur(8px); // Adjust blur amount as needed
+    z-index: -1; // Place it behind the content
+  }
+
+  .intro-content {
+    // background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative; // Ensure it stays above the pseudo-element
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      color: #ffb63c;
+      text-align: center;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100%; /* 64px */
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+        width: auto;
+      }
+    }
+
+    h2 {
+      width: 928px;
+      color: #fff;
+      text-align: center; /* Center alignment */
+      font-size: 26px; /* Set font size */
+      font-style: normal; /* Normal font style */
+      font-weight: 500; /* Set font weight */
+      line-height: 100%; /* Set line height */
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: 1.25rem; /* Adjust font size for smaller screens */
+        width: auto; /* Adjust width for smaller screens */
+      }
+    }
+
+    p {
+      width: 905px; /* Updated width for description */
+      color: #fff; /* Set color for description */
+      text-align: center; /* Center alignment */
+      font-size: 22px; /* Set font size */
+      font-style: normal; /* Normal font style */
+      font-weight: 400; /* Set font weight */
+      line-height: 109%; /* Set line height */
+      letter-spacing: 1px; /* Set letter spacing */
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+        width: auto; /* Adjust width for smaller screens */
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: auto; /* Adjust height for smaller screens */
+  }
+}

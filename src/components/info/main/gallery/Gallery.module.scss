@@ -1,0 +1,16 @@
+.gallery {
+  // height: 100vh;
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    @media (max-width: 767px) {
+      display: none;
+    }
+    h2 {
+      color: var(--info-title-text-color-1);
+      text-align: center;
+    }
+  }
+}

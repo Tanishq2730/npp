@@ -1,0 +1,139 @@
+.philosophySection {
+  min-height: 100vh;
+  padding: 2rem 2rem;
+  background: #f3f1e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  padding: 2rem 0;
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 2rem;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContentMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.title {
+  color: #424242;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: #7f6e51;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 109%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.keyMemberIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  background: #f3f1e9;
+  font-size: 0.8rem;
+  border: 0;
+
+  cursor: pointer;
+  .icon {
+    border-radius: 42.385px;
+    border: 1.413px #7f6e51;
+  }
+}
+
+.cardsContainer {
+  // margin-top: 2rem;
+}
+
+.swiperWrapper {
+  :global {
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #7f6e51;
+      &:after {
+        font-size: 24px;
+      }
+    }
+
+    .swiper-pagination-bullet {
+      background: #d0d0d0;
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #7f6e51;
+    }
+
+    .swiper-slide {
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .philosophySection {
+    padding: 2.2rem 1rem 1rem 1rem;
+  }
+
+  .header {
+    padding: 1rem 0;
+  }
+
+  .headerContent {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headerContentMain {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .keyMemberIcon {
+    margin-top: 1rem;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cardsContainer {
+    // margin-top: 1rem;
+  }
+  .swiperWrapper {
+    :global {
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+    }
+  }
+}

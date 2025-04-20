@@ -1,0 +1,69 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 15vw;
+
+  .timelineItem {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+
+    h5 {
+      text-wrap: nowrap;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .timelineItem.active {
+    svg line {
+      stroke: #e6b800;
+    }
+    h5 {
+      color: #e6b800;
+    }
+  }
+
+  .timelineYearItem {
+    display: flex;
+    flex-direction: column;
+
+    hr {
+      margin-top: 5%;
+      width: 8%;
+    }
+
+    hr:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .timelineYearHighlight {
+    color: #e6b800;
+  }
+
+  .timelineYear {
+    color: white;
+  }
+}
+
+@media screen and (max-aspect-ratio: 1.2) {
+  .timeline {
+    transform: scaleX(-1);
+    max-width: 35vw;
+    align-self: center;
+
+    hr {
+      margin-top: 2% !important;
+    }
+
+    h5 {
+      transform: scaleX(-1);
+    }
+  }
+}
