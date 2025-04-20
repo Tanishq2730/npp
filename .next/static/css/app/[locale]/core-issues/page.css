@@ -1,0 +1,292 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/imageSlider/ImageSlider.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ImageSlider_sliderContainer__2F9Iv {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageSlider_slider__ZC3os {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageSlider_slide__Set0K {
+  position: absolute;
+  transition: all 0.5s ease;
+  border-radius: 16px;
+  overflow: hidden;
+  opacity: 0.7;
+}
+
+.ImageSlider_slideCurrent___o_gL {
+  opacity: 1;
+  z-index: 10;
+  transform: translateX(0) scale(1);
+}
+
+.ImageSlider_slidePrev___Otyi,
+.ImageSlider_slideNext__Cl138 {
+  opacity: 0.9;
+  z-index: 5;
+}
+
+.ImageSlider_slidePrev___Otyi {
+  transform: translateX(-50%) scale(0.9);
+}
+
+.ImageSlider_slideNext__Cl138 {
+  transform: translateX(50%) scale(0.9);
+}
+
+.ImageSlider_slideFarPrev__rew_4,
+.ImageSlider_slideFarNext__8fkvL {
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.ImageSlider_slideFarPrev__rew_4 {
+  transform: translateX(-100%) scale(0.8);
+}
+
+.ImageSlider_slideFarNext__8fkvL {
+  transform: translateX(100%) scale(0.8);
+}
+
+.ImageSlider_prevButton__LopiA,
+.ImageSlider_nextButton__VwHZ8 {
+  position: absolute;
+  top: 50%;
+  padding: 0 0;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.ImageSlider_prevButton__LopiA {
+  left: 3%;
+}
+
+.ImageSlider_nextButton__VwHZ8 {
+  right: 3%;
+}
+
+@media (max-width: 767px) {
+  .ImageSlider_slide__Set0K {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16/9;
+  }
+  .ImageSlider_slideCurrent___o_gL {
+    transform: translateX(0) scale(1) !important;
+  }
+  .ImageSlider_slidePrev___Otyi,
+  .ImageSlider_slideNext__Cl138,
+  .ImageSlider_slideFarPrev__rew_4,
+  .ImageSlider_slideFarNext__8fkvL {
+    display: none;
+  }
+  .ImageSlider_prevButton__LopiA {
+    left: 1%;
+  }
+  .ImageSlider_nextButton__VwHZ8 {
+    right: 1%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ImageSlider_slide__Set0K {
+    width: 70%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  .ImageSlider_slideCurrent___o_gL {
+    width: 80%;
+    transform: translateX(0) scale(1);
+  }
+  .ImageSlider_slidePrev___Otyi {
+    transform: translateX(-60%) scale(0.8);
+  }
+  .ImageSlider_slideNext__Cl138 {
+    transform: translateX(60%) scale(0.8);
+  }
+  .ImageSlider_slideFarPrev__rew_4,
+  .ImageSlider_slideFarNext__8fkvL {
+    display: none;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/core-issues/details/Details.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Details_details__JSRKb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3% 0;
+}
+.Details_details__JSRKb h1 {
+  font-weight: 800;
+  color: rgb(95, 61, 32);
+  letter-spacing: 2%;
+  line-height: 125%;
+  border-bottom: 1px solid rgb(183, 183, 183);
+}
+.Details_details__JSRKb .Details_details-text__paEPD {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  height: 100%;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+.Details_details__JSRKb .Details_details-text__paEPD p {
+  color: rgb(127, 110, 81);
+  font-weight: normal;
+}
+
+@media screen and (max-aspect-ratio: 1.3) {
+  .Details_details__JSRKb {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 0;
+  }
+  .Details_details__JSRKb h1 {
+    width: 100%;
+    padding: 0.7rem 2px;
+  }
+  .Details_details__JSRKb .Details_details-text__paEPD {
+    width: 90%;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/core-issues/main/Main.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Main_main__4kbIs {
+  background-image: var(--main-background-image, url("/static/images/core-issues/agriculture/bg.png"));
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Main_main__4kbIs .Main_issues-tab__jEaUw {
+  background-color: rgba(3, 3, 3, 0.4);
+  width: 83%;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 0 14px 14px 0;
+  padding: 1% 2%;
+  margin-bottom: 3%;
+}
+.Main_main__4kbIs .Main_issues-tab__jEaUw button {
+  border: 1px solid white;
+  border-radius: 63px;
+  padding: 0.5% 3%;
+  margin: 0 0 0.5% 0.5%;
+}
+.Main_main__4kbIs .Main_issues-tab__jEaUw button:hover {
+  color: black;
+  background-color: white;
+}
+.Main_main__4kbIs .Main_issues-tab__jEaUw button.Main_active__Kv3jL {
+  background-color: white;
+  color: black;
+}
+.Main_main__4kbIs .Main_overview__VGbGx {
+  background-color: rgba(3, 3, 3, 0.4);
+  width: 37%;
+  margin-left: 4%;
+  border-radius: 33.6px;
+  padding: 2% 2%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  line-height: normal;
+}
+.Main_main__4kbIs .Main_scroll__PQqTQ {
+  background-color: var(--background-color);
+  color: rgb(21, 21, 21);
+  padding: 1% 2% 0.5% 1%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 32px;
+  display: flex;
+  justify-content: center;
+}
+.Main_main__4kbIs .Main_scroll__PQqTQ div p {
+  text-wrap: nowrap;
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: normal;
+  border-radius: 32px;
+  border: 1px solid rgb(21, 21, 21);
+  padding: 5%;
+}
+
+@media screen and (max-aspect-ratio: 1) {
+  .Main_main__4kbIs {
+    border-radius: 0 0 18px 18px;
+    padding-bottom: 0;
+    height: 100vh;
+  }
+  .Main_main__4kbIs .Main_issues-tab__jEaUw {
+    margin-top: 3rem;
+    width: 100%;
+    align-self: flex-end;
+    border-radius: 14px 0 0 14px;
+  }
+  .Main_main__4kbIs .Main_issues-tab__jEaUw .Main_issues-list___TkaI {
+    display: flex;
+    align-items: flex-end;
+    padding: 8%;
+    flex-wrap: wrap;
+  }
+  .Main_main__4kbIs .Main_issues-tab__jEaUw .Main_issues-list___TkaI button {
+    text-wrap: nowrap;
+    margin-bottom: 2%;
+    width: 49.5%;
+    padding: 4%;
+  }
+  .Main_main__4kbIs .Main_issues-tab__jEaUw h2,
+  .Main_main__4kbIs .Main_issues-tab__jEaUw p {
+    display: none;
+  }
+  .Main_main__4kbIs .Main_overview__VGbGx {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 18px;
+  }
+  .Main_main__4kbIs .Main_overview__VGbGx .Main_overview-content__0p9hl {
+    margin: auto 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+  }
+  .Main_main__4kbIs .Main_scroll__PQqTQ {
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-right-radius: 32px;
+    padding: 2% 0 0 0;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/core-issues/CoreIssues.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
