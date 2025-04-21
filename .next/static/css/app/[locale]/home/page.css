@@ -522,7 +522,7 @@
   flex-grow: 1;
   position: relative;
   z-index: 1;
-  width: 45% !important;
+  width: 100% !important;
 }
 .Slide2_slide2__dIsJD .Slide2_timelineContainer__6tNzJ .Slide2_politicianImage__HmA4n {
   position: relative;
@@ -534,7 +534,7 @@
 .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C {
   position: relative;
   z-index: 1;
-  max-width: 45%;
+  max-width: 40%;
   align-self: center;
   margin-right: 5%;
   margin-left: 1%;

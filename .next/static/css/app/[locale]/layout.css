@@ -477,6 +477,9 @@ video {
 .relative{
   position: relative;
 }
+.m-auto{
+  margin: auto;
+}
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
@@ -984,9 +987,46 @@ body {
   margin-bottom: 3%;
   border-radius: 20px;
   margin-right: 10px;
-  width: 55% !important;
+  width: 60% !important;
 }
 
+.Slide3_text__BxoMn .name{
+  font-size: 68px;
+}
+
+@media (max-width: 768px) {
+  .Slide3_text__BxoMn{
+width: 100% !important;
+  }
+  .name {
+    font-size: 30px !important;
+}
+}
+
+
+.aboutBanner img {
+  width: 100%;
+}
+
+.aboutContent {
+  margin: 4em 0;
+}
+.aboutContent .aboutImg {
+  position: relative;
+}
+.aboutContent .aboutImg img {
+  width: 100%;
+  border-radius: 20px;
+  position: sticky;
+  top: 9em;
+}
+.aboutContent .head h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.aboutContent .aboutInnerContent p {
+  text-align: justify;
+}
 @media (min-width: 768px){
   .md\:container{
     width: 100%;

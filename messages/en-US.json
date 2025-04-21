@@ -31,7 +31,7 @@
             "items": [
               {
                 "label": "About",
-                "path": "/en-US/info?person=conradSangma"
+                "path": "/en-US/about"
               },
               {
                 "label": "Philosophy",
@@ -368,12 +368,12 @@
       "knowMore": "Know More"
     },
     "slide3": {
-      "title1": "CONRAD SANGMA",
+      "title1": "CONRAD K. SANGMA",
       "subtitle1": "Hon'ble Chief Minister of Meghalaya & National President NPP  ",
       "title2": "Prestone Tynsong",
       "subtitle2": "Hon'ble Deputy Chief Minister of Meghalaya & National Vice-president ",
-      "title3": "James Sangma",
-      "subtitle3": "National Spokesperson & National Secretary i/c Finance & Power Minister of Meghalaya",
+      "title3": "SNIAWBHALANG DHAR",
+      "subtitle3": "Deputy Chief Minister",
       "title4": "Thomas A Sangma",
       "subtitle4": "National General Secretary",
       "button": "Know More"
@@ -488,7 +488,7 @@
         "name": "CONRAD SANGMA",
         "post": "Hon'ble Chief Minister of Meghalaya & National President NPP",
         "imgPath": "/static/images/leadership/card1.png",
-        "route": "/info?person=conradSangma"
+        "route": "/info?person=conradKSangma"
       },
       {
         "name": "PRESTONE TYNSONG",
@@ -497,10 +497,10 @@
         "route": "/info?person=prestoneTynsong"
       },
       {
-        "name": "JAMES K. SANGMA",
-        "post": "National Spokesperson & National Secretary i/c Finance & Power Minister of Meghalaya",
-        "imgPath": "/static/images/leadership/card4.png",
-        "route": "/info?person=jamesSangma"
+        "name": "SNIA BHALANG DHAR",
+        "post": "Deputy Chief Minister",
+        "imgPath": "/static/images/leadership/card7.png",
+        "route": "/info?person=sniawbhalangDhar"
       },
       {
         "name": "PURNO AGITOK SANGMA",
@@ -515,17 +515,17 @@
         "route": "/info?person=agathaSangma"
       },
       {
-        "name": "SNIA BHALANG DHAR",
-        "post": "Deputy Chief Minister",
-        "imgPath": "/static/images/leadership/card7.png",
-        "route": "/info?person=bhalangDhar"
+        "name": "JAMES K. SANGMA",
+        "post": "National Spokesperson & National Secretary i/c Finance & Power Minister of Meghalaya",
+        "imgPath": "/static/images/leadership/card4.png",
+        "route": "/info?person=jamesSangma"
       }
       
     ]
   },
   "infoPage": {
     "people": {
-      "conradSangma": {
+      "conradKSangma": {
         "introComponent": {
           "name": "CONRAD SANGMA",
           "post": "HON'BLE CHIEF MINISTER OF MEGHALAYA & NATIONAL PRESIDENT NPP  ",
@@ -1148,7 +1148,7 @@
           ]
         }
       },
-      "bhalangDhar": {
+      "sniawbhalangDhar": {
         "introComponent": {
           "name": "SNIA BHALANG DHAR",
           "post": "Deputy Chief Minister, Meghalaya – MLA",
