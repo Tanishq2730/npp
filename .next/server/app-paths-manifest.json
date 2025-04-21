@@ -1,5 +1,8 @@
 {
-  "/[locale]/about/page": "app/[locale]/about/page.js",
   "/[locale]/party/leadership/page": "app/[locale]/party/leadership/page.js",
-  "/[locale]/home/page": "app/[locale]/home/page.js"
+  "/[locale]/home/page": "app/[locale]/home/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/party/philosophy/page": "app/[locale]/party/philosophy/page.js",
+  "/[locale]/candidateInfo/page": "app/[locale]/candidateInfo/page.js",
+  "/[locale]/core-issues/page": "app/[locale]/core-issues/page.js"
 }

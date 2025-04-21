@@ -373,9 +373,9 @@
       "title2": "Prestone Tynsong",
       "subtitle2": "Hon'ble Deputy Chief Minister of Meghalaya & National Vice-president ",
       "title3": "SNIAWBHALANG DHAR",
-      "subtitle3": "Deputy Chief Minister",
+      "subtitle3": "Hon'ble Deputy Chief Minister",
       "title4": "Thomas A Sangma",
-      "subtitle4": "National General Secretary",
+      "subtitle4": "Speaker of the Meghalaya Legislative Assembly & National General Secretary NPP",
       "button": "Know More"
     },
     "slide4": [
@@ -492,13 +492,13 @@
       },
       {
         "name": "PRESTONE TYNSONG",
-        "post": "National Vice-president & Hon Deputy Chief Minister of Meghalaya",
+        "post": "National Vice-president & Hon'ble Deputy Chief Minister of Meghalaya",
         "imgPath": "/static/images/leadership/card3.png",
         "route": "/info?person=prestoneTynsong"
       },
       {
         "name": "SNIA BHALANG DHAR",
-        "post": "Deputy Chief Minister",
+        "post": "Hon'ble Deputy Chief Minister",
         "imgPath": "/static/images/leadership/card7.png",
         "route": "/info?person=sniawbhalangDhar"
       },

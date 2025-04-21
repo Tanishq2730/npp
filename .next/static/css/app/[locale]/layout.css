@@ -709,7 +709,7 @@ h5 {
 }
 
 .subheading-3 {
-  font-size: 16.92px;
+  font-size: 18.92px;
 }
 @media (max-width: 1024px) {
   .subheading-3 {
@@ -990,19 +990,13 @@ body {
   width: 60% !important;
 }
 
-.Slide3_text__BxoMn .name{
-  font-size: 68px;
+.Founder_page-title-line-container1__yO7WB h1{
+  font-size: 64px !important;
 }
 
-@media (max-width: 768px) {
-  .Slide3_text__BxoMn{
-width: 100% !important;
-  }
-  .name {
-    font-size: 30px !important;
+.Slide3_home3Content__P9HUe .name{
+  font-size: 68px !important;
 }
-}
-
 
 .aboutBanner img {
   width: 100%;
@@ -1027,6 +1021,12 @@ width: 100% !important;
 .aboutContent .aboutInnerContent p {
   text-align: justify;
 }
+
+.Slide2_slide2__dIsJD h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
 @media (min-width: 768px){
   .md\:container{
     width: 100%;

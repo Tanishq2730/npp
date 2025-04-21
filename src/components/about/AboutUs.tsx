@@ -12,7 +12,7 @@ const AboutUs: React.FC = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="aboutImg">
-                  <img src="/static/images/about/aboutImg.jpg" />
+                  <img src="/static/images/about/aboutImg.png" />
                 </div>
               </div>
               <div className="col-md-6">
@@ -21,37 +21,29 @@ const AboutUs: React.FC = () => {
                     <h2>ABOUT US</h2>
                   </div>
                   <p>
-                    Conrad K. Sangma, born on January 27, 1978, in Tura, West
-                    Garo Hills, Meghalaya, is a prominent Indian politician and
-                    the current Chief Minister of Meghalaya. Coming from a
-                    political family, he has made significant contributions to
-                    the state's governance and development.Conrad K. Sangma was
-                    born on the 27th of January 1978 in Tura, West Garo Hills,
-                    Meghalaya. His father Purno Sangma worked as the Chief
-                    Minister of Meghalaya and Speaker of the Lok Sabha and his
-                    mother Soradini was a housewife. Conrad has two siblings
-                    involved in politics; an elder brother James and a sister
-                    Agatha who are both in NPP. His other sister, Christy has
-                    taken an altogether non-controversial career path.In 2009,
-                    Conrad got married to Dr. Mehtab Chandee with whom he was
-                    blessed with two kids; an elder child Amara who was born in
-                    2011, and the youngest child Katelyn who was born in 2017.
-                    Apart from politics, Conrad is into social service in the
-                    sense that he is the President of the PA Sangma Foundation,
-                    an organization that wants to wipe out illiteracy and
-                    pollution. The foundation also runs four colleges in rural
-                    Meghalaya, a region that still has a raw taste of
-                    architectural mastery. Also, he is the President of the
-                    Meghalaya Cricket Association and Sports Academy.Conrad
-                    entered the political arena in the late 1990s assisting his
-                    father P. A. Sangma, who was contesting on the NCP ticket.
-                    He first vied for a seat in 2004 in the Garo Hills
-                    Autonomous District Council and he lost by a small margin.
-                    He and his brother James were both elected to the State
-                    Assembly in 2008 as members of the NCP. He also served as
-                    the Finance, Power, Tourism, General Administration, and IT
-                    minister of the state and unveiled his first state budget in
-                    his first 10 days in the minister post.{" "}
+                    We are the National People’s Party (NPP) — a nationally
+                    recognised political party born from the vision of the late
+                    Shri Purno Agitok Sangma, a revered leader and former
+                    Speaker of the Lok Sabha. Established in 2013, we emerged
+                    with a singular purpose: to be the voice of India’s tribal,
+                    indigenous, and marginalised communities, and to bridge the
+                    gap between regional aspirations and national progress. With
+                    our headquarters in Shillong, Meghalaya, and state units
+                    actively working across the Northeast and other parts of
+                    India, we are deeply rooted in grassroots realities. Led by
+                    our National President, Shri Conrad K. Sangma, we are the
+                    first party from the Northeast to be granted national party
+                    status, a milestone that reflects our expanding influence
+                    and commitment. At our core, we believe in inclusive
+                    development, sustainable growth, and governance that
+                    reflects the true spirit of the people. Our mission is to
+                    empower communities through access to education,
+                    infrastructure, entrepreneurship, and social justice, while
+                    championing transparency, accountability, and ethical
+                    politics. With a dedicated network of leaders, workers, and
+                    citizens across the country, we continue to build a
+                    people-first movement that is committed to shaping a
+                    stronger, more equitable India for generations to come.
                   </p>
                 </div>
               </div>
