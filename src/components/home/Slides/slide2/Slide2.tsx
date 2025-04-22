@@ -93,7 +93,7 @@ const Slide2: React.FC<Slide2Props> = ({ isVisible }) => {
 
           {/* Timeline Section */}
           <motion.div
-            className={styles.timelineContainer}
+            className={`${styles.timelineContainer} timelinerespo`}
             initial={{ x: -50, opacity: 0 }}
             animate={timelineControls}
             exit={{ x: -50, opacity: 0 }}

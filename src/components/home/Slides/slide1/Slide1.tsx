@@ -1,6 +1,12 @@
 import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
 import { useState } from "react";
+import Image from "next/image";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaYoutube,
+  FaInstagram,
+} from "react-icons/fa";
 
 import styles from "./Slide1.module.scss";
 import SubSlide1 from "./subSlides/subSlide1/SubSlide1";
@@ -26,26 +32,25 @@ const subSlideComponents = {
 };
 
 const socialIcons = [
-
   {
-    src: "/static/images/home/home1/icons/fb1.png",
+    icon: <FaFacebookF style={{color:'#fff'}}/>,
     alt: "Facebook",
-    link: "https://www.facebook.com/nppmeghalaya/"
+    link: "https://www.facebook.com/nppmeghalaya/",
   },
   {
-    src: "/static/images/home/home1/icons/twite.png",
+    icon: <FaTwitter style={{color:'#fff'}} />,
     alt: "Twitter",
-    link: "https://x.com/nppmeghalaya?lang=en"
+    link: "https://x.com/nppmeghalaya?lang=en",
   },
   {
-    src: "/static/images/home/home1/icons/yt.png",
+    icon: <FaYoutube style={{color:'#fff'}} />,
     alt: "YouTube",
-    link: "https://www.youtube.com/channel/UCljPxUJSs_SP29U_GavdJlQ"
+    link: "https://www.youtube.com/channel/UCljPxUJSs_SP29U_GavdJlQ",
   },
   {
-    src: "/static/images/home/home1/icons/insta.png",
+    icon: <FaInstagram style={{color:'#fff'}} />,
     alt: "Instagram",
-    link: "https://www.instagram.com/nppmeghalaya/?hl=en"
+    link: "https://www.instagram.com/nppmeghalaya/?hl=en",
   },
 ];
 
@@ -74,6 +79,7 @@ const Slide1 = () => {
           <ActiveSubSlideComponent />
         </motion.div>
       </AnimatePresence>
+
       <div className={styles.home1__foot}>
         {activeSubSlide === SubSlides.subSlide1 && (
           <Image
@@ -84,16 +90,19 @@ const Slide1 = () => {
             className={styles.silhouettes}
           />
         )}
+
         <div className={styles.social}>
-          {socialIcons.map((icon) => {
-            console.log("Rendering icon:", icon); // Debugging
-            onclick = () => {console.log(icon.link)}
-            return (
-              <a key={icon.src} href={icon.link} target="_blank" rel="noopener noreferrer">
-                <Image src={icon.src} alt={icon.alt} width={50} height={50} />
-              </a>
-            );
-          })}
+          {socialIcons.map((iconData, index) => (
+            <a
+              key={index}
+              href={iconData.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialIcon}
+            >
+              {iconData.icon}
+            </a>
+          ))}
         </div>
 
         <div className={styles.subSlides}>

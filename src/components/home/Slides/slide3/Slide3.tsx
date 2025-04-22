@@ -8,9 +8,12 @@ import React, { useEffect, useRef, useState } from "react";
 import type { Swiper as SwiperType } from "swiper";
 import { Mousewheel, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useParams, useRouter } from "next/navigation";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./Slide3.module.scss";
-import { useParams, useRouter } from "next/navigation";
 
 const slidesData = [
   {
@@ -19,7 +22,7 @@ const slidesData = [
     subtitle: "home.slide3.subtitle1",
     fb: "https://www.facebook.com/conradksangma/",
     insta: "https://www.instagram.com/conrad_k_sangma/",
-    twitter: "  https://x.com/sangmaconrad?lang=en",
+    twitter: "https://x.com/sangmaconrad?lang=en",
   },
   {
     image: "/static/images/home/home3/slide2.png",
@@ -45,7 +48,6 @@ const slidesData = [
     insta: "https://www.instagram.com/conrad_k_sangma/",
     twitter: "https://x.com/sangmaconrad?lang=en",
   },
-  
 ];
 
 interface Slide3Props {
@@ -61,9 +63,10 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
   const controls = useAnimation();
   const slideControls = useAnimation();
   const textControls = useAnimation();
-  const router = useRouter(); // Initialize the router
+  const router = useRouter();
   const params = useParams();
   const locale = params.locale as string;
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
@@ -71,43 +74,18 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
 
     handleResize();
     window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
     if (isVisible) {
-      controls.start({
-        opacity: 1,
-        transition: { duration: 0.8, ease: "easeInOut" },
-      });
-      slideControls.start({
-        y: 0,
-        opacity: 1,
-        transition: { delay: 0.2, duration: 0.8, ease: "easeInOut" },
-      });
-      textControls.start({
-        x: 0,
-        opacity: 1,
-        transition: { delay: 0.4, duration: 0.8, ease: "easeInOut" },
-      });
+      controls.start({ opacity: 1, transition: { duration: 0.8, ease: "easeInOut" } });
+      slideControls.start({ y: 0, opacity: 1, transition: { delay: 0.2, duration: 0.8, ease: "easeInOut" } });
+      textControls.start({ x: 0, opacity: 1, transition: { delay: 0.4, duration: 0.8, ease: "easeInOut" } });
     } else {
-      controls.start({
-        opacity: 0,
-        transition: { duration: 0.8, ease: "easeInOut" },
-      });
-      slideControls.start({
-        y: 20,
-        opacity: 0,
-        transition: { duration: 0.8, ease: "easeInOut" },
-      });
-      textControls.start({
-        x: -50,
-        opacity: 0,
-        transition: { duration: 0.8, ease: "easeInOut" },
-      });
+      controls.start({ opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } });
+      slideControls.start({ y: 20, opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } });
+      textControls.start({ x: -50, opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } });
     }
   }, [isVisible, controls, slideControls, textControls]);
 
@@ -115,9 +93,7 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
     const swiperElement = swiperRef.current;
 
     const handleWheel = (e: WheelEvent) => {
-      const swiper = swiperElement?.querySelector(
-        ".swiper-container",
-      ) as HTMLElement & { swiper?: SwiperType };
+      const swiper = swiperElement?.querySelector(".swiper-container") as HTMLElement & { swiper?: SwiperType };
       if (swiper && swiper.swiper) {
         const rect = swiper.getBoundingClientRect();
         const isMouseOverSwiper =
@@ -128,11 +104,7 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
 
         if (isMouseOverSwiper) {
           e.preventDefault();
-          if (e.deltaY > 0) {
-            swiper.swiper.slideNext();
-          } else {
-            swiper.swiper.slidePrev();
-          }
+          e.deltaY > 0 ? swiper.swiper.slideNext() : swiper.swiper.slidePrev();
         }
       }
     };
@@ -140,11 +112,8 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
     if (swiperElement) {
       swiperElement.addEventListener("wheel", handleWheel, { passive: false });
     }
-
     return () => {
-      if (swiperElement) {
-        swiperElement.removeEventListener("wheel", handleWheel);
-      }
+      if (swiperElement) swiperElement.removeEventListener("wheel", handleWheel);
     };
   }, []);
 
@@ -153,20 +122,17 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
   };
 
   const handleRedirect = () => {
-    const slideTitle = t(slidesData[currentSlide]!.title); // Get the translated title
-  
+    const slideTitle = t(slidesData[currentSlide]!.title);
     const camelCaseTitle = slideTitle
-      .replace(/[^a-zA-Z0-9 ]/g, "") // ✅ Remove punctuation and special characters
-      .toLowerCase() // Convert to lowercase
+      .replace(/[^a-zA-Z0-9 ]/g, "")
+      .toLowerCase()
       .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
         index === 0 ? word.toLowerCase() : word.toUpperCase()
       )
-      .replace(/\s+/g, ""); // ✅ Remove all spaces
-  
-    console.log(camelCaseTitle); // Example: "conradKSangma"
+      .replace(/\s+/g, "");
+
     router.push(`/${locale}/info?person=${camelCaseTitle}`);
   };
-  
 
   const imageVariants = {
     enter: { opacity: 0, scale: 0.9, x: 100 },
@@ -181,12 +147,7 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
   };
 
   return (
-    <motion.div
-      className={styles.home3}
-      initial="hidden"
-      animate={controls}
-      variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
-    >
+    <motion.div className={styles.home3} initial="hidden" animate={controls}>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
@@ -199,12 +160,9 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
         />
       </AnimatePresence>
+
       <div className={styles.home3Content}>
-        <motion.div
-          className={styles.slides}
-          animate={slideControls}
-          ref={swiperRef}
-        >
+        <motion.div className={styles.slides} animate={slideControls} ref={swiperRef}>
           <Swiper
             direction={isMobile ? "horizontal" : "vertical"}
             slidesPerView={isMobile ? 2.5 : 4.5}
@@ -233,6 +191,7 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
             ))}
           </Swiper>
         </motion.div>
+
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
@@ -243,42 +202,22 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
             variants={textVariants}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
-            <motion.h1 className="name">
-              {t(slidesData[currentSlide]!.title)}
-            </motion.h1>
-            <motion.p className="subheading-2">
-              {t(slidesData[currentSlide]!.subtitle)}
-            </motion.p>
+            <motion.h1 className="name">{t(slidesData[currentSlide]!.title)}</motion.h1>
+            <motion.p className="subheading-2">{t(slidesData[currentSlide]!.subtitle)}</motion.p>
             <motion.div className={styles.moreInfo}>
               <button type="button" className="body-2" onClick={handleRedirect}>
                 {t("home.slide3.button")}
               </button>
               <div className={styles.socials}>
                 <a href={slidesData[currentSlide]?.fb} target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/static/images/home/home3/fb.png"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
+                  <FontAwesomeIcon icon={faFacebookF} size="2x" />
                 </a>
                 <a href={slidesData[currentSlide]?.insta} target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/static/images/home/home3/insta.png"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
+                  <FontAwesomeIcon icon={faInstagram} style={{margin:'0 0.5em'}} size="2x" />
                 </a>
                 <a href={slidesData[currentSlide]?.twitter} target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/static/images/home/home3/twitter.png"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
+                  <FontAwesomeIcon icon={faXTwitter} size="2x" />
                 </a>
-               
               </div>
             </motion.div>
           </motion.div>

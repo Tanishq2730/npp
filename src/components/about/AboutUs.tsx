@@ -5,7 +5,7 @@ const AboutUs: React.FC = () => {
     <section>
       <div className="aboutSection">
         <div className="aboutBanner">
-          <img src="/static/images/about/aboutBanner.jpg" />
+          <img src="/static/images/about/aboutBanner.png" />
         </div>
         <div className="container m-auto">
           <div className="aboutContent">

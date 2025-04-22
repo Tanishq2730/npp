@@ -1,5 +1,7 @@
 {
-  "/[locale]/page": "app/[locale]/page.js",
   "/[locale]/about/page": "app/[locale]/about/page.js",
-  "/[locale]/party/leadership/page": "app/[locale]/party/leadership/page.js"
+  "/[locale]/home/page": "app/[locale]/home/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/party/leadership/page": "app/[locale]/party/leadership/page.js",
+  "/[locale]/info/page": "app/[locale]/info/page.js"
 }

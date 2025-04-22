@@ -1,0 +1,173 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/join/confirmationForm/ConfirmationForm.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ConfirmationForm_container__Y1K3m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ConfirmationForm_logo__hkiP2 {
+  width: 100px;
+  height: 100px;
+  background-color: #f0a500;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ConfirmationForm_placeholderLogo__11aYc {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/join/contactDetailsForm/ContactDetailsForm.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ContactDetailsForm_form__y28Ri {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ContactDetailsForm_congratsText__LitHm {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.ContactDetailsForm_segmentedControl__kaJBf {
+  background-color: #f0f0f0;
+}
+.ContactDetailsForm_segmentedControl__kaJBf .mantine-SegmentedControl-indicator {
+  background-color: #f0a500;
+}
+
+.ContactDetailsForm_yesNoControl__rV3aQ {
+  width: 120px;
+}
+.ContactDetailsForm_yesNoControl__rV3aQ .mantine-SegmentedControl-indicator {
+  background-color: #f0a500;
+}
+.ContactDetailsForm_yesNoControl__rV3aQ .mantine-SegmentedControl-label {
+  padding: 2px 8px;
+}
+
+.ContactDetailsForm_questionGroup__NJuM_ {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContactDetailsForm_dateOfBirth__Otf99 {
+  flex: 1;
+}
+.ContactDetailsForm_dateOfBirth__Otf99 .mantine-Group-root {
+  gap: 5px;
+}
+.ContactDetailsForm_dateOfBirth__Otf99 .mantine-Select-input {
+  width: 80px;
+}
+
+.ContactDetailsForm_submitButton__o_iFR {
+  background-color: #f0a500;
+}
+.ContactDetailsForm_submitButton__o_iFR:hover {
+  background-color: rgb(189, 129.9375, 0);
+}
+
+@media (max-width: 768px) {
+  .ContactDetailsForm_questionGroup__NJuM_ {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ContactDetailsForm_dateOfBirth__Otf99 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/join/personalDetailsForm/PersonalDetailsForm.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PersonalDetailsForm_form__q5PT2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.PersonalDetailsForm_nextButton__eah88 {
+  margin-top: 1rem;
+  background-color: #f0a500;
+}
+.PersonalDetailsForm_nextButton__eah88:hover {
+  background-color: rgb(189, 129.9375, 0);
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/join/Join.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Join_container__BLr6X {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.Join_backgroundImage__X4CC8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.Join_formContainer__tuJee {
+  width: 100%;
+  max-width: 500px;
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+
+.Join_stepper__KjRYv .mantine-Stepper-steps {
+  justify-content: space-between;
+}
+.Join_stepper__KjRYv .mantine-Stepper-step {
+  flex: 0 1 auto;
+}
+.Join_stepper__KjRYv .mantine-Stepper-stepBody {
+  max-width: 120px;
+  text-align: center;
+}
+.Join_stepper__KjRYv .mantine-Stepper-stepLabel {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.Join_stepper__KjRYv .mantine-Stepper-stepDescription {
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .Join_backgroundImage__X4CC8 {
+    display: none;
+  }
+  .Join_container__BLr6X {
+    padding: 0;
+    justify-content: center;
+  }
+  .Join_formContainer__tuJee {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 !important;
+  }
+  .Join_stepper__KjRYv .mantine-Stepper-stepBody {
+    max-width: 50px;
+  }
+}
