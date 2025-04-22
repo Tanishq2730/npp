@@ -709,7 +709,7 @@ h5 {
 }
 
 .subheading-3 {
-  font-size: 18.92px;
+  font-size: 16.92px;
 }
 @media (max-width: 1024px) {
   .subheading-3 {
@@ -987,15 +987,7 @@ body {
   margin-bottom: 3%;
   border-radius: 20px;
   margin-right: 10px;
-  width: 60% !important;
-}
-
-.Founder_page-title-line-container1__yO7WB h1{
-  font-size: 64px !important;
-}
-
-.Slide3_home3Content__P9HUe .name{
-  font-size: 68px !important;
+  width: 55% !important;
 }
 
 .aboutBanner img {
@@ -10061,4 +10053,46 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
   .Header_disappear__1YNPY {
     display: none !important;
   }
+}
+
+.leaderslide{
+  width: 60% !important;
+}
+
+.leaderslide .name{
+  font-size: 68px !important;
+}
+
+.leadersecondslide{
+  max-width: 46% !important;
+}
+
+.leadersecondslide h1{
+  font-weight: 900 !important;
+}
+.leadersecondslide h2{
+  font-size: 50px !important;
+  margin-bottom: 10px;
+}
+
+.bannerslide2 .name{
+  font-size: 90px !important;
+  font-weight: 900 !important;
+}
+.bannerslide1 .name{
+  font-size: 90px !important;
+  font-weight: 900 !important;
+}
+
+.bannerslide2{
+  position: relative;
+  top: -6em;
+}
+.bannerslide1{
+  position: relative;
+  top: -3em;
+}
+
+.Slide1_social__nDAaT img{
+  width: 35%;
 }

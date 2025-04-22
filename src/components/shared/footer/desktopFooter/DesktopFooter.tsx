@@ -84,7 +84,8 @@ const Footer = () => {
           <div className={styles.left}>
             <div className={styles.logo}>
               <Image
-                src="/static/images/header/party_logo.png"
+                // src="/static/images/header/party_logo.png"
+                src="/static/images/header/partylogo.png"
                 alt={t("footer.about.imgAlt")}
                 width={192}
                 height={86}

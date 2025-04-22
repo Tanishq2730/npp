@@ -7,8 +7,8 @@ const SubSlide1 = () => {
   const t = useTranslations();
 
   return (
-    <div className={styles.subslide1}>
-      <div className={styles.text}>
+    <div className={`${styles.subslide1}`}>
+      <div className={`${styles.text} bannerslide1`}>
         <div className="name">
   
           <span style={{ color: "rgba(255, 182, 60, 1)" }}>

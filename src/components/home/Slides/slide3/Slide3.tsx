@@ -236,7 +236,7 @@ const Slide3: React.FC<Slide3Props> = ({ isVisible }) => {
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
-            className={styles.text}
+            className={`${styles.text} leaderslide`}
             initial="enter"
             animate="center"
             exit="exit"

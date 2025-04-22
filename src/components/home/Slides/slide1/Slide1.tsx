@@ -28,12 +28,12 @@ const subSlideComponents = {
 const socialIcons = [
 
   {
-    src: "/static/images/home/home1/icons/fb.png",
+    src: "/static/images/home/home1/icons/fb1.png",
     alt: "Facebook",
     link: "https://www.facebook.com/nppmeghalaya/"
   },
   {
-    src: "/static/images/home/home1/icons/twitter.png",
+    src: "/static/images/home/home1/icons/twite.png",
     alt: "Twitter",
     link: "https://x.com/nppmeghalaya?lang=en"
   },
