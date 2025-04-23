@@ -914,7 +914,7 @@ body {
 
 @media (max-width: 768px) {
   .leadersecondslide h2 {
-    font-size: 30px !important;
+    font-size: 48px !important;
     margin-bottom: 10px !important;
   }
   .bannerslide2 .name {
@@ -928,7 +928,6 @@ body {
   }
   .leadersecondslide {
     max-width: 90% !important;
-    top: 6em;
   }
   .Slide1_home1___Ukjp .name {
     text-align: center !important;
@@ -963,6 +962,7 @@ body {
   }
   .Slide2_textContent__eXo1C {
     margin-top: 2em !important;
+    top: 6em;
   }
   .Slide5_home5__1zLWu {
     background-image: url(/static/images/home/home5/texture.png);
@@ -1050,7 +1050,7 @@ body {
   max-width: 50%;
 }
 .leadersecondslide h2 {
-  font-size: 48px;
+  font-size: 48px !important;
   margin-bottom: 10px !important;
 }
 @media (min-width: 768px){

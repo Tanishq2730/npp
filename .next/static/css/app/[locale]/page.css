@@ -522,7 +522,7 @@
   flex-grow: 1;
   position: relative;
   z-index: 1;
-  width: 45% ;
+  width: 45%;
 }
 .Slide2_slide2__dIsJD .Slide2_timelineContainer__6tNzJ .Slide2_politicianImage__HmA4n {
   position: relative;
@@ -534,7 +534,7 @@
 .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C {
   position: relative;
   z-index: 1;
-  max-width: 40%;
+  max-width: 45%;
   align-self: center;
   margin-right: 5%;
   margin-left: 1%;
@@ -587,7 +587,7 @@
     width: 60vw;
   }
   .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C {
-    max-width: 90% !important;
+    max-width: 90%;
   }
   .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C .Slide2_knowMoreButton__zIvzI {
     font-size: 0.9rem;
