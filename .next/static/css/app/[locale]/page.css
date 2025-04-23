@@ -9,9 +9,6 @@
   margin: 0 1% 0 3%;
   padding-top: 2%;
 }
-.leadersecondslide {
-  max-width: 46%;
-}
 .SubSlide1_subslide1__3zKv2 div.SubSlide1_text__OrE9k {
   z-index: 5;
   text-wrap: nowrap;
@@ -448,7 +445,7 @@
 }
 @media (max-aspect-ratio: 0.6) {
   .Slide1_home1__foot__WV6N3 .Slide1_subSlides__ZGiF5 img {
-    width: 28%;
+    width: 32%;
   }
 }
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -525,7 +522,7 @@
   flex-grow: 1;
   position: relative;
   z-index: 1;
-  width: 45%;
+  width: 45% ;
 }
 .Slide2_slide2__dIsJD .Slide2_timelineContainer__6tNzJ .Slide2_politicianImage__HmA4n {
   position: relative;
@@ -537,7 +534,7 @@
 .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C {
   position: relative;
   z-index: 1;
-  max-width: 46%;
+  max-width: 40%;
   align-self: center;
   margin-right: 5%;
   margin-left: 1%;
@@ -590,7 +587,7 @@
     width: 60vw;
   }
   .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C {
-    max-width: 90%;
+    max-width: 90% !important;
   }
   .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C .Slide2_knowMoreButton__zIvzI {
     font-size: 0.9rem;

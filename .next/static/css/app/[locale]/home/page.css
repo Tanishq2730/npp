@@ -522,7 +522,7 @@
   flex-grow: 1;
   position: relative;
   z-index: 1;
-  width: 45%;
+  width: 45% ;
 }
 .Slide2_slide2__dIsJD .Slide2_timelineContainer__6tNzJ .Slide2_politicianImage__HmA4n {
   position: relative;
@@ -534,7 +534,7 @@
 .Slide2_slide2__dIsJD .Slide2_textContent__eXo1C {
   position: relative;
   z-index: 1;
-  max-width: 40%;
+  max-width: 45%;
   align-self: center;
   margin-right: 5%;
   margin-left: 1%;
@@ -1024,7 +1024,7 @@
   }
   .Slide3_home3Content__P9HUe .Slide3_text__BxoMn {
     text-align: left;
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 5%;
   }
   .Slide3_home3Content__P9HUe .Slide3_text__BxoMn .Slide3_moreInfo__T7nWD {
@@ -1414,7 +1414,7 @@ button.swiper-pagination-bullet {
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/home/Slides/slide5/Slide5.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .Slide5_home5__1zLWu {
-  background-image: url("/static/images/home/home5/texture.png");
+  background-image: url("/static/images/home/home5/mapbg.jpg");
   background-size: cover;
   height: 100vh;
   display: flex;

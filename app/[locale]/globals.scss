@@ -18,6 +18,23 @@ body {
 }
 
 @media (max-width: 768px) {
+  .leadersecondslide h2 {
+    font-size: 48px !important;
+    margin-bottom: 10px !important;
+  }
+  .bannerslide2 .name {
+    font-weight: 900;
+    font-size: 40px !important;
+    position: relative;
+    top: 0em !important;
+  }
+
+  .timelinerespo {
+    width: 100% !important;
+  }
+  .leadersecondslide {
+    max-width: 90% !important;
+  }
   .Slide1_home1___Ukjp {
     .name {
       text-align: center !important;
@@ -141,10 +158,33 @@ body {
   }
 }
 
-
-.Slide2_slide2__dIsJD{
-  h2{
+.Slide2_slide2__dIsJD {
+  h2 {
     font-size: 60px;
     font-weight: 700;
   }
+}
+
+.bannerslide1 {
+  .name {
+    font-weight: 900;
+    position: relative;
+    top: -1em;
+  }
+}
+.bannerslide2 {
+  .name {
+    font-weight: 900;
+    font-size: 82px;
+    position: relative;
+    top: -1em;
+  }
+}
+
+.leadersecondslide {
+  h2 {
+    font-size: 48px !important;
+    margin-bottom: 10px !important;
+  }
+  max-width: 50%;
 }
