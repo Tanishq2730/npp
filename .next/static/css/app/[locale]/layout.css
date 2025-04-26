@@ -913,9 +913,10 @@ body {
 }
 
 @media (max-width: 768px) {
-  .leadersecondslide h2 {
-    font-size: 48px !important;
-    margin-bottom: 10px !important;
+  .Slide2_slide2__dIsJD h2 {
+    font-size: 30px !important;
+    margin-bottom: 10px;
+    font-weight: 700;
   }
   .bannerslide2 .name {
     font-weight: 900;
@@ -962,7 +963,6 @@ body {
   }
   .Slide2_textContent__eXo1C {
     margin-top: 2em !important;
-    top: 6em;
   }
   .Slide5_home5__1zLWu {
     background-image: url(/static/images/home/home5/texture.png);

@@ -128,7 +128,7 @@ const Slide2: React.FC<Slide2Props> = ({ isVisible }) => {
           {/* Text Content Section */}
           <motion.div
             // className={styles.textContent}
-            className={`${styles.textContent} leadersecondslide`}
+            className={`${styles.textContent} `}
             initial={{ x: 50, opacity: 0 }}
             animate={textControls}
             exit={{ x: 50, opacity: 0 }}

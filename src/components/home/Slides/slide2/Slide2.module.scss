@@ -10,7 +10,7 @@
     flex-grow: 1;
     position: relative;
     z-index: 1;
-    width: 45% !important;
+    width: 45%;
 
     .politicianImage {
       position: relative;
@@ -24,7 +24,7 @@
   .textContent {
     position: relative;
     z-index: 1;
-    max-width: 40%;
+    max-width: 50%;
     align-self: center;
     margin-right: 5%;
     margin-left: 1%;
@@ -91,6 +91,17 @@
 }
 
 @media screen and (max-width: 768px) {
+  
+  .textContent {
+    top: 6em !important;
+  }
+  .timelineContainer {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    width: 100% !important;
+  }
   .slide2 {
     .timelineContainer {
       .politicianImage {

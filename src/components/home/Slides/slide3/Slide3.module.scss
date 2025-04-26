@@ -1,3 +1,5 @@
+
+
 .home3 {
   min-height: 100vh;
   display: flex;
@@ -109,7 +111,7 @@
         padding: 10px 0; // Adjusted padding for mobile view
       }
 
-      .leaderSlides {
+      .leaderSlide {
         width: 100%; // Adjusted for better mobile view
         flex-shrink: 0;
         border-radius: 5%;
@@ -153,6 +155,3 @@
 
 
 
-.leaderslide{
-  width: 60% !important;
-}
