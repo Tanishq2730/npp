@@ -79,24 +79,7 @@ const Slide1 = () => {
       <div className={styles.home1__foot}>
         {activeSubSlide === SubSlides.subSlide1 && (
           <>
-            {/* <div className="web">
-              <Image
-                src="/static/images/home/home1/silhouettes.jpg"
-                alt="Public Applause"
-                width={1519}
-                height={171}
-                className={styles.silhouettes}
-              />
-            </div>
-            <div className="mob">
-              <Image
-                src="/static/images/home/home1/silhouettes.jpg"
-                alt="Public Applause"
-                width={1519}
-                height={171}
-                className={styles.silhouettes}
-              />
-            </div> */}
+            
           </>
         )}
 
