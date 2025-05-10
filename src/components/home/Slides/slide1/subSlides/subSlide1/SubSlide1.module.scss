@@ -1,10 +1,23 @@
+@media (max-width: 768px) {
+  .subSlide1 {
+    background-image: url("/static/images/home/home1/mobile/slide_bg.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+}
+
 .subslide1 {
-  display: flex;
-  align-items: center;
+  background-image: url("/static/images/home/home1/silhouettes.jpg") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
-  overflow: hidden;
-  margin: 0 1% 0 3%;
-  padding-top: 2%;
+  width: 100%;
+  display: flex;
 
   div.text {
     z-index: 5;
@@ -32,7 +45,7 @@
     flex-grow: 2;
     flex-shrink: 0;
     height: 80%;
-    background-image: url("/static/images/home/home1/map.png");
+    // background-image: url("/static/images/home/home1/map.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,6 +73,13 @@
     flex-direction: column;
     padding-top: 15%;
     margin: 0;
+    background-image: url("/static/images/home/home1/mobile/slide_bg.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
 
     .text {
       width: 65%;
@@ -102,3 +122,4 @@
     }
   }
 }
+

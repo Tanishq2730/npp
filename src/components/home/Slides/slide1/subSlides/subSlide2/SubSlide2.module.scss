@@ -19,7 +19,7 @@
       align-self: flex-end;
       flex-grow: 1;
       height: 100%;
-      background-image: url("/static/images/home/home1/leader2.png");
+      // background-image: url("/static/images/home/home1/leader2.png");
       background-position: top left;
       background-size: contain;
       background-repeat: no-repeat;
@@ -76,3 +76,15 @@
   }
 }
 
+
+// @media (max-width: 768px) {
+//   .subSlide2 {
+//     background-image: url("/static/images/home/home1/mobile/slide1_bg.jpg") !important;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     height: 100vh;
+//     width: 100%;
+//     display: flex;
+//   }
+// }

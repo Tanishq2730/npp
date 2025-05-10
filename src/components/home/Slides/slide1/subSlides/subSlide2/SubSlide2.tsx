@@ -11,13 +11,13 @@ const t = useTranslations();
       <div className={styles.content}>
         <div className={styles.image} />
         <div className={`${styles.text} bannerslide2`}>
-          <h1 className="name">
+          {/* <h1 className="name">
             <span>{t("home.slide1.subSlide2.title").split("  ")[0]} </span>
             <span>{t("home.slide1.subSlide2.title").split("  ")[1]} </span>
             <br />
             <span>{t("home.slide1.subSlide2.title").split("  ")[2]} </span>
             <span>{t("home.slide1.subSlide2.title").split("  ")[3]}</span>
-          </h1>
+          </h1> */}
         </div>
         
       </div>

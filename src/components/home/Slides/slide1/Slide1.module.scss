@@ -121,3 +121,21 @@
     }
   }
 }
+
+.web {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mob {
+  display: none;
+}
+@media (max-width: 768px) {
+  .web {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+}

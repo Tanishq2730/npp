@@ -1,12 +1,8 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import Image from "next/image";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaYoutube,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 import styles from "./Slide1.module.scss";
 import SubSlide1 from "./subSlides/subSlide1/SubSlide1";
@@ -33,22 +29,22 @@ const subSlideComponents = {
 
 const socialIcons = [
   {
-    icon: <FaFacebookF style={{color:'#fff'}}/>,
+    icon: <FaFacebookF style={{ color: "#fff" }} />,
     alt: "Facebook",
     link: "https://www.facebook.com/nppmeghalaya/",
   },
   {
-    icon: <FaTwitter style={{color:'#fff'}} />,
+    icon: <FaXTwitter style={{ color: "#fff" }} />,
     alt: "Twitter",
     link: "https://x.com/nppmeghalaya?lang=en",
   },
   {
-    icon: <FaYoutube style={{color:'#fff'}} />,
+    icon: <FaYoutube style={{ color: "#fff" }} />,
     alt: "YouTube",
     link: "https://www.youtube.com/channel/UCljPxUJSs_SP29U_GavdJlQ",
   },
   {
-    icon: <FaInstagram style={{color:'#fff'}} />,
+    icon: <FaInstagram style={{ color: "#fff" }} />,
     alt: "Instagram",
     link: "https://www.instagram.com/nppmeghalaya/?hl=en",
   },
@@ -82,13 +78,26 @@ const Slide1 = () => {
 
       <div className={styles.home1__foot}>
         {activeSubSlide === SubSlides.subSlide1 && (
-          <Image
-            src="/static/images/home/home1/silhouettes.png"
-            alt="Public Applause"
-            width={1519}
-            height={171}
-            className={styles.silhouettes}
-          />
+          <>
+            {/* <div className="web">
+              <Image
+                src="/static/images/home/home1/silhouettes.jpg"
+                alt="Public Applause"
+                width={1519}
+                height={171}
+                className={styles.silhouettes}
+              />
+            </div>
+            <div className="mob">
+              <Image
+                src="/static/images/home/home1/silhouettes.jpg"
+                alt="Public Applause"
+                width={1519}
+                height={171}
+                className={styles.silhouettes}
+              />
+            </div> */}
+          </>
         )}
 
         <div className={styles.social}>

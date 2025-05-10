@@ -10,13 +10,13 @@ export default function SubSlide3() {
     <div className={styles.subSlide2}>
       <div className={styles.content}>
         <div className={styles.image} />
-        <div className={`${styles.text} bannerslide2`}>
+        {/* <div className={`${styles.text} bannerslide2`}>
           <h1 className="name">
             <span>{t("home.slide1.subSlide3.title").split("  ")[0]} </span>
             <br />
             <span>{t("home.slide1.subSlide3.title").split("  ")[1]}</span>
           </h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );

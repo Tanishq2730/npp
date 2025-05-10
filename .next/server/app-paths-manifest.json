@@ -1,7 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
-  "/[locale]/about/page": "app/[locale]/about/page.js",
-  "/[locale]/core-issues/page": "app/[locale]/core-issues/page.js",
-  "/[locale]/events/page": "app/[locale]/events/page.js",
-  "/[locale]/page": "app/[locale]/page.js"
+  "/[locale]/join/page": "app/[locale]/join/page.js",
+  "/[locale]/donate/page": "app/[locale]/donate/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/home/page": "app/[locale]/home/page.js"
 }
