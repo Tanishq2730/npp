@@ -18,17 +18,23 @@
       "static/css/app/[locale]/join/page.css",
       "static/chunks/app/[locale]/join/page.js"
     ],
-    "/[locale]/candidateInfo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/candidateInfo/page.css",
-      "static/chunks/app/[locale]/candidateInfo/page.js"
-    ],
     "/[locale]/donate/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/donate/page.css",
       "static/chunks/app/[locale]/donate/page.js"
+    ],
+    "/[locale]/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/about/page.css",
+      "static/chunks/app/[locale]/about/page.js"
+    ],
+    "/[locale]/core-issues/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/core-issues/page.css",
+      "static/chunks/app/[locale]/core-issues/page.js"
     ],
     "/[locale]/home/page": [
       "static/chunks/webpack.js",

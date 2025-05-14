@@ -428,6 +428,10 @@
   width: -moz-fit-content;
   width: fit-content;
 }
+.Slide1_home1__foot__WV6N3 .Slide1_social__nDAaT svg {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
 .Slide1_home1__foot__WV6N3 .Slide1_subSlides__ZGiF5 {
   display: flex;
   justify-content: flex-end;
@@ -2229,4 +2233,13 @@ button.swiper-pagination-bullet {
   .Slide7_slide7-mobile__aedm3 .Slide7_header__d74fv button {
     padding: 2.5%;
   }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/home/Slides/slide8/Slide8.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Slide8_partyImg__ws_WZ img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

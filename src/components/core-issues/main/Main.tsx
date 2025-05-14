@@ -49,7 +49,7 @@ const Main: React.FC<MainProps> = ({ activeTab, onTabChange }) => {
   useEffect(() => {
     document.documentElement.style.setProperty(
       "--main-background-image",
-      `url(${t(`${activeTab}.images.main`)})`,
+      `url(${t(`${activeTab}.images.main`)})`
     );
   }, [activeTab, t]);
 
@@ -60,31 +60,39 @@ const Main: React.FC<MainProps> = ({ activeTab, onTabChange }) => {
 
   return (
     <div className={styles.main}>
-      <div className={styles["issues-tab"]}>
-        <div className={styles["issues-list"]}>
-          <h2>{t("title")}</h2>
-          {tabList.map((tab) => (
-            <button
-              key={tab}
-              type="button"
-              onClick={() => handleTabClick(tab)}
-              className={`body-2 ${activeTab === tab ? styles.active : ""}`}
-            >
-              {t(`tabs.${tab}`)}
-            </button>
-          ))}
-        </div>
+      <div className="container">
+      <div className="row">
+        <div className="col-md-8">
+          <div className={styles["issues-tab"]}>
+            <div className={styles["issues-list"]}>
+              <h2>{t("title")}</h2>
+              {tabList.map((tab) => (
+                <button
+                  key={tab}
+                  type="button"
+                  onClick={() => handleTabClick(tab)}
+                  className={`body-2 ${activeTab === tab ? styles.active : ""}`}
+                >
+                  {t(`tabs.${tab}`)}
+                </button>
+              ))}
+            </div>
 
-        <div className={styles["active-issue"]}>
-          <h2>{t(`tabs.${activeTab}`)}</h2>
-          <p className="subheading-2">{t(`${activeTab}.description`)}</p>
+            <div className={styles["active-issue"]}>
+              <h2 className="mt-4">{t(`tabs.${activeTab}`)}</h2>
+              <p className="subheading-2">{t(`${activeTab}.description`)}</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className={styles.overview}>
+            <div className={styles["overview-content"]}>
+              <h2>{t("overview")}</h2>
+              <p className="body-3">{t(`${activeTab}.overviewText`)}</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div className={styles.overview}>
-        <div className={styles["overview-content"]}>
-          <h2>{t("overview")}</h2>
-          <p className="body-3">{t(`${activeTab}.overviewText`)}</p>
-        </div>
       </div>
       <div className={styles.scroll}>
         <div>

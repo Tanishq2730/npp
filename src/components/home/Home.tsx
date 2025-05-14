@@ -7,6 +7,7 @@ import Slide4 from "./Slides/slide4/Slide4";
 import Slide5 from "./Slides/slide5/Slide5";
 import Slide6 from "./Slides/slide6/Slide6";
 import Slide7 from "./Slides/slide7/Slide7";
+import Slide8 from "./Slides/slide8/slide8";
 
 const HomePage: React.FC = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -213,6 +214,9 @@ const HomePage: React.FC = () => {
       </div>
       <div ref={slideRefs[2]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide3 isVisible={activeSlide === 2} />
+      </div>
+      <div ref={slideRefs[2]} style={{ height: "100vh", overflow: "hidden" }}>
+        <Slide8 />
       </div>
       <div ref={slideRefs[3]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide4 />

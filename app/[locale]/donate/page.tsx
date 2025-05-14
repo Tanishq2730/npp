@@ -1,7 +1,8 @@
 "use client";
 
-import JoinNPP from "@/components/shared/join/Join";
+import Donation from "@/components/shared/join/donation";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function HomePage() {
-  return <JoinNPP title="Donate to Npp" />;
+  return <Donation />;
 }
