@@ -55,6 +55,7 @@ const Header = () => {
         <div
           className={`${headerStyle.top} ${headerStyle.disappear} subheading-5`}
         >
+          <Button onClick={() => handleNavigation(("notification"))}  className="btn btn-primary">Notification</Button>
           <Select
             data={Object.entries(
               t.raw("language") as Record<string, string>,

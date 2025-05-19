@@ -22,6 +22,8 @@ export const structure: StructureResolver = (S) =>
       S.divider(),
       S.documentTypeListItem("videoGallery").title("video Gallery"),
       S.divider(),
+      S.documentTypeListItem("donateForm").title("Donation Form"),
+      S.divider(),
     ]);
 
 export const defaultDocumentNode: DefaultDocumentNodeResolver = (
@@ -40,6 +42,8 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
     case "photoGallery":
       return S.document().views([S.view.form(), transifex(S)]);
     case "videoGallery":
+      return S.document().views([S.view.form(), transifex(S)]);
+    case "donateForm":
       return S.document().views([S.view.form(), transifex(S)]);
     default:
       return S.document();

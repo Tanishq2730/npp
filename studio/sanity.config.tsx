@@ -44,7 +44,8 @@ export default defineConfig({
         `candidates`,
         `photoGallery`,
         `videoGallery`,
-        `contactForm`
+        `contactForm`,
+        `donateForm`
       ],
     }),
     internationalizedArray({
@@ -90,7 +91,8 @@ export default defineConfig({
         "candidates",
         "photoGallery",
         "videoGallery",
-        "contactForm"
+        "contactForm",
+        `donateForm`
       ],
       hiddenSchemaTypes: ["translation.metadata"],
     }),

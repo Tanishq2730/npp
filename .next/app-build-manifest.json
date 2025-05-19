@@ -1,16 +1,28 @@
 {
   "pages": {
+    "/[locale]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/layout.css",
+      "static/chunks/app/[locale]/layout.js"
+    ],
+    "/[locale]/home/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/home/page.css",
+      "static/chunks/app/[locale]/home/page.js"
+    ],
     "/[locale]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/page.css",
       "static/chunks/app/[locale]/page.js"
     ],
-    "/[locale]/layout": [
+    "/[locale]/notification/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/layout.css",
-      "static/chunks/app/[locale]/layout.js"
+      "static/css/app/[locale]/notification/page.css",
+      "static/chunks/app/[locale]/notification/page.js"
     ],
     "/[locale]/join/page": [
       "static/chunks/webpack.js",
@@ -23,6 +35,24 @@
       "static/chunks/main-app.js",
       "static/css/app/[locale]/donate/page.css",
       "static/chunks/app/[locale]/donate/page.js"
+    ],
+    "/[locale]/events/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/events/page.css",
+      "static/chunks/app/[locale]/events/page.js"
+    ],
+    "/[locale]/press-releases/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/press-releases/page.css",
+      "static/chunks/app/[locale]/press-releases/page.js"
+    ],
+    "/[locale]/photo-gallery/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/photo-gallery/page.css",
+      "static/chunks/app/[locale]/photo-gallery/page.js"
     ]
   }
 }

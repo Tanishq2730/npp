@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import client from "./sanityClient";
+import { client } from "app/lib/sanity";
 
 const Donation: React.FC = () => {
   const [formData, setFormData] = useState({
