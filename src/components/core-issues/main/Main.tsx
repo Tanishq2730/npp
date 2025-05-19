@@ -80,18 +80,19 @@ const Main: React.FC<MainProps> = ({ activeTab, onTabChange }) => {
 
             <div className={styles["active-issue"]}>
               <h2 className="mt-4">{t(`tabs.${activeTab}`)}</h2>
-              <p className="subheading-2">{t(`${activeTab}.description`)}</p>
+              {/* <p className="subheading-2">{t(`${activeTab}.description`)}</p> */}
+              <p className="body-3">{t(`${activeTab}.overviewText`)}</p>
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        {/* <div className="col-md-4">
           <div className={styles.overview}>
             <div className={styles["overview-content"]}>
               <h2>{t("overview")}</h2>
               <p className="body-3">{t(`${activeTab}.overviewText`)}</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       </div>
       <div className={styles.scroll}>

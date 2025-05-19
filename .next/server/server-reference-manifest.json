@@ -4,21 +4,15 @@
       "workers": {
         "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
         "app/[locale]/join/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/donate/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/core-issues/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/home/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/donate/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/[locale]/page": "action-browser",
         "app/[locale]/join/page": "action-browser",
-        "app/[locale]/donate/page": "action-browser",
-        "app/[locale]/about/page": "action-browser",
-        "app/[locale]/core-issues/page": "action-browser",
-        "app/[locale]/home/page": "action-browser"
+        "app/[locale]/donate/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "jkK3Fox3ceBbU1nKon9hnePaYxAHHiiBQ4Ree0hRCvs="
+  "encryptionKey": "bwmyso0TxhmckXjm1zTeAr2IM1pYxYzWWvEs8P/eyMQ="
 }

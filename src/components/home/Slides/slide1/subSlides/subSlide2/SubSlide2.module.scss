@@ -49,6 +49,17 @@
 
 @media (max-aspect-ratio: 1.35) {
   .subSlide2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+    margin: 0;
+    background-image: url("/static/images/home/home1/mobile/slid2_bg.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
     .content {
       flex-direction: column-reverse;
       align-items: center;
