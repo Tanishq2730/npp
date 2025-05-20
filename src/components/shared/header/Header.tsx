@@ -1,14 +1,14 @@
 "use client";
-
+import React, { useState } from "react";
 import { Button, Select } from "@mantine/core";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
-
 import headerStyle from "./Header.module.scss";
 import MobileMenu from "./mobileHeader/MobileMenu";
+import { FaBell } from "react-icons/fa";
+import "./header.scss";
 
 interface NavItem {
   label: string;
@@ -26,6 +26,7 @@ const Header = () => {
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [showNotification, setShowNotification] = useState(false);
 
   const navItems = Object.entries(t.raw("nav")) as [string, NavItem][];
 
@@ -37,6 +38,10 @@ const Header = () => {
     router.push(path);
     setIsMenuOpen(false);
     setOpenDropdown(null);
+  };
+
+  const handleNotificationClick = () => {
+    handleNavigation(("notification"));
   };
 
   return (
@@ -55,10 +60,11 @@ const Header = () => {
         <div
           className={`${headerStyle.top} ${headerStyle.disappear} subheading-5`}
         >
-          <Button onClick={() => handleNavigation(("notification"))}  className="btn btn-primary">Notification</Button>
+          
+
           <Select
             data={Object.entries(
-              t.raw("language") as Record<string, string>,
+              t.raw("language") as Record<string, string>
             ).map(([key, value]) => ({ value: key, label: value as string }))}
             defaultValue="eng"
             classNames={{
@@ -66,6 +72,43 @@ const Header = () => {
               dropdown: headerStyle.mantineDropdown,
             }}
           />
+          {/* ✅ Notification Dropdown on Hover */}
+          <div
+            className="notifyBtn"
+            onMouseEnter={() => setShowNotification(true)}
+            onMouseLeave={() => setShowNotification(false)}
+          >
+            <button
+              className="btn btn-group notificationDrop"
+              onClick={handleNotificationClick}
+            >
+             <FaBell style={{color:"#ffff"}} />
+            </button>
+
+            <AnimatePresence>
+              {showNotification && (
+                <motion.div
+                  className="Notifydropdown"
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  {[...Array(5)].map((_, i) => (
+                    <div className="notifyCard" key={i}>
+                      <p>Green beans was ordered</p>
+                    </div>
+                  ))}
+                  <button
+                    className="notifyActionBtn"
+                    onClick={handleNotificationClick}
+                  >
+                    View All
+                  </button>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
           <Button
             variant="subtle"
             className={headerStyle.mantineButtonSubtle}
@@ -80,11 +123,14 @@ const Header = () => {
             {t("donation.label")}
           </Button>
         </div>
+
         <ul className="subheading-5">
           {navItems.map(([key, item]) => (
             <li
               key={key}
-              className={`${headerStyle.disappear} ${item.options ? headerStyle.hasDropdown : ""}`}
+              className={`${headerStyle.disappear} ${
+                item.options ? headerStyle.hasDropdown : ""
+              }`}
               onMouseEnter={() => toggleDropdown(key)}
               onMouseLeave={() => toggleDropdown(key)}
             >
@@ -142,6 +188,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+
       <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
     </header>
   );

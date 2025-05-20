@@ -3,23 +3,23 @@
   --common-secondary-color: #4682b4; // Steel Blue
 }
 
-.partyImg{
-  img{
-      width: 100%;
-      height: 100vh;
-      object-fit: cover;
+.partyImg {
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
   }
 }
 
-.joinNpp{
+.joinNpp {
   background-image: url("/static/images/join/personal-details-background.png");
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  .joinCard{
+  .joinCard {
     padding-top: 4em;
-    .cards{
+    .cards {
       width: 80%;
       margin-left: auto;
       background-color: #5858588e;
@@ -29,3 +29,8 @@
     }
   }
 }
+
+
+
+
+

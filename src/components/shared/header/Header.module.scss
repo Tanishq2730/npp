@@ -175,3 +175,62 @@
     display: none !important;
   }
 }
+
+
+.notifyBtn {
+  position: relative;
+
+  // Show dropdown on hover of parent or dropdown itself
+  &:hover .Notifydropdown {
+    display: block;
+  }
+}
+
+.Notifydropdown {
+  display: none;
+  position: absolute;
+  top: 80%;
+  right: -4em;
+  margin-top: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  min-width: 250px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  padding: 1em;
+  overflow-y: auto;
+  pointer-events: auto;
+
+  .notifyCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; // button goes to right
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 100px;
+    margin: 10px 0;
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .notifyActionBtn {
+      padding: 6px 12px;
+      font-size: 12px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      z-index: 3;
+      position: relative;
+      text-align: center !important;
+    }
+  }
+}

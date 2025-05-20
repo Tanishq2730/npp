@@ -1,22 +1,28 @@
 {
   "pages": {
+    "/[locale]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/page.css",
+      "static/chunks/app/[locale]/page.js"
+    ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
     ],
-    "/[locale]/home/page": [
+    "/[locale]/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/home/page.css",
-      "static/chunks/app/[locale]/home/page.js"
+      "static/css/app/[locale]/about/page.css",
+      "static/chunks/app/[locale]/about/page.js"
     ],
-    "/[locale]/page": [
+    "/[locale]/core-issues/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/page.css",
-      "static/chunks/app/[locale]/page.js"
+      "static/css/app/[locale]/core-issues/page.css",
+      "static/chunks/app/[locale]/core-issues/page.js"
     ],
     "/[locale]/notification/page": [
       "static/chunks/webpack.js",
@@ -24,17 +30,29 @@
       "static/css/app/[locale]/notification/page.css",
       "static/chunks/app/[locale]/notification/page.js"
     ],
-    "/[locale]/join/page": [
+    "/[locale]/home/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/join/page.css",
-      "static/chunks/app/[locale]/join/page.js"
+      "static/css/app/[locale]/home/page.css",
+      "static/chunks/app/[locale]/home/page.js"
     ],
-    "/[locale]/donate/page": [
+    "/[locale]/candidateInfo/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/donate/page.css",
-      "static/chunks/app/[locale]/donate/page.js"
+      "static/css/app/[locale]/candidateInfo/page.css",
+      "static/chunks/app/[locale]/candidateInfo/page.js"
+    ],
+    "/[locale]/photo-gallery/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/photo-gallery/page.css",
+      "static/chunks/app/[locale]/photo-gallery/page.js"
+    ],
+    "/[locale]/video-gallery/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/video-gallery/page.css",
+      "static/chunks/app/[locale]/video-gallery/page.js"
     ],
     "/[locale]/events/page": [
       "static/chunks/webpack.js",
@@ -42,17 +60,10 @@
       "static/css/app/[locale]/events/page.css",
       "static/chunks/app/[locale]/events/page.js"
     ],
-    "/[locale]/press-releases/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/press-releases/page.css",
-      "static/chunks/app/[locale]/press-releases/page.js"
-    ],
-    "/[locale]/photo-gallery/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/photo-gallery/page.css",
-      "static/chunks/app/[locale]/photo-gallery/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }

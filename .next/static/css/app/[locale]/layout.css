@@ -10002,6 +10002,50 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 .MobileMenu_socialIcon__JVIhG:hover {
   color: #e4b50b;
 }
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[13].use[5]!./src/components/shared/header/header.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.notifyBtn {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #fff !important;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.Notifydropdown {
+  position: absolute;
+  top: 100%;
+  right: -4em;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 8px;
+  min-width: 300px;
+  padding: 1em;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Notifydropdown .notifyCard {
+  background-color: #eeeeee;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.Notifydropdown .notifyCard p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+.Notifydropdown .notifyActionBtn {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 100px;
+}
+.Notifydropdown .notificationDrop {
+  border: 1px solid #fff !important;
+}
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/header/Header.module.scss ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -10160,4 +10204,56 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
   .Header_disappear__1YNPY {
     display: none !important;
   }
+}
+.Header_notifyBtn__49zxW {
+  position: relative;
+}
+.Header_notifyBtn__49zxW:hover .Header_Notifydropdown__8zKbm {
+  display: block;
+}
+
+.Header_Notifydropdown__8zKbm {
+  display: none;
+  position: absolute;
+  top: 80%;
+  right: -4em;
+  margin-top: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  min-width: 250px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  padding: 1em;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+.Header_Notifydropdown__8zKbm .Header_notifyCard__xN_Ff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: 10px 0;
+}
+.Header_Notifydropdown__8zKbm .Header_notifyCard__xN_Ff p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+.Header_Notifydropdown__8zKbm .Header_notifyCard__xN_Ff .Header_notifyActionBtn__9n7FV {
+  padding: 6px 12px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+  text-align: center !important;
 }

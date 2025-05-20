@@ -1,0 +1,42 @@
+.notifyBtn {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #fff !important;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.Notifydropdown {
+  position: absolute;
+  top: 100%;
+  right: -4em;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 8px;
+  min-width: 300px;
+  padding: 1em;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  .notifyCard {
+    background-color: #eeeeee;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: #333;
+    }
+  }
+
+  .notifyActionBtn {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 100px;
+  }
+  .notificationDrop {
+    border: 1px solid #fff !important;
+  }
+}

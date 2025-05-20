@@ -2,27 +2,29 @@
   "node": {
     "15f3214a1c6278ab7008a8bc743078f13acd419f": {
       "workers": {
-        "app/[locale]/home/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
         "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/core-issues/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
         "app/[locale]/notification/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/join/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/donate/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/events/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/press-releases/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
-        "app/[locale]/photo-gallery/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/home/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/candidateInfo/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/photo-gallery/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/video-gallery/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/events/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ftanishqshrivastava%2FDownloads%2FProject%2Fnpp%2Fnode_modules%2Fnext-sanity%2Fdist%2Fvisual-editing%2Fserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/home/page": "action-browser",
         "app/[locale]/page": "action-browser",
+        "app/[locale]/about/page": "action-browser",
+        "app/[locale]/core-issues/page": "action-browser",
         "app/[locale]/notification/page": "action-browser",
-        "app/[locale]/join/page": "action-browser",
-        "app/[locale]/donate/page": "action-browser",
-        "app/[locale]/events/page": "action-browser",
-        "app/[locale]/press-releases/page": "action-browser",
-        "app/[locale]/photo-gallery/page": "action-browser"
+        "app/[locale]/home/page": "action-browser",
+        "app/[locale]/candidateInfo/page": "action-browser",
+        "app/[locale]/photo-gallery/page": "action-browser",
+        "app/[locale]/video-gallery/page": "action-browser",
+        "app/[locale]/events/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "LeEkE7TLy9VqEsMVJFMK8bLyJoR25PhL7h5D+eCBiO0="
+  "encryptionKey": "W1fjA+lj97ygPI2b+ftiZswRu5Fisb5rpiVO+JeK90U="
 }

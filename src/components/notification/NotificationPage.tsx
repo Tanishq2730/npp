@@ -38,8 +38,10 @@ const NotificationPage: React.FC = () => {
     <section className="notification-section">
       <h2 className="title">Notification</h2>
       <div className="notifications">
+        <div className="row">
         {notifications.map((item) => (
-          <div className="notification-card" key={item.id}>
+          <div className="col-md-6" key={item.id}>
+            <div className="notification-card" >
             <div className="left">
               <div className="image-container">
                 <svg
@@ -67,7 +69,9 @@ const NotificationPage: React.FC = () => {
               </div>
             </div>
           </div>
+          </div>
         ))}
+        </div>
       </div>
     </section>
   );

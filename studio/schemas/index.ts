@@ -10,7 +10,7 @@ import localizedSlug from "./objects/localizedSlug";
 import localizedString from "./objects/localizedString";
 import localizedText from "./objects/localizedText";
 import contactForm from "./documents/contactForm";
-import donate from "./documents/donateForm";
+import donateForm from "./documents/donateForm";
 
 
 
@@ -21,7 +21,7 @@ export const schemaTypes = [
   candidates,
   photoGallery,
   videoGallery,
-  donate,
+  donateForm,
   // blog,
   // objects ----
   localizedGoogleTranslateString,

@@ -66,6 +66,9 @@
       .socials {
         display: flex;
         gap: 10%;
+        a{
+          color: #fff !important;
+        }
       }
 
       button {

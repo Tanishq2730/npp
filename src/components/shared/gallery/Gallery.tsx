@@ -89,7 +89,7 @@ const Gallery: React.FC<GalleryProps> = ({
         </Group>
       </Group>
       <div className={styles.display}>
-        <div className="md:container md:mx-auto">
+        <div className="md:container-fluid md:mx-auto">
           <GalleryTabs
             categories={categories}
             activeCategory={activeCategory}
