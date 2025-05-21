@@ -41,7 +41,9 @@ const Header = () => {
   };
 
   const handleNotificationClick = () => {
-    handleNavigation(("notification"));
+    router.push("/en-US/notification");
+    setIsMenuOpen(false);
+    setOpenDropdown(null);
   };
 
   return (

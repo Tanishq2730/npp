@@ -8,15 +8,24 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+.GalleryCard_galleryCard__dBP0B:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .GalleryCard_photoSection__jdden {
   height: 220px;
+  overflow: hidden;
 }
 
 .GalleryCard_videoSection__86bRV {
   position: relative;
   padding-top: 56.25%;
+  overflow: hidden;
 }
 
 .GalleryCard_photoImage__YbkEC {
@@ -24,6 +33,10 @@
   height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.GalleryCard_photoImage__YbkEC:hover {
+  transform: scale(1.05);
 }
 
 .GalleryCard_videoImage__LaawS {
@@ -34,6 +47,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: transform 0.5s ease;
 }
 
 .GalleryCard_videoContainer__CKjYK {
@@ -44,16 +58,29 @@
   height: 100%;
   cursor: pointer;
 }
+.GalleryCard_videoContainer__CKjYK:hover .GalleryCard_videoImage__LaawS {
+  transform: scale(1.05);
+}
+.GalleryCard_videoContainer__CKjYK:hover .GalleryCard_playButton__e0ipj {
+  transform: scale(1.1);
+  opacity: 1;
+}
 
 .GalleryCard_playButton__e0ipj {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
-  width: 36px;
-  height: 26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  padding: 12px;
 }
 
 .GalleryCard_duration__GbRU0 {
@@ -62,28 +89,40 @@
   right: 8px;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  padding: 2px 4px;
-  border-radius: 2px;
+  padding: 4px 8px;
+  border-radius: 4px;
   font-size: 12px;
+  font-weight: 500;
 }
 
 .GalleryCard_cardContent__0ZhX7 {
-  padding: 5px;
+  padding: 12px;
   background-color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .GalleryCard_date__1gbe7 {
-  color: #888;
+  color: #666;
   margin-bottom: 2px;
   font-size: 12px;
+  font-weight: 500;
 }
 
 .GalleryCard_title__SSGZe {
-  line-height: 1.2;
-  font-size: 13px;
-  max-height: 2.4em;
+  line-height: 1.3;
+  font-size: 14px;
+  font-weight: 500;
+  max-height: 2.6em;
   overflow: hidden;
   word-wrap: break-word;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.GalleryCard_title__SSGZe:hover {
+  color: #0066cc;
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/gallery/galleryTabs/GalleryTabs.module.scss ***!
@@ -102,7 +141,7 @@
   border-bottom: none;
 }
 
-x .GalleryTabs_tab__V3jOr {
+.GalleryTabs_tab__V3jOr {
   white-space: nowrap;
   font-weight: 600;
   color: #666;
@@ -112,27 +151,28 @@ x .GalleryTabs_tab__V3jOr {
   border-radius: 20px !important;
 }
 @media (max-width: 768px) {
-  x .GalleryTabs_tab__V3jOr {
+  .GalleryTabs_tab__V3jOr {
     font-size: 18px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  x .GalleryTabs_tab__V3jOr {
+  .GalleryTabs_tab__V3jOr {
     font-size: 12px;
   }
 }
 @media (min-width: 1025px) {
-  x .GalleryTabs_tab__V3jOr {
+  .GalleryTabs_tab__V3jOr {
     font-size: 14px;
   }
 }
-x .GalleryTabs_tab__V3jOr[data-active] {
+.GalleryTabs_tab__V3jOr[data-active] {
   color: #e6b800;
   border-color: #e6b800;
 }
 
 .GalleryTabs_mantine-Tabs-tabLabel__i__xI {
   font-size: 12px !important;
+  border: 1px solid #ccc !important;
 }
 
 .GalleryTabs_GalleryTabs_tab__V3jOr__ca8bF {

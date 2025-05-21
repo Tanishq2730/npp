@@ -20,6 +20,7 @@ const HomePage: React.FC = () => {
     useRef<HTMLDivElement>(null),
     useRef<HTMLDivElement>(null),
     useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
   ];
   const isScrolling = useRef(false);
   const lastScrollTime = useRef(0);
@@ -28,6 +29,7 @@ const HomePage: React.FC = () => {
   const isTouching = useRef(false);
   const isClickEvent = useRef(false);
   const homePageRef = useRef<HTMLDivElement>(null);
+  const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const syncActiveSlide = useCallback(() => {
     const scrollPosition = window.scrollY;
@@ -61,13 +63,23 @@ const HomePage: React.FC = () => {
   }, [syncActiveSlide]);
 
   const snapToSlide = (index: number) => {
+    if (isScrolling.current) return;
+    
     isScrolling.current = true;
     setActiveSlide(index);
+    
     window.scrollTo({
       top: index * window.innerHeight,
       behavior: "smooth",
     });
-    setTimeout(() => {
+
+    // Clear any existing timeout
+    if (scrollTimeout.current) {
+      clearTimeout(scrollTimeout.current);
+    }
+
+    // Set new timeout
+    scrollTimeout.current = setTimeout(() => {
       isScrolling.current = false;
     }, 1000);
   };
@@ -75,7 +87,7 @@ const HomePage: React.FC = () => {
   useEffect(() => {
     const handleScroll = (direction: number) => {
       const now = Date.now();
-      if (isScrolling.current || now - lastScrollTime.current < 500) return;
+      if (isScrolling.current || now - lastScrollTime.current < 800) return; // Increased debounce time
       lastScrollTime.current = now;
 
       const newSlideIndex = Math.max(
@@ -89,6 +101,11 @@ const HomePage: React.FC = () => {
     };
 
     const handleWheel = (e: WheelEvent) => {
+      if (isScrolling.current) {
+        e.preventDefault();
+        return;
+      }
+
       // Check if the wheel event is coming from Slide3
       if (
         activeSlide === 2 &&
@@ -101,8 +118,10 @@ const HomePage: React.FC = () => {
       if (activeSlide === slideRefs.length - 1 && e.deltaY > 0) {
         return;
       }
+
       e.preventDefault();
-      handleScroll(e.deltaY > 0 ? 1 : -1);
+      const direction = e.deltaY > 0 ? 1 : -1;
+      handleScroll(direction);
     };
 
     const handleTouchStart = (e: TouchEvent) => {
@@ -215,19 +234,19 @@ const HomePage: React.FC = () => {
       <div ref={slideRefs[2]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide3 isVisible={activeSlide === 2} />
       </div>
-      <div ref={slideRefs[2]} style={{ height: "100vh", overflow: "hidden" }}>
+      <div ref={slideRefs[3]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide8 />
       </div>
-      <div ref={slideRefs[3]} style={{ height: "100vh", overflow: "hidden" }}>
+      <div ref={slideRefs[4]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide4 />
       </div>
-      <div ref={slideRefs[4]} style={{ height: "100vh", overflow: "hidden" }}>
+      <div ref={slideRefs[5]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide5 />
       </div>
-      <div ref={slideRefs[5]} style={{ height: "100vh", overflow: "hidden" }}>
+      <div ref={slideRefs[6]} style={{ height: "100vh", overflow: "hidden" }}>
         <Slide6 />
       </div>
-      <div ref={slideRefs[6]} style={{ overflow: "hidden" }}>
+      <div ref={slideRefs[7]} style={{ overflow: "hidden" }}>
         <Slide7 />
       </div>
     </div>

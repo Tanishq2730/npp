@@ -1,16 +1,21 @@
 import React from "react";
 
-import styles from "./Slide8.module.scss";
+import "./Slide8.module.scss";
 
 const Slide8: React.FC = () => {
-
   return (
-    <section className={styles.home6}>
-      <div className={styles.content}>
-        <div className="partyImg">
-        <img src="/static/images/about/aboutBanner.png" />
+    <section>
+      <div>
+        <div className="webParty">
+          <div className="partyImg">
+            <img src="/static/images/about/aboutBanner.png" />
+          </div>
         </div>
-        
+        <div className="mobParty">
+          <div className="partyImg">
+            <img src="/static/images/about/aboutBannerMob.jpg" />
+          </div>
+        </div>
       </div>
     </section>
   );

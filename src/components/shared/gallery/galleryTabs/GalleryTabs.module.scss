@@ -11,10 +11,8 @@
 .tabsList {
   flex-wrap: nowrap;
   border-bottom: none;
-  
 }
-x
-.tab {
+ .tab {
   white-space: nowrap;
   font-weight: 600;
   color: #666;
@@ -41,14 +39,15 @@ x
   }
 }
 
-.mantine-Tabs-tabLabel{
+.mantine-Tabs-tabLabel {
   font-size: 12px !important;
+  border: 1px solid #ccc !important;
 }
 
 // .mantine-Tabs-list::before{
 //   display: none !important;
 // }
 
-.GalleryTabs_tab__V3jOr{
+.GalleryTabs_tab__V3jOr {
   border: 1px solid #ccc !important;
 }

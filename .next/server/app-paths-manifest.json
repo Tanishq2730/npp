@@ -1,9 +1,7 @@
 {
-  "/not-found": "app/not-found.js",
   "/[locale]/home/page": "app/[locale]/home/page.js",
-  "/[locale]/notification/page": "app/[locale]/notification/page.js",
-  "/[locale]/photo-gallery/page": "app/[locale]/photo-gallery/page.js",
-  "/[locale]/candidateInfo/page": "app/[locale]/candidateInfo/page.js",
   "/[locale]/video-gallery/page": "app/[locale]/video-gallery/page.js",
-  "/[locale]/page": "app/[locale]/page.js"
+  "/[locale]/photo-gallery/page": "app/[locale]/photo-gallery/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/notification/page": "app/[locale]/notification/page.js"
 }

@@ -499,6 +499,15 @@ video {
 .mt-4{
   margin-top: 1rem;
 }
+.mt-3{
+  margin-top: 0.75rem;
+}
+.mt-5{
+  margin-top: 1.25rem;
+}
+.mb-5{
+  margin-bottom: 1.25rem;
+}
 .block{
   display: block;
 }
@@ -1126,6 +1135,31 @@ body {
   font-size: 48px !important;
   margin-bottom: 10px !important;
 }
+
+.partyImg img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.webParty {
+  display: block;
+}
+
+.mobParty {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .webParty {
+    display: none;
+  }
+  .mobParty {
+    display: block !important;
+  }
+}
+
 @media (min-width: 768px){
   .md\:container{
     width: 100%;
