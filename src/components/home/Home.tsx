@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
   useEffect(() => {
     const handleScroll = (direction: number) => {
       const now = Date.now();
-      if (isScrolling.current || now - lastScrollTime.current < 800) return; // Increased debounce time
+      if (isScrolling.current || now - lastScrollTime.current < 1000) return;
       lastScrollTime.current = now;
 
       const newSlideIndex = Math.max(
@@ -106,13 +106,12 @@ const HomePage: React.FC = () => {
         return;
       }
 
-      // Check if the wheel event is coming from Slide3
       if (
         activeSlide === 2 &&
         e.target &&
         (e.target as Element).closest(".swiper-container")
       ) {
-        return; // Let Slide3 handle its own scroll
+        return;
       }
 
       if (activeSlide === slideRefs.length - 1 && e.deltaY > 0) {
@@ -120,6 +119,9 @@ const HomePage: React.FC = () => {
       }
 
       e.preventDefault();
+      
+      if (Math.abs(e.deltaY) < 40) return;
+      
       const direction = e.deltaY > 0 ? 1 : -1;
       handleScroll(direction);
     };
@@ -144,12 +146,12 @@ const HomePage: React.FC = () => {
       isTouching.current = false;
 
       if (isClickEvent.current) {
-        return; // It was a click event, not a swipe
+        return;
       }
 
       const touchDiff = touchStartY.current - touchEndY.current;
       if (Math.abs(touchDiff) < 50) {
-        return; // Ignore small movements
+        return;
       }
 
       if (activeSlide === slideRefs.length - 1 && touchDiff > 50) {

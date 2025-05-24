@@ -1,14 +1,17 @@
 "use client";
-import React, { useState } from "react";
-import { Button, Select } from "@mantine/core";
+
+import "./header.scss";
+
 import { AnimatePresence, motion } from "framer-motion";
+import { Button, Select } from "@mantine/core";
+import React, { useState } from "react";
+
+import { FaBell } from "react-icons/fa";
 import Image from "next/image";
+import MobileMenu from "./mobileHeader/MobileMenu";
+import headerStyle from "./Header.module.scss";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
-import headerStyle from "./Header.module.scss";
-import MobileMenu from "./mobileHeader/MobileMenu";
-import { FaBell } from "react-icons/fa";
-import "./header.scss";
 
 interface NavItem {
   label: string;
@@ -41,7 +44,7 @@ const Header = () => {
   };
 
   const handleNotificationClick = () => {
-    router.push("/en-US/notification");
+    router.push(t("notification.link"));
     setIsMenuOpen(false);
     setOpenDropdown(null);
   };

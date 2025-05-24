@@ -1,5 +1,6 @@
-import type { ReactNode } from "react";
 import React, { useCallback, useEffect, useRef, useState } from "react";
+
+import type { ReactNode } from "react";
 
 interface SmoothScrollContainerProps {
   children: ReactNode[];
@@ -60,7 +61,7 @@ const SmoothScrollContainer: React.FC<SmoothScrollContainerProps> = ({
   useEffect(() => {
     const handleScroll = (direction: number) => {
       const now = Date.now();
-      if (isScrolling.current || now - lastScrollTime.current < 500) return;
+      if (isScrolling.current || now - lastScrollTime.current < 700) return;
       lastScrollTime.current = now;
 
       const newSlideIndex = Math.max(
@@ -78,6 +79,7 @@ const SmoothScrollContainer: React.FC<SmoothScrollContainerProps> = ({
         return;
       }
       e.preventDefault();
+      if (Math.abs(e.deltaY) < 40) return;
       handleScroll(e.deltaY > 0 ? 1 : -1);
     };
 
@@ -91,7 +93,7 @@ const SmoothScrollContainer: React.FC<SmoothScrollContainerProps> = ({
       if (!isTouching.current) return;
       touchEndY.current = e.touches[0]?.clientY ?? 0;
       const touchDiff = Math.abs(touchStartY.current - touchEndY.current);
-      if (touchDiff > 10) {
+      if (touchDiff > 25) {
         isClickEvent.current = false;
       }
     };
@@ -103,9 +105,9 @@ const SmoothScrollContainer: React.FC<SmoothScrollContainerProps> = ({
       if (isClickEvent.current) return;
 
       const touchDiff = touchStartY.current - touchEndY.current;
-      if (Math.abs(touchDiff) < 50) return;
+      if (Math.abs(touchDiff) < 80) return;
 
-      if (activeSlide === children.length - 1 && touchDiff > 50) return;
+      if (activeSlide === children.length - 1 && touchDiff > 100) return;
 
       handleScroll(touchDiff > 0 ? 1 : -1);
     };

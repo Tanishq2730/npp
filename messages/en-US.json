@@ -17,6 +17,10 @@
       "label": "MAKE A DONATION",
       "link": "/en-US/donate"
     },
+    "notification": {
+      "label": "NOTIFICATION",
+      "link": "/en-US/notification"
+    },
     "nav": {
       "home": {
         "label": "HOME",
