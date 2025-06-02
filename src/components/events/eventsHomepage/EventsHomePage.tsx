@@ -29,11 +29,8 @@ const titles = {
 };
 
 export default function EventsHomepage({ type }: EventsHomepageProps) {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([
-    null,
-    null,
-  ]);
+  const searchTerm = useState("")[0];
+  const dateRange = useState<[Date | null, Date | null]>([null, null])[0];
 
   return (
     <div className={`md:container-fluid md:mx-auto ${styles.events}`}>
