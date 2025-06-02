@@ -1,4 +1,4 @@
-import { Button, Container, TextInput } from "@mantine/core";
+import { Button, Container, TextInput, Title, Text } from "@mantine/core";
 import { DatePickerInput } from "@mantine/dates";
 import { IconCalendar, IconFilterOff, IconSearch } from "@tabler/icons-react";
 import React from "react";
@@ -32,6 +32,11 @@ const EventSearch: React.FC<EventSearchProps> = ({
   return (
     <Container className={classes.container} size="xl" style={{marginRight:"0 !important"}}>
       <div className={classes.content}>
+        <div className={classes.titleSection}>
+          <Title order={1}>{titles.mainTitle}</Title>
+          <Title order={2}>{titles.subTitle}</Title>
+          <Text>{titles.description}</Text>
+        </div>
         
         <div className={classes.searchSection} >
           <div className={classes.inputContainer}>
