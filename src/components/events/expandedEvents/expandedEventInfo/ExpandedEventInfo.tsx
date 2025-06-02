@@ -19,7 +19,8 @@ interface EventDetails {
   join: string;
   featuredImage: string;
   images: ImageDataTypes[];
-  videos: ImageDataTypes[];
+  videos: ImageDataTypes[];  
+  
   socialLinks: { url: string; icon: string }[];
 }
 
