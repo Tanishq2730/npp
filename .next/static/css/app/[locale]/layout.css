@@ -493,20 +493,17 @@ video {
 .mb-4{
   margin-bottom: 1rem;
 }
+.mb-5{
+  margin-bottom: 1.25rem;
+}
 .mt-2{
   margin-top: 0.5rem;
 }
 .mt-4{
   margin-top: 1rem;
 }
-.mt-3{
-  margin-top: 0.75rem;
-}
 .mt-5{
   margin-top: 1.25rem;
-}
-.mb-5{
-  margin-bottom: 1.25rem;
 }
 .block{
   display: block;
@@ -1070,7 +1067,7 @@ body {
 }
 .imageInfo img {
   position: sticky;
-  top: 9em;
+  top: 7em;
   width: 100%;
 }
 
@@ -1159,7 +1156,9 @@ body {
     display: block !important;
   }
 }
-
+.EventSearch_container__aW8XM {
+  margin-right: 0 !important;
+}
 @media (min-width: 768px){
   .md\:container{
     width: 100%;
@@ -9453,7 +9452,7 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -9462,7 +9461,7 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -9471,7 +9470,7 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -9480,7 +9479,7 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 }
 /* greek */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -9489,7 +9488,7 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -9498,23 +9497,23 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/_next/static/media/6d93bde91c0c2823-s.woff2) format('woff2');
+  src: url(/_next/static/media/8e9860b6e62d6359-s.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: '__Inter_e8ce0c';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/_next/static/media/a34f9d1faa5f3315-s.p.woff2) format('woff2');
+  src: url(/_next/static/media/e4af272ccee01ff0-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Inter_Fallback_d65c78';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
-}.__className_d65c78 {font-family: '__Inter_d65c78', '__Inter_Fallback_d65c78';font-style: normal
+}@font-face {font-family: '__Inter_Fallback_e8ce0c';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
+}.__className_e8ce0c {font-family: '__Inter_e8ce0c', '__Inter_Fallback_e8ce0c';font-style: normal
 }
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -9875,6 +9874,49 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
     width: 32%;
   }
 }
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[13].use[5]!./src/components/shared/header/header.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.notifyBtn {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #fff !important;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.Notifydropdown {
+  position: absolute;
+  top: 100%;
+  right: -4em;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 8px;
+  min-width: 300px;
+  padding: 1em;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Notifydropdown .notifyCard {
+  border-radius: 100px;
+  padding: 10px;
+  margin: 0px 0;
+}
+.Notifydropdown .notifyCard p {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+.Notifydropdown .notifyActionBtn {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 100px;
+}
+.Notifydropdown .notificationDrop {
+  border: 1px solid #fff !important;
+}
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/header/mobileHeader/MobileMenu.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -10035,50 +10077,6 @@ fieldset:disabled .m_c9ade57f:where([data-inverted]),
 }
 .MobileMenu_socialIcon__JVIhG:hover {
   color: #e4b50b;
-}
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[13].use[5]!./src/components/shared/header/header.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.notifyBtn {
-  position: relative;
-  display: inline-block;
-  border: 1px solid #fff !important;
-  padding: 2px;
-  border-radius: 3px;
-}
-
-.Notifydropdown {
-  position: absolute;
-  top: 100%;
-  right: -4em;
-  background: rgba(0, 0, 0, 0.15);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  border-radius: 8px;
-  min-width: 300px;
-  padding: 1em;
-  z-index: 1000;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.Notifydropdown .notifyCard {
-  background-color: #eeeeee;
-  border-radius: 100px;
-  padding: 10px;
-  margin: 10px 0;
-  border-bottom: 1px solid #eee;
-}
-.Notifydropdown .notifyCard p {
-  margin: 0;
-  font-size: 14px;
-  color: #333;
-}
-.Notifydropdown .notifyActionBtn {
-  margin-top: 10px;
-  width: 100%;
-  border-radius: 100px;
-}
-.Notifydropdown .notificationDrop {
-  border: 1px solid #fff !important;
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/shared/header/Header.module.scss ***!

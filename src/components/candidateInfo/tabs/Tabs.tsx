@@ -11,6 +11,42 @@ interface TableData {
   pdf: string;
 }
 
+// Add TruncatedCell component
+const TruncatedCell: React.FC<{ content: string }> = ({ content }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const maxLength = 30; // Maximum characters to show initially
+
+  if (content.length <= maxLength) {
+    return <span>{content}</span>;
+  }
+
+  return (
+    <div>
+      {isExpanded ? (
+        <span>
+          {content}{" "}
+          <button
+            onClick={() => setIsExpanded(false)}
+            className={styles.readMoreBtn}
+          >
+            Show Less
+          </button>
+        </span>
+      ) : (
+        <span>
+          {content.slice(0, maxLength)}...{" "}
+          <button
+            onClick={() => setIsExpanded(true)}
+            className={styles.readMoreBtn}
+          >
+            Read More
+          </button>
+        </span>
+      )}
+    </div>
+  );
+};
+
 async function getData() {
   const query = `
     *[_type == "candidates"]{
@@ -45,11 +81,10 @@ const TabContent: React.FC<{ tableData: TableData[] }> = ({ tableData }) => {
       <tbody>
         {tableData.map((row) => (
           <tr key={`${row.constituency}-${row.pcNo}`}>
-            <td>{row.constituency}</td>
-            <td>{row.candidate}</td>
-            <td>{row.pcNo}</td>
+            <td><TruncatedCell content={row.constituency} /></td>
+            <td><TruncatedCell content={row.candidate} /></td>
+            <td><TruncatedCell content={row.pcNo} /></td>
             <td className={styles.viewCell}>
-              {" "}
               {row.pdf ? (
                 <a href={row.pdf} target="_blank" rel="noopener noreferrer">
                   View PDF
@@ -66,13 +101,18 @@ const TabContent: React.FC<{ tableData: TableData[] }> = ({ tableData }) => {
 };
 
 const TabsComponent: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>("Nagaland");
+  const [activeTab, setActiveTab] = useState<string>("");
   const [data, setData] = useState<Record<string, TableData[]>>({});
 
   useEffect(() => {
     async function fetchData() {
       const result = await getData();
       setData(result);
+      // Set the first state as the active tab when data is loaded
+      const firstState = Object.keys(result)[0];
+      if (firstState) {
+        setActiveTab(firstState);
+      }
     }
     fetchData();
   }, []);

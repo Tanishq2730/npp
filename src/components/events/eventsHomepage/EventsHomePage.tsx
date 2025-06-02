@@ -41,13 +41,13 @@ export default function EventsHomepage({ type }: EventsHomepageProps) {
     <div className={`md:container-fluid md:mx-auto ${styles.events}`}>
   
       <CarouselEvent type={type} />
-      <EventSearch
+      {/* <EventSearch
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         dateRange={dateRange}
         setDateRange={setDateRange}
         titles={titles[type]}
-      />
+      /> */}
       <div className={styles.card}>
         <RecentItems
           type={type}

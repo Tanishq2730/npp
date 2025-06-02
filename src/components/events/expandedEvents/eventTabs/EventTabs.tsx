@@ -15,13 +15,14 @@ const EventTabs: React.FC<EventTabsProps> = ({ setActiveTab }) => {
   };
 
   return (
-    <div className={styles.tabsContainer}>
+    <div className={`${styles.tabsContainer} maintablelist`}>
       <Tabs
         defaultValue="images"
         classNames={{
           root: styles.tabsRoot,
           tab: styles.tab,
           list: styles.tabsList,
+          
         }}
         onChange={handleTabChange}
       >

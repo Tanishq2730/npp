@@ -21,8 +21,10 @@
   background: transparent;
   color: #000;
   border: none;
-  border-bottom: 2px solid transparent;
+  // border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
+  border-radius: 20px;
+  border: 1px solid #ffb63c;
 
   &:hover {
     background: rgba(255, 182, 60, 0.1);
@@ -37,4 +39,9 @@
 
 .tabsRoot {
   width: 100%;
+}
+
+
+.maintablelist .m_576c9d4::before{
+  display: none !important;
 }

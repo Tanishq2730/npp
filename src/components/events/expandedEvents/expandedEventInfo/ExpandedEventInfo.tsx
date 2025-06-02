@@ -118,7 +118,7 @@ export default function ExpandedEventsInfo() {
 
   return (
     <div
-      className={`md:container-fluid md:mx-auto ${styles.expandedEventsInfo}`}
+      className={`md:container md:mx-auto ${styles.expandedEventsInfo}`}
       style={{ position: "relative", minHeight: "100vh" }}
     >
       <LoadingOverlay
@@ -160,11 +160,11 @@ export default function ExpandedEventsInfo() {
               videos={eventData.videos}
             />
           </div>
-          <Featured
+          {/* <Featured
             items={featuredEvents}
             type="event"
             heading="FEATURED EVENTS"
-          />
+          /> */}
         </>
       )}
     </div>

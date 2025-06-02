@@ -2,6 +2,7 @@
 import { Button, Divider, Skeleton, Text } from "@mantine/core";
 import { client, urlFor } from "app/lib/sanity";
 import React, { useCallback, useEffect, useState } from "react";
+import EventSearch from "../eventSearch/EventSearch";
 
 import PressReleaseCard from "@/components/shared/pressReleaseCard/PressReleaseCard";
 
@@ -18,6 +19,19 @@ export interface CardTypes {
 }
 
 const ITEMS_PER_PAGE = 12;
+
+const titles = {
+  event: {
+    mainTitle: "SEARCH EVENTS",
+    subTitle: "FILTER",
+    description: "Find events by title and date range"
+  },
+  pressRelease: {
+    mainTitle: "SEARCH PRESS RELEASES",
+    subTitle: "FILTER",
+    description: "Find press releases by title and date range"
+  }
+};
 
 async function getData(
   type: "event" | "pressRelease",
@@ -69,8 +83,6 @@ interface RecentItemsProps {
 
 export default function RecentItems({
   type,
-  searchTerm,
-  dateRange,
   title,
   subtitle,
 }: RecentItemsProps) {
@@ -78,6 +90,11 @@ export default function RecentItems({
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([
+    null,
+    null,
+  ]);
 
   const fetchItems = useCallback(
     async (page: number) => {
@@ -116,9 +133,16 @@ export default function RecentItems({
           <h2>{title}</h2>
           <h6>{subtitle}</h6>
         </div>
-        <Button color="#E4B001" size="md" radius={20}>
+        {/* <Button color="#E4B001" size="md" radius={20}>
           Join NPP
-        </Button>
+        </Button> */}
+        <EventSearch
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        dateRange={dateRange}
+        setDateRange={setDateRange}
+        titles={titles[type]}
+      />
       </div>
       <Divider className="mb-10" color="rgba(125, 131, 135, 0.50)" />
       <div className={styles.pressReleaseCards}>

@@ -19,7 +19,7 @@
 
 .tabsList {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom: none;
   padding-bottom: 0;
   overflow: hidden;
@@ -126,5 +126,20 @@
       padding: 10px;
       font-size: 12px;
     }
+  }
+}
+
+.readMoreBtn {
+  background: none;
+  border: none;
+  color: #228be6;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  margin-left: 4px;
+
+  &:hover {
+    color: #1c7ed6;
   }
 }

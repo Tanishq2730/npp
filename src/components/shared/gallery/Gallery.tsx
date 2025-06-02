@@ -51,8 +51,12 @@ const Gallery: React.FC<GalleryProps> = ({
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isOpen, setIsOpen] = useState(false);
-  const [popuptitle,setPopuptitle] = useState("Beautiful Landscape")
-  const [url,setUrl] = useState("https://via.placeholder.com/400x300")
+  const [popuptitle, setPopuptitle] = useState("Beautiful Landscape");
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+  // Filter only items with images
+  const imageItems = items.filter(item => item.imageUrl);
+  const allImages = imageItems.map(item => item.imageUrl || '');
 
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.currentTarget.value);
@@ -60,9 +64,10 @@ const Gallery: React.FC<GalleryProps> = ({
   };
 
   const handleClick = (item: GalleryItem) => {
-    setIsOpen(true)
-    setPopuptitle(item.title)
-    setUrl(item.imageUrl || '');
+    const index = imageItems.findIndex(i => i.id === item.id);
+    setSelectedImageIndex(index);
+    setIsOpen(true);
+    setPopuptitle(item.title);
   };
   return (
     <div className={styles.gallery}>
@@ -98,8 +103,11 @@ const Gallery: React.FC<GalleryProps> = ({
           {items.length > 0 ? (
             <Grid gutter={{ base: 24, xs: "md", md: "xl", xl: 30 }}>
               {items.map((item) => (
-                <Grid.Col key={item.id} span={{ base: 12, sm: 6, md: 3 }}
-                onClick={()=>{handleClick(item)}}
+                <Grid.Col 
+                  key={item.id} 
+                  span={{ base: 12, sm: 6, md: 3 }}
+                  onClick={() => {handleClick(item)}}
+                  style={{ cursor: 'pointer' }}
                 >
                   <GalleryCard item={item} galleryType={galleryType} />
                 </Grid.Col>
@@ -129,7 +137,9 @@ const Gallery: React.FC<GalleryProps> = ({
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         title={popuptitle}
-        imgUrl={url}
+        imgUrl={allImages[selectedImageIndex] || ''}
+        images={allImages}
+        initialSlide={selectedImageIndex}
       />
     </div>
   );

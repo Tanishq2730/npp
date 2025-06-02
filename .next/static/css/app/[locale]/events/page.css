@@ -1011,11 +1011,11 @@ button.swiper-pagination-bullet {
 .PressReleaseCard_press-release-card__u2vbW {
   display: flex;
   flex-direction: column;
-  background-color: var(--info-pressReleaseCard-background);
   width: 100%;
   border-radius: 12.97px;
   letter-spacing: 0.48px;
   flex-grow: 1;
+  box-shadow: 0px 0px 22px -4px #ccc;
 }
 .PressReleaseCard_press-release-card__u2vbW .PressReleaseCard_imageContainer__flAby {
   height: 250px;
@@ -1191,7 +1191,6 @@ button.swiper-pagination-bullet {
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/events/eventsHomepage/EventsHomepage.module.scss ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .EventsHomepage_events__Mcaa1 {
-  background-color: var(--info-background-color);
   width: 100%;
   margin: auto;
   display: flex;

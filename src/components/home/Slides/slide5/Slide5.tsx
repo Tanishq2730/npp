@@ -34,9 +34,8 @@ const Footprints: React.FC = () => {
       </div>
       <div className={styles.data}>
         {selectedRegion ? (
-          
           <div>
-             <h1 className="heading-1">{t("footprints")}</h1>
+            <h1 className="heading-1">{t("footprints")}</h1>
             <div className={styles["data-header"]}>
               <h5>{selectedRegion.name || "Unknown Region"}</h5>
               <div>
@@ -80,10 +79,12 @@ const Footprints: React.FC = () => {
                     alt={`${selectedRegion.name || "Region"} representative`}
                     width={100}
                     height={100}
+                    priority
+                    unoptimized
                     style={{
-                      width: "100px",
-                      height: "100px",
-                      objectFit: "contain",
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
                     }}
                   />
                 </div>
@@ -123,21 +124,10 @@ const Footprints: React.FC = () => {
             </div>
           </div>
         ) : (
-          <h5>Select a region to view details</h5>
-        )}
-        {/* <div className={styles["nda-info"]}>
-          <span className="subheading-1">{t("electionData.NDA.alliance")}</span>
-          <div className={styles.parliament}>
-            <div>
-              <p>{t("electionData.NDA.loksabha")}</p>
-              <p>{t("electionData.NDA.lokSeats")}</p>
-            </div>
-            <div>
-              <p>{t("electionData.NDA.rajyasabha")}</p>
-              <p>{t("electionData.NDA.rajyaSeats")}</p>
-            </div>
+          <div className={styles["select-prompt"]}>
+            <h5>Select a region to view details</h5>
           </div>
-        </div> */}
+        )}
       </div>
     </div>
   );
