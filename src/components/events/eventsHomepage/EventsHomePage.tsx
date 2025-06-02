@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import CarouselEvent from "./carouselEvent/CarouselEvent";
-import EventSearch from "./eventSearch/EventSearch";
 import styles from "./EventsHomepage.module.scss";
 import RecentItems from "./recentItems/RecentItems";
 
