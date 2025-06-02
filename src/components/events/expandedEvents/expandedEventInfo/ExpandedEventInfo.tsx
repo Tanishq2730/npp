@@ -1,5 +1,3 @@
-
-
 import { LoadingOverlay, Notification } from "@mantine/core";
 import { IconX } from "@tabler/icons-react";
 import { client } from "app/lib/sanity";
@@ -25,20 +23,9 @@ interface EventDetails {
   socialLinks: { url: string; icon: string }[];
 }
 
-interface FeaturedEvent {
-  id: string;
-  title: string;
-  summary: string;
-  publishDate: string;
-  featuredImage: string;
-  socialLinks?: { url: string; icon: string }[];
-  isHighlighted: boolean;
-}
-
 export default function ExpandedEventsInfo() {
   const [activeTab, setActiveTab] = useState<string>("images");
   const [eventData, setEventData] = useState<EventDetails | null>(null);
-  const [featuredEvents, setFeaturedEvents] = useState<FeaturedEvent[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const searchParams = useSearchParams();
@@ -72,18 +59,6 @@ export default function ExpandedEventsInfo() {
                 url,
                 icon
               }
-            },
-            "featuredEvents": *[_type == "event" && _id != $id] | order(isHighlighted desc, date desc)[0...10] {
-              "id": _id,
-              "title": title.en,
-              "summary": description.en,
-              date,
-              "featuredImage": featuredImage.asset->url,
-              "socialLinks": socialLinks[]{
-                url,
-                icon
-              },
-              isHighlighted
             }
           }
         `;
@@ -92,12 +67,6 @@ export default function ExpandedEventsInfo() {
           const data = await client.fetch(query, { id });
           if (data.currentEvent) {
             setEventData(data.currentEvent);
-            setFeaturedEvents(
-              data.featuredEvents.map((event: any) => ({
-                ...event,
-                publishDate: event.date, // Use the 'date' field for 'publishDate'
-              })),
-            );
           } else {
             setError("Event not found");
           }

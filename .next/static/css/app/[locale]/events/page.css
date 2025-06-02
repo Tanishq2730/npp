@@ -821,6 +821,26 @@ button.swiper-pagination-bullet {
   margin: 0 auto;
   text-align: center;
 }
+.EventSearch_content__CSFnC .EventSearch_titleSection___tVYP {
+  margin-bottom: 2rem;
+}
+.EventSearch_content__CSFnC .EventSearch_titleSection___tVYP h1 {
+  color: #1f2937;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.EventSearch_content__CSFnC .EventSearch_titleSection___tVYP h2 {
+  color: #4b5563;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.EventSearch_content__CSFnC .EventSearch_titleSection___tVYP p {
+  color: #6b7280;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
 .EventSearch_content__CSFnC .EventSearch_subTitle__FApvD {
   color: #fbbf24;
   font-size: 1rem;

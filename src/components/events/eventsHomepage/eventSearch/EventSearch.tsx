@@ -32,11 +32,11 @@ const EventSearch: React.FC<EventSearchProps> = ({
   return (
     <Container className={classes.container} size="xl" style={{marginRight:"0 !important"}}>
       <div className={classes.content}>
-        <div className={classes.titleSection}>
+        {/* <div className={classes.titleSection}>
           <Title order={1}>{titles.mainTitle}</Title>
           <Title order={2}>{titles.subTitle}</Title>
           <Text>{titles.description}</Text>
-        </div>
+        </div> */}
         
         <div className={classes.searchSection} >
           <div className={classes.inputContainer}>

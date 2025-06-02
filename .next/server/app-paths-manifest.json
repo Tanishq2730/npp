@@ -1,5 +1,9 @@
 {
+  "/not-found": "app/not-found.js",
+  "/[locale]/article/page": "app/[locale]/article/page.js",
+  "/[locale]/candidateInfo/page": "app/[locale]/candidateInfo/page.js",
+  "/[locale]/home/page": "app/[locale]/home/page.js",
+  "/[locale]/events/page": "app/[locale]/events/page.js",
   "/[locale]/join/page": "app/[locale]/join/page.js",
-  "/[locale]/expandedEvent/page": "app/[locale]/expandedEvent/page.js",
-  "/[locale]/events/page": "app/[locale]/events/page.js"
+  "/[locale]/photo-gallery/page": "app/[locale]/photo-gallery/page.js"
 }
