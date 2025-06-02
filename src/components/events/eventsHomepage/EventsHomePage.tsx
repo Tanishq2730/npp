@@ -4,7 +4,6 @@ import CarouselEvent from "./carouselEvent/CarouselEvent";
 import styles from "./EventsHomepage.module.scss";
 import RecentItems from "./recentItems/RecentItems";
 
-
 type EventsHomepageProps = {
   type: "event" | "pressRelease";
 };
@@ -38,15 +37,7 @@ export default function EventsHomepage({ type }: EventsHomepageProps) {
 
   return (
     <div className={`md:container-fluid md:mx-auto ${styles.events}`}>
-  
       <CarouselEvent type={type} />
-      {/* <EventSearch
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        dateRange={dateRange}
-        setDateRange={setDateRange}
-        titles={titles[type]}
-      /> */}
       <div className={styles.card}>
         <RecentItems
           type={type}
