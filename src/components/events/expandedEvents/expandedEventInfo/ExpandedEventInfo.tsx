@@ -7,7 +7,6 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import AboutPart from "@/components/shared/aboutPart/AboutPart";
-import Featured from "@/components/shared/featuredReleased/FeaturedReleases";
 
 import type { ImageDataTypes } from "../eventImage/EventImages";
 import ImageGrid from "../eventImage/EventImages";
@@ -160,11 +159,7 @@ export default function ExpandedEventsInfo() {
               videos={eventData.videos}
             />
           </div>
-          {/* <Featured
-            items={featuredEvents}
-            type="event"
-            heading="FEATURED EVENTS"
-          /> */}
+          
         </>
       )}
     </div>
