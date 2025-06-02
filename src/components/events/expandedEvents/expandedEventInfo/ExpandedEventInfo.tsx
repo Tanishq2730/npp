@@ -20,7 +20,7 @@ interface EventDetails {
   featuredImage: string;
   images: ImageDataTypes[];
   videos: ImageDataTypes[];  
-  
+
   socialLinks: { url: string; icon: string }[];
 }
 
@@ -79,7 +79,7 @@ export default function ExpandedEventsInfo() {
         }
       }
     };
-
+    console.log(eventData);
     fetchEventData();
   }, [id]);
 
