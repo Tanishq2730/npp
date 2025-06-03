@@ -113,9 +113,9 @@ const PressReleaseInfo: React.FC<PressReleaseInfoProps> = ({ data }) => {
       <div className="row">
         <div className="col-md-6">
           <div className={styles.header}>
-            {/* <div className={styles.updateContainer}>
+            <div className={styles.updateContainer}>
               <span className={`body ${styles.updateDate}`}>{publishDate}</span>
-            </div> */}
+            </div>
             <div className={styles.icons}>
               <SocialShareLinks
                 links={socialLinks}
