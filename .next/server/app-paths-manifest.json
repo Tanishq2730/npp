@@ -1,7 +1,6 @@
 {
-  "/[locale]/candidateInfo/page": "app/[locale]/candidateInfo/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
   "/[locale]/article/page": "app/[locale]/article/page.js",
-  "/[locale]/home/page": "app/[locale]/home/page.js",
-  "/[locale]/photo-gallery/page": "app/[locale]/photo-gallery/page.js",
-  "/[locale]/join/page": "app/[locale]/join/page.js"
+  "/[locale]/press-releases/page": "app/[locale]/press-releases/page.js",
+  "/[locale]/about/page": "app/[locale]/about/page.js"
 }

@@ -110,55 +110,56 @@ const PressReleaseInfo: React.FC<PressReleaseInfoProps> = ({ data }) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <div className={styles.updateContainer}>
-          <div className={styles.headlineLine} />
-          {/* <span className={`body ${styles.updateLabel}`}>Published on -</span> */}
-          <span className={`body ${styles.updateDate}`}>{publishDate}</span>
+      <div className="row">
+        <div className="col-md-6">
+          <div className={styles.header}>
+            {/* <div className={styles.updateContainer}>
+              <span className={`body ${styles.updateDate}`}>{publishDate}</span>
+            </div> */}
+            <div className={styles.icons}>
+              <SocialShareLinks
+                links={socialLinks}
+                shareUrl={currentUrl}
+                shareTitle={title}
+              />
+            </div>
+          </div>
+          <div className={styles.headlineContainer}>
+            <h2 className={styles.headline}>{title}</h2>
+          </div>
+          <div className={styles.subheadlineContainer}>
+            <p className={`subheading-1 ${styles.body}`}>{summary}</p>
+          </div>
         </div>
-        <div className={styles.icons}>
-          <SocialShareLinks
-            links={socialLinks}
-            shareUrl={currentUrl}
-            shareTitle={title}
-          />
+        <div className="col-md-6">
+          <div className={styles.imageContainer}>
+            <Image
+              src={urlFor(featuredImage).url()}
+              alt="Press Release"
+              width={600}
+              height={600}
+              objectFit="cover"
+              className={styles.image}
+            />
+          </div>
         </div>
-        <div className={styles.headlineLine} />
-      </div>
-      <div className={styles.headlineContainer}>
-        <div className={styles.headlineLine} />
-        <h2 className={styles.headline}>{title}</h2>
-      </div>
-      <div className={styles.subheadlineContainer}>
-        <div className={styles.subheadlineLine} />
-        <p className={`subheading-1 ${styles.body}`}>{summary}</p>
-      </div>
-      <div className={styles.imageContainer}>
-        <Image
-          src={urlFor(featuredImage).url()}
-          alt="Press Release"
-          width={600}
-          height={600}
-          objectFit="cover"
-          className={styles.image}
-        />
-      </div>
-      <div className={styles.bodyContainer}>
-        <p className={`body-1 ${styles.body}`}>{content}</p>
-        <div className={styles.mediaGallery}>
-          <MediaGallery
-            images={
-              imageGallery?.map((img) => ({
-                url: urlFor(img.image).url(),
-                id: img.id,
-              })) || []
-            }
-            videos={
-              videos?.map((video) => ({ url: video.url, id: video.id })) || []
-            }
-          />
+        <div className={styles.bodyContainer}>
+          <p className={`body-1 ${styles.body}`}>{content}</p>
+          <div className={styles.mediaGallery}>
+            <MediaGallery
+              images={
+                imageGallery?.map((img) => ({
+                  url: urlFor(img.image).url(),
+                  id: img.id,
+                })) || []
+              }
+              videos={
+                videos?.map((video) => ({ url: video.url, id: video.id })) || []
+              }
+            />
+          </div>
+          <div className={styles.bodyLine} />
         </div>
-        <div className={styles.bodyLine} />
       </div>
     </div>
   );
