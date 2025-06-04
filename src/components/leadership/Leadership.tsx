@@ -1,4 +1,4 @@
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +15,6 @@ interface LeadershipCard {
 
 const Leadership: React.FC = () => {
   const t = useTranslations("leadership");
-  const router = useRouter();
   const params = useParams();
 
   const locale = params.locale as string;
@@ -40,7 +39,7 @@ const Leadership: React.FC = () => {
             {firstRowCards.map((card, index) => (
               <div key={`first-${index}`} className="col-md-4">
                 <div className="leadership-card">
-                <Card {...card} />
+                  <Card {...card} />
                 </div>
               </div>
             ))}
@@ -51,7 +50,7 @@ const Leadership: React.FC = () => {
             {secondRowCards.map((card, index) => (
               <div key={`second-${index}`} className="col-md-4">
                 <div className="leadership-card">
-                <Card {...card} />
+                  <Card {...card} />
                 </div>
               </div>
             ))}

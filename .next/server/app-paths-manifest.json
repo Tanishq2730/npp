@@ -1,7 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
   "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/party/leadership/page": "app/[locale]/party/leadership/page.js",
   "/[locale]/core-issues/page": "app/[locale]/core-issues/page.js",
-  "/[locale]/party/philosophy/page": "app/[locale]/party/philosophy/page.js"
+  "/[locale]/party/philosophy/page": "app/[locale]/party/philosophy/page.js",
+  "/[locale]/party/leadership/page": "app/[locale]/party/leadership/page.js"
 }
