@@ -1,8 +1,7 @@
 {
-  "/[locale]/home/page": "app/[locale]/home/page.js",
+  "/not-found": "app/not-found.js",
+  "/[locale]/page": "app/[locale]/page.js",
   "/[locale]/party/leadership/page": "app/[locale]/party/leadership/page.js",
-  "/[locale]/press-releases/page": "app/[locale]/press-releases/page.js",
   "/[locale]/core-issues/page": "app/[locale]/core-issues/page.js",
-  "/[locale]/notification/page": "app/[locale]/notification/page.js",
-  "/[locale]/join/page": "app/[locale]/join/page.js"
+  "/[locale]/party/philosophy/page": "app/[locale]/party/philosophy/page.js"
 }

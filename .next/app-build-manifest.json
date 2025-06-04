@@ -12,65 +12,28 @@
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
     ],
-    "/[locale]/candidateInfo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/candidateInfo/page.css",
-      "static/chunks/app/[locale]/candidateInfo/page.js"
-    ],
-    "/[locale]/press-releases/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/press-releases/page.css",
-      "static/chunks/app/[locale]/press-releases/page.js"
-    ],
-    "/[locale]/article/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/article/page.css",
-      "static/chunks/app/[locale]/article/page.js"
-    ],
-    "/[locale]/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/about/page.css",
-      "static/chunks/app/[locale]/about/page.js"
-    ],
-    "/[locale]/home/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/home/page.css",
-      "static/chunks/app/[locale]/home/page.js"
-    ],
-    "/[locale]/events/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/events/page.css",
-      "static/chunks/app/[locale]/events/page.js"
-    ],
     "/[locale]/core-issues/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/core-issues/page.css",
       "static/chunks/app/[locale]/core-issues/page.js"
     ],
-    "/[locale]/notification/page": [
+    "/[locale]/party/philosophy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/notification/page.css",
-      "static/chunks/app/[locale]/notification/page.js"
-    ],
-    "/[locale]/join/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/join/page.css",
-      "static/chunks/app/[locale]/join/page.js"
+      "static/css/app/[locale]/party/philosophy/page.css",
+      "static/chunks/app/[locale]/party/philosophy/page.js"
     ],
     "/[locale]/party/leadership/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/party/leadership/page.css",
       "static/chunks/app/[locale]/party/leadership/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

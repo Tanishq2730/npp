@@ -505,6 +505,9 @@ video {
 .mt-5{
   margin-top: 1.25rem;
 }
+.mt-8{
+  margin-top: 2rem;
+}
 .block{
   display: block;
 }
@@ -1159,6 +1162,19 @@ body {
 .EventSearch_container__aW8XM {
   margin-right: 0 !important;
 }
+
+.leadership-card .Card_content__J68Aw {
+  padding-top: 34em;
+}
+.leadership-card .subheading-5 {
+  height: 4em;
+}
+
+.leaderHeading {
+  font-size: 58px;
+  font-weight: 700;
+}
+
 @media (min-width: 768px){
   .md\:container{
     width: 100%;

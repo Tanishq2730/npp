@@ -1,10 +1,8 @@
-import { useMediaQuery } from "@mantine/hooks";
 import { useParams, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import React from "react";
-
-import GenericCardSlider from "../shared/genericCardSlider/GenericCardSlider";
-import SmoothScrollContainer from "../shared/smoothScrollContainer/SmoothScrollContainer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Card from "../shared/genericCardSlider/card/Card";
 import Founder from "./founder/Founder";
 import styles from "./Leadership.module.scss";
 
@@ -17,22 +15,17 @@ interface LeadershipCard {
 
 const Leadership: React.FC = () => {
   const t = useTranslations("leadership");
-  const isMobile = useMediaQuery("(max-width: 768px)");
   const router = useRouter();
   const params = useParams();
 
   const locale = params.locale as string;
   const cardsData: LeadershipCard[] = t.raw("cards") as LeadershipCard[];
-  // Extract the dynamic year parameter
 
   const adjustedCardsData = cardsData.map((card) => ({
     title: card.name,
     backgroundImgPath: card.imgPath,
     subtitle: card.post,
-    route: `/${locale}${card.route}`, // Append the locale to the route
-    onClick: () => {
-      router.push(`/${locale}${card.route}`);
-    },
+    route: `/${locale}${card.route}`,
   }));
 
   const firstRowCards = adjustedCardsData.slice(0, 3);
@@ -40,11 +33,31 @@ const Leadership: React.FC = () => {
 
   return (
     <div className={`md:container md:mx-auto ${styles.leadership}`}>
-      <SmoothScrollContainer showPagination={!isMobile}>
+      <div>
         <Founder />
-        <GenericCardSlider cards={firstRowCards} />
-        <GenericCardSlider cards={secondRowCards} />
-      </SmoothScrollContainer>
+        <div className="mt-8">
+          <div className="row">
+            {firstRowCards.map((card, index) => (
+              <div key={`first-${index}`} className="col-md-4">
+                <div className="leadership-card">
+                <Card {...card} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="mt-8">
+          <div className="row">
+            {secondRowCards.map((card, index) => (
+              <div key={`second-${index}`} className="col-md-4">
+                <div className="leadership-card">
+                <Card {...card} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
