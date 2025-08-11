@@ -121,6 +121,9 @@
 .Founder_founder__WyUu_ .Founder_page-title__nHJbN h1 {
   text-wrap: nowrap;
 }
+.Founder_founder__WyUu_ .Founder_leaderHeading__hR8LT {
+  font-size: 70px !important;
+}
 .Founder_founder__WyUu_ .Founder_page-content__lg0Lr {
   display: flex;
   align-items: center;
@@ -217,4 +220,8 @@
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .Leadership_leadership__KpG5a {
   /* No specific styles needed here */
+}
+
+.Leadership_leaderHeading__ulhE7 {
+  font-size: 70px !important;
 }

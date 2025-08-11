@@ -12,23 +12,16 @@
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
     ],
-    "/[locale]/core-issues/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/core-issues/page.css",
-      "static/chunks/app/[locale]/core-issues/page.js"
-    ],
-    "/[locale]/party/philosophy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/party/philosophy/page.css",
-      "static/chunks/app/[locale]/party/philosophy/page.js"
-    ],
     "/[locale]/party/leadership/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/party/leadership/page.css",
       "static/chunks/app/[locale]/party/leadership/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

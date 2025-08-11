@@ -29,6 +29,7 @@ const Leadership: React.FC = () => {
 
   const firstRowCards = adjustedCardsData.slice(0, 3);
   const secondRowCards = adjustedCardsData.slice(3, 6);
+  const thirdRowCards = adjustedCardsData.slice(6, 9);
 
   return (
     <div className={`md:container md:mx-auto ${styles.leadership}`}>
@@ -49,6 +50,17 @@ const Leadership: React.FC = () => {
           <div className="row">
             {secondRowCards.map((card, index) => (
               <div key={`second-${index}`} className="col-md-4">
+                <div className="leadership-card">
+                  <Card {...card} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="mt-8">
+          <div className="row">
+            {thirdRowCards .map((card, index) => (
+              <div key={`third-${index}`} className="col-md-4">
                 <div className="leadership-card">
                   <Card {...card} />
                 </div>

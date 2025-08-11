@@ -24,10 +24,10 @@ const Founder = () => {
             width={141}
             height={51}
           /> */}
-          <h1 className="leaderHeading">{t("leadership.founder.pageTitle.keyPeople")}</h1>
+          <h1 className="leaderHeading" style={{fontSize:"70px !important"}}>{t("leadership.founder.pageTitle.keyPeople")}</h1>
         </div>
         <div className={styles["page-title-line-container2"]}>
-          <h1 className="leaderHeading">{t("leadership.founder.pageTitle.leaders")}</h1>
+          <h1 className="leaderHeading" style={{fontSize:"70px !important"}}>{t("leadership.founder.pageTitle.leaders")}</h1>
           {/* <Image
             src="/static/images/leadership/founder/flagSmall.png"
             alt="Indian Flag"
