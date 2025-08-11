@@ -526,19 +526,19 @@
       },
       {
         "name": "Shri. Saidul Khan (Meghalaya)",
-        "post": "Founder President (1947-2016)",
+        "post": "National Secretary",
         "imgPath": "/static/images/leadership/card8.png",
         "route": "/info?person=purnoAgitokSangma"
       },
       {
         "name": "Dr. (Mrs) Mehtab A Sangma",
-        "post": "General Secretary & Hon'ble M.P. (Lok Sabha)",
+        "post": "MLA of meghalaya, Treasurer (NPP)",
         "imgPath": "/static/images/leadership/card9.png",
         "route": "/info?person=agathaSangma"
       },
       {
         "name": "Dr. M. Ampareen Lyngdoh",
-        "post": "National Spokesperson & National Secretary i/c Finance & Power Minister of Meghalaya",
+        "post": "MLA of meghalaya, National Secretary",
         "imgPath": "/static/images/leadership/card10.png",
         "route": "/info?person=jamesSangma"
       }
